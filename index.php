@@ -7,7 +7,7 @@
     <title>Insureyou - Insurance HTML Template </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -60,7 +60,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-2 col-md-12 d-none d-md-block">
                     <div class="logo">
-                        <a href="index.html"><img src="img/logo/logo.png" alt="logo"></a>
+                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="logo"></a>
                     </div>
                 </div>
                 <div class="col-lg-10 col-md-10 text-right d-none d-lg-block">
@@ -104,7 +104,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-2 col-md-12  d-lg-none d-x-none">
                         <div class="logo">
-                            <a href="index.html"><img src="img/logo/logo.png" alt="logo"></a>
+                            <a href="index.html"><img src="assets/img/logo/logo.png" alt="logo"></a>
                         </div>
                     </div>
                     <div class="col-xl-11 col-lg-10">
@@ -190,11 +190,11 @@
 <main>
     <!-- slider-area -->
     <section id="parallax" class="slider-area fix p-relative">
-        <div class="slider-shape ss-one layer" data-depth="0.10"><img src="img/bg/slider_shape01.png" alt="shape"></div>
-        <div class="slider-shape ss-two layer" data-depth="0.30"><img src="img/bg/slider_shape02.png" alt="shape"></div>
-        <div class="slider-shape ss-three layer" data-depth="0.40"><img src="img/bg/slider_shape03.png" alt="shape"></div>
+        <div class="slider-shape ss-one layer" data-depth="0.10"><img src="assets/img/bg/slider_shape01.png" alt="shape"></div>
+        <div class="slider-shape ss-two layer" data-depth="0.30"><img src="assets/img/bg/slider_shape02.png" alt="shape"></div>
+        <div class="slider-shape ss-three layer" data-depth="0.40"><img src="assets/img/bg/slider_shape03.png" alt="shape"></div>
         <div class="slider-active" style="background: #fff;">
-            <div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(img/slider/slider_bg.png); background-size: cover;">
+            <div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(assets/img/slider/slider_bg.png); background-size: cover;">
                 <div class="container">
                     <div class="row justify-content-center align-items-center">
 
@@ -216,7 +216,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(img/slider/slider_bg_02.png); background-size: cover;">
+            <div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(assets/img/slider/slider_bg_02.png); background-size: cover;">
                 <div class="container">
                     <div class="row justify-content-center align-items-center">
 
@@ -250,7 +250,7 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="s-about-img p-relative" data-aos="fade-up" data-aos-duration="1000">
-                        <img src="img/features/about_img_02.png" alt="img">
+                        <img src="assets/img/features/about_img_02.png" alt="img">
 
                     </div>
 
@@ -321,10 +321,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="s-video-wrap" style="background-image:url(img/bg/video-img.png)">
+                    <div class="s-video-wrap" style="background-image:url(assets/img/bg/video-img.png)">
                         <div class="s-video-content text-center">
                             <h2>Get Your Digitel Insurance As Per Your Needs</h2>
-                            <h6><a href="https://www.youtube.com/watch?v=7e90gBu4pas" class="popup-video mb-50"><img src="img/bg/play-button.png" alt="circle_right"></a><br>
+                            <h6><a href="https://www.youtube.com/watch?v=7e90gBu4pas" class="popup-video mb-50"><img src="assets/img/bg/play-button.png" alt="circle_right"></a><br>
                                 Watch Us</h6>
 
                         </div>
@@ -352,9 +352,9 @@
                     <div class="services-active"  data-aos="fade-up" data-aos-duration="1000">
                         <div class="services-box-02">
                             <div class="services-img">
-                                <img src="img/bg/services-01.png" alt="icon01">
+                                <img src="assets/img/bg/services-01.png" alt="icon01">
                                 <div class="services-content2">
-                                    <div class="icon"><img src="img/icon/sve-icon1.png" alt="icon01"></div>
+                                    <div class="icon"><img src="assets/img/icon/sve-icon1.png" alt="icon01"></div>
                                     <h4><a href="single-service.html">Health Insurance</a></h4>
                                     <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</p>
                                     <a class="link" href="single-service.html"><i class="fal fa-angle-right"></i></a>
@@ -363,9 +363,9 @@
                         </div>
                         <div class="services-box-02">
                             <div class="services-img">
-                                <img src="img/bg/services-04.png" alt="icon01">
+                                <img src="assets/img/bg/services-04.png" alt="icon01">
                                 <div class="services-content2">
-                                    <div class="icon"><img src="img/icon/sve-icon2.png" alt="icon01"></div>
+                                    <div class="icon"><img src="assets/img/icon/sve-icon2.png" alt="icon01"></div>
                                     <h4><a href="single-service.html">Home Insurance</a></h4>
                                     <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</p>
                                     <a class="link" href="single-service.html"><i class="fal fa-angle-right"></i></a>
@@ -374,9 +374,9 @@
                         </div>
                         <div class="services-box-02">
                             <div class="services-img">
-                                <img src="img/bg/services-02.png" alt="icon01">
+                                <img src="assets/img/bg/services-02.png" alt="icon01">
                                 <div class="services-content2">
-                                    <div class="icon"><img src="img/icon/sve-icon3.png" alt="icon01"></div>
+                                    <div class="icon"><img src="assets/img/icon/sve-icon3.png" alt="icon01"></div>
                                     <h4><a href="single-service.html">Business Insurance</a></h4>
                                     <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</p>
                                     <a class="link" href="single-service.html"><i class="fal fa-angle-right"></i></a>
@@ -385,9 +385,9 @@
                         </div>
                         <div class="services-box-02">
                             <div class="services-img">
-                                <img src="img/bg/services-03.png" alt="icon01">
+                                <img src="assets/img/bg/services-03.png" alt="icon01">
                                 <div class="services-content2">
-                                    <div class="icon"><img src="img/icon/sve-icon4.png" alt="icon01"></div>
+                                    <div class="icon"><img src="assets/img/icon/sve-icon4.png" alt="icon01"></div>
                                     <h4><a href="single-service.html">Vehicle Insurance</a></h4>
                                     <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</p>
                                     <a class="link" href="single-service.html"><i class="fal fa-angle-right"></i></a>
@@ -396,9 +396,9 @@
                         </div>
                         <div class="services-box-02">
                             <div class="services-img">
-                                <img src="img/bg/services-02.png" alt="icon01">
+                                <img src="assets/img/bg/services-02.png" alt="icon01">
                                 <div class="services-content2">
-                                    <div class="icon"><img src="img/icon/sve-icon3.png" alt="icon01"></div>
+                                    <div class="icon"><img src="assets/img/icon/sve-icon3.png" alt="icon01"></div>
                                     <h4><a href="single-service.html">Business Insurance</a></h4>
                                     <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</p>
                                     <a class="link" href="single-service.html"><i class="fal fa-angle-right"></i></a>
@@ -475,7 +475,7 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12 pr-30">
                     <div class="skills-img"  data-aos="fade-right" data-aos-duration="1000">
-                        <img src="img/bg/skills-img.png" alt="img" class="img">
+                        <img src="assets/img/bg/skills-img.png" alt="img" class="img">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
@@ -603,10 +603,10 @@
                         <div class="single-testimonial">
                             <p>“Nullam pulvinar dolor risus, vitae tempor nisi volutpat sit amet. Duis lobortis, velit et eleifend viverra, dolor orci porta arcu, non imperdiet lectus lorem a dolor. Etiam ac tellus bibendum, molestie sapien condimentum, vehicula augue”.</p>
                             <div class="qt-img">
-                                <img src="img/testimonial/qt-icon.png" alt="img">
+                                <img src="assets/img/testimonial/qt-icon.png" alt="img">
                             </div>
                             <div class="testi-author">
-                                <img src="img/testimonial/testi_avatar.png" alt="img">
+                                <img src="assets/img/testimonial/testi_avatar.png" alt="img">
                                 <div class="ta-info">
                                     <h6>Miranda H. Halim</h6>
                                     <span>Head Of Idea</span>
@@ -616,10 +616,10 @@
                         <div class="single-testimonial">
                             <p>“Nullam pulvinar dolor risus, vitae tempor nisi volutpat sit amet. Duis lobortis, velit et eleifend viverra, dolor orci porta arcu, non imperdiet lectus lorem a dolor. Etiam ac tellus bibendum, molestie sapien condimentum, vehicula augue”.</p>
                             <div class="qt-img">
-                                <img src="img/testimonial/qt-icon.png" alt="img">
+                                <img src="assets/img/testimonial/qt-icon.png" alt="img">
                             </div>
                             <div class="testi-author">
-                                <img src="img/testimonial/testi_avatar_02.png" alt="img">
+                                <img src="assets/img/testimonial/testi_avatar_02.png" alt="img">
                                 <div class="ta-info">
                                     <h6>Braitly Dcosta</h6>
                                     <span>Head Of Offcer</span>
@@ -629,10 +629,10 @@
                         <div class="single-testimonial">
                             <p>“Nullam pulvinar dolor risus, vitae tempor nisi volutpat sit amet. Duis lobortis, velit et eleifend viverra, dolor orci porta arcu, non imperdiet lectus lorem a dolor. Etiam ac tellus bibendum, molestie sapien condimentum, vehicula augue”.</p>
                             <div class="qt-img">
-                                <img src="img/testimonial/qt-icon.png" alt="img">
+                                <img src="assets/img/testimonial/qt-icon.png" alt="img">
                             </div>
                             <div class="testi-author">
-                                <img src="img/testimonial/testi_avatar_03.png" alt="img">
+                                <img src="assets/img/testimonial/testi_avatar_03.png" alt="img">
                                 <div class="ta-info">
                                     <h6>Roboto Dose</h6>
                                     <span>Client</span>
@@ -642,10 +642,10 @@
                         <div class="single-testimonial">
                             <p>“Nullam pulvinar dolor risus, vitae tempor nisi volutpat sit amet. Duis lobortis, velit et eleifend viverra, dolor orci porta arcu, non imperdiet lectus lorem a dolor. Etiam ac tellus bibendum, molestie sapien condimentum, vehicula augue”.</p>
                             <div class="qt-img">
-                                <img src="img/testimonial/qt-icon.png" alt="img">
+                                <img src="assets/img/testimonial/qt-icon.png" alt="img">
                             </div>
                             <div class="testi-author">
-                                <img src="img/testimonial/testi_avatar.png" alt="img">
+                                <img src="assets/img/testimonial/testi_avatar.png" alt="img">
                                 <div class="ta-info">
                                     <h6>Miranda H. Halim</h6>
                                     <span>Head Of Idea</span>
@@ -655,10 +655,10 @@
                         <div class="single-testimonial">
                             <p>“Nullam pulvinar dolor risus, vitae tempor nisi volutpat sit amet. Duis lobortis, velit et eleifend viverra, dolor orci porta arcu, non imperdiet lectus lorem a dolor. Etiam ac tellus bibendum, molestie sapien condimentum, vehicula augue”.</p>
                             <div class="qt-img">
-                                <img src="img/testimonial/qt-icon.png" alt="img">
+                                <img src="assets/img/testimonial/qt-icon.png" alt="img">
                             </div>
                             <div class="testi-author">
-                                <img src="img/testimonial/testi_avatar_02.png" alt="img">
+                                <img src="assets/img/testimonial/testi_avatar_02.png" alt="img">
                                 <div class="ta-info">
                                     <h6>Braitly Dcosta</h6>
                                     <span>Head Of Offcer</span>
@@ -668,10 +668,10 @@
                         <div class="single-testimonial">
                             <p>“Nullam pulvinar dolor risus, vitae tempor nisi volutpat sit amet. Duis lobortis, velit et eleifend viverra, dolor orci porta arcu, non imperdiet lectus lorem a dolor. Etiam ac tellus bibendum, molestie sapien condimentum, vehicula augue”.</p>
                             <div class="qt-img">
-                                <img src="img/testimonial/qt-icon.png" alt="img">
+                                <img src="assets/img/testimonial/qt-icon.png" alt="img">
                             </div>
                             <div class="testi-author">
-                                <img src="img/testimonial/testi_avatar_03.png" alt="img">
+                                <img src="assets/img/testimonial/testi_avatar_03.png" alt="img">
                                 <div class="ta-info">
                                     <h6>Roboto Dose</h6>
                                     <span>Client</span>
@@ -701,7 +701,7 @@
                 <div class="col-lg-4 col-md-12 mb-30">
                     <a href="projects-detail.html">
                         <figure class="gallery-image">
-                            <img src="img/gallery/protfolio-img01.png" alt="img" class="img">
+                            <img src="assets/img/gallery/protfolio-img01.png" alt="img" class="img">
                             <figcaption>
                                 <h4>Life Protection</h4>
                                 <span>Insurance</span>
@@ -712,41 +712,7 @@
                 <div class="col-lg-4 col-md-12 mb-30">
                     <a href="projects-detail.html">
                         <figure class="gallery-image">
-                            <img src="img/gallery/protfolio-img02.png" alt="img" class="img">
-                            <figcaption>
-                                <h4>Life Protection</h4>
-                                <span>Insurance</span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-
-                <div class="col-lg-4 col-md-12 mb-30">
-                    <a href="projects-detail.html">
-                        <figure class="gallery-image">
-                            <img src="img/gallery/protfolio-img03.png" alt="img" class="img">
-                            <figcaption>
-                                <h4>Life Protection</h4>
-                                <span>Insurance</span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-12 mb-30">
-                    <a href="projects-detail.html">
-                        <figure class="gallery-image">
-                            <img src="img/gallery/protfolio-img01.png" alt="img" class="img">
-                            <figcaption>
-                                <h4>Life Protection</h4>
-                                <span>Insurance</span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-12 mb-30">
-                    <a href="projects-detail.html">
-                        <figure class="gallery-image">
-                            <img src="img/gallery/protfolio-img02.png" alt="img" class="img">
+                            <img src="assets/img/gallery/protfolio-img02.png" alt="img" class="img">
                             <figcaption>
                                 <h4>Life Protection</h4>
                                 <span>Insurance</span>
@@ -758,7 +724,41 @@
                 <div class="col-lg-4 col-md-12 mb-30">
                     <a href="projects-detail.html">
                         <figure class="gallery-image">
-                            <img src="img/gallery/protfolio-img03.png" alt="img" class="img">
+                            <img src="assets/img/gallery/protfolio-img03.png" alt="img" class="img">
+                            <figcaption>
+                                <h4>Life Protection</h4>
+                                <span>Insurance</span>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-30">
+                    <a href="projects-detail.html">
+                        <figure class="gallery-image">
+                            <img src="assets/img/gallery/protfolio-img01.png" alt="img" class="img">
+                            <figcaption>
+                                <h4>Life Protection</h4>
+                                <span>Insurance</span>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-30">
+                    <a href="projects-detail.html">
+                        <figure class="gallery-image">
+                            <img src="assets/img/gallery/protfolio-img02.png" alt="img" class="img">
+                            <figcaption>
+                                <h4>Life Protection</h4>
+                                <span>Insurance</span>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mb-30">
+                    <a href="projects-detail.html">
+                        <figure class="gallery-image">
+                            <img src="assets/img/gallery/protfolio-img03.png" alt="img" class="img">
                             <figcaption>
                                 <h4>Life Protection</h4>
                                 <span>Insurance</span>
@@ -791,7 +791,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-post2 hover-zoomin mb-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                         <div class="blog-thumb2">
-                            <a href="blog-details.html"><img src="img/blog/inner_b1.jpg" alt="img"></a>
+                            <a href="blog-details.html"><img src="assets/img/blog/inner_b1.jpg" alt="img"></a>
                         </div>
                         <div class="blog-content2">
                             <div class="b-meta">
@@ -811,7 +811,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-post2 mb-30 hover-zoomin wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                         <div class="blog-thumb2">
-                            <a href="blog-details.html"><img src="img/blog/inner_b2.jpg" alt="img"></a>
+                            <a href="blog-details.html"><img src="assets/img/blog/inner_b2.jpg" alt="img"></a>
                         </div>
                         <div class="blog-content2">
                             <div class="b-meta">
@@ -831,7 +831,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-post2 mb-30 hover-zoomin wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                         <div class="blog-thumb2">
-                            <a href="blog-details.html"><img src="img/blog/inner_b3.jpg" alt="img"></a>
+                            <a href="blog-details.html"><img src="assets/img/blog/inner_b3.jpg" alt="img"></a>
                         </div>
                         <div class="blog-content2">
                             <div class="b-meta">
@@ -861,7 +861,7 @@
             <div class="row">
 
                 <div class="col-lg-6 col-md-12 order-1">
-                    <img src="img/bg/contact-img.png" alt="img" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="assets/img/bg/contact-img.png" alt="img" data-aos="fade-right" data-aos-duration="1000">
                 </div>
                 <div class="col-lg-6 col-md-12 order-2">
                     <div class="section-title p-relative pr-60 mb-30">
@@ -1031,7 +1031,7 @@
     <!-- contact-area-end -->
     <!-- newslater-area -->
     <section class="newslater-area"  data-aos="fade-up" data-aos-duration="1000">
-        <div class="container" style="background-image: url(img/bg/newslater-bg.png); background-repeat: no-repeat; background-size: cover;">
+        <div class="container" style="background-image: url(assets/img/bg/newslater-bg.png); background-repeat: no-repeat; background-size: cover;">
             <div class="row">
 
                 <div class="col-xl-12 col-lg-12 col-md-12">
@@ -1064,7 +1064,7 @@
                 <div class="col-xl-4 col-lg-4 col-sm-6">
                     <div class="footer-widget mb-30" data-aos="fade-up" data-aos-duration="1000">
                         <div class="f-widget-title">
-                            <h2> <img src="img/logo/f_logo.png" alt="img"></h2>
+                            <h2> <img src="assets/img/logo/f_logo.png" alt="img"></h2>
                         </div>
                         <div class="f-contact">
                             <p>Suspendisse non sem ante. Cras pretium gravida leo a convallis. Nam malesuada interdum metus, sit amet dictum ante congue eu. Maecenas ut maximus enim.</p>
@@ -1131,13 +1131,13 @@
                         <div class="recent-blog-footer">
                             <ul>
                                 <li>
-                                    <div class="thum"> <img src="img/blog/s-blogimg-01.png" alt="img"></div>
+                                    <div class="thum"> <img src="assets/img/blog/s-blogimg-01.png" alt="img"></div>
                                     <div class="text"> <a href="#">Nothing impossble to need hard work</a>
                                         <span>7 March, 2020</span></div>
                                 </li>
 
                                 <li>
-                                    <div class="thum"> <img src="img/blog/s-blogimg-02.png" alt="img"></div>
+                                    <div class="thum"> <img src="assets/img/blog/s-blogimg-02.png" alt="img"></div>
                                     <div class="text"> <a href="#">Nothing impossble to need hard work</a>
                                         <span>7 March, 2020</span></div>
                                 </li>

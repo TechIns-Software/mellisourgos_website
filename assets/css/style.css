@@ -4861,14 +4861,14 @@ color: #fff;
  .home-blog-active .slick-dots li.slick-active button {
 }
 .home-blog-active .slick-dots li.slick-active button::before {
-    background: url("../img/bg/active-dote.png");
+    background: url("../assets/img/bg/active-dote.png");
     opacity: 1;
 }
 .home-blog-active .slick-dots li button::before {
     content: "";
     width: 19px;
     height: 19px;
-    background: url("../img/bg/dote.png");
+    background: url("../assets/img/bg/dote.png");
     float: left;
     position: relative;
     margin-top: -9px;
