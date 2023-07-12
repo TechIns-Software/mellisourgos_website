@@ -181,22 +181,22 @@
 <main>
     <!-- slider-area -->
     <section id="parallax" class="slider-area fix p-relative">
-        <div class="slider-shape ss-one layer" data-depth="0.10"><img src="assets/img/bg/slider_shape01.png" alt="shape"></div>
-        <div class="slider-shape ss-two layer" data-depth="0.30"><img src="assets/img/bg/slider_shape02.png" alt="shape"></div>
-        <div class="slider-shape ss-three layer" data-depth="0.40"><img src="assets/img/bg/slider_shape03.png" alt="shape"></div>
+<!--        <div class="slider-shape ss-one layer" data-depth="0.10"><img src="assets/img/bg/slider_shape01.png" alt="shape"></div>-->
+<!--        <div class="slider-shape ss-two layer" data-depth="0.30"><img src="assets/img/bg/slider_shape02.png" alt="shape"></div>-->
+<!--        <div class="slider-shape ss-three layer" data-depth="0.40"><img src="assets/img/bg/slider_shape03.png" alt="shape"></div>-->
         <div class="slider-active" style="background: #fff;">
-            <div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(assets/img/slider/slider_bg.png); background-size: cover;">
+            <div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(assets/img/slider/agent.jpg); background-position:50%, center   background-size: cover;">
                 <div class="container">
                     <div class="row justify-content-center align-items-center">
 
                         <div class="col-lg-7 col-md-7">
                             <div class="slider-content s-slider-content mt-100">
-                                <h5 data-animation="fadeInUp" data-delay=".4s">Welcome <span>Insureyou</span> </h5>
-                                <h2 data-animation="fadeInUp" data-delay=".4s">Get <span>Insurance</span> For Anything You Need</h2>
-                                <p data-animation="fadeInUp" data-delay=".6s">Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
+                                <h5 data-animation="fadeInUp" data-delay=".4s">Ασφαλιστικος  <span>Συμβουλος</span> </h5>
+                                <h2 data-animation="fadeInUp" data-delay=".4s">Πραγματοποίησε  <span>τα </span>όνειρα σου μαζί μας!</h2>
+                                <p data-animation="fadeInUp" data-delay=".6s">Προσφέρουμε έναν ανταγωνιστικό μισθό και πλήρη κατάρτιση για να επιτύχετε στην θέση αυτή. Επίσης, παρέχουμε ευέλικτο ωράριο εργασίας και ευκαιρίες για επαγγελματική ανάπτυξη και προόδου.</p>
 
                                 <div class="slider-btn mt-30 mb-105">
-                                    <a href="contact.html" class="btn ss-btn mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </a>
+                                    <a href="#" class="btn ss-btn mr-15" data-animation="fadeInLeft" data-delay=".4s">Μαθε Περισσοτερα </a>
                                 </div>
 
                             </div>
@@ -207,18 +207,18 @@
                     </div>
                 </div>
             </div>
-            <div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(assets/img/slider/slider_bg_02.png); background-size: cover;">
+            <div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(assets/img/slider/agent2.jpg); background-size: cover;">
                 <div class="container">
                     <div class="row justify-content-center align-items-center">
 
                         <div class="col-lg-7 col-md-7">
                             <div class="slider-content s-slider-content mt-100">
-                                <h5 data-animation="fadeInUp" data-delay=".4s">Welcome <span>Insureyou</span> </h5>
-                                <h2 data-animation="fadeInUp" data-delay=".4s">Get <span>Insurance</span> For Anything You Need</h2>
-                                <p data-animation="fadeInUp" data-delay=".6s">Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
+                                <h5 data-animation="fadeInUp" data-delay=".4s">Ασφαλιστικος <span>Πρακτορας</span> </h5>
+                                <h2 data-animation="fadeInUp" data-delay=".4s">Πρόσφερε <span>λύσεις </span> ασφάλισης </h2>
+                                <p data-animation="fadeInUp" data-delay=".6s">Αν είσαι ένας ενθουσιώδης και αποφασισμένος επαγγελματίας που επιθυμεί να καλλιεργήσει την καριέρα του στον κλάδο της ασφάλισης, στείλε το βιογραφικό σου σημείωμα στη διεύθυνση.</p>
 
                                 <div class="slider-btn mt-30 mb-105">
-                                    <a href="contact.html" class="btn ss-btn mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </a>
+                                    <a href="#" class="btn ss-btn mr-15" data-animation="fadeInLeft" data-delay=".4s">Λεπτομερειες </a>
                                 </div>
 
                             </div>
@@ -250,9 +250,9 @@
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="about-content s-about-content">
                         <div class="about-title second-title pb-25">
-                            <h2 data-aos="fade-up" data-aos-duration="1000">We Have Best Insurance For You</h2>
+                            <h3 data-aos="fade-up" data-aos-duration="1000">Ψάχνεις το επόμενο βήμα στην καριέρα σου; </h3>
                         </div>
-                        <p data-aos="fade-up" data-aos-duration="1000">Aliquam ac sem et diam iaculis efficitur. Morbi in enim odio. Nullam quis volutpat est, sed dapibus sapien. Cras condimentum eu velit id tempor. Curabitur purus sapien, cursus sed nisl tristique, commodo vehicula arcu.</p>
+                        <p data-aos="fade-up" data-aos-duration="1000">Προσφέρουμε έναν ανταγωνιστικό μισθό και πλήρη κατάρτιση για να επιτύχετε στον ρόλο αυτόν. Επιπλέον, παρέχουμε ευέλικτο ωράριο εργασίας και ευκαιρίες για επαγγελματική ανάπτυξη και προόδου.</p>
 
                         <div class="about-content3 mt-30" data-aos="fade-up" data-aos-duration="1200">
                             <div class="row">
@@ -280,7 +280,7 @@
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="services-box01 mb-30" data-aos="fade-left">
                         <div class="number">01</div>
-                        <h5>Insurance Police</h5>
+                        <h5>Ανταγωνιστικός Μισθός</h5>
                         <p>Nullam egestas eros et nulla tempus, vel tempor neque scelerisque. Morbi eleifend convallis turpis, ac scelerisque.</p>
                         <a href="#" class="mt-15 hover-underline-animation">Learn More</a>
                     </div>
@@ -288,7 +288,7 @@
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="services-box01 mb-30" data-aos="fade-up" data-aos-duration="1000">
                         <div class="number">02</div>
-                        <h5>Direct Payment</h5>
+                        <h5>Συνεχή Εκπαίδευση</h5>
                         <p>Nullam egestas eros et nulla tempus, vel tempor neque scelerisque. Morbi eleifend convallis turpis, ac scelerisque.</p>
                         <a href="#" class="mt-15 hover-underline-animation">Learn More</a>
                     </div>
@@ -297,7 +297,7 @@
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="services-box01 mb-30" data-aos="fade-right">
                         <div class="number">03</div>
-                        <h5>24x7 Support</h5>
+                        <h5>Bonus Απόδοσης</h5>
                         <p>Nullam egestas eros et nulla tempus, vel tempor neque scelerisque. Morbi eleifend convallis turpis, ac scelerisque.</p>
                         <a href="#" class="mt-15 hover-underline-animation">Learn More</a>
                     </div>
@@ -407,7 +407,7 @@
 
                 <div class="col-md-12 text-center">
                     <div class="text-bg"  data-aos="fade-up" data-aos-duration="1000">
-                        <h2>Benefits</h2>
+                        <h2>  Επιτεύγματα </h2>
                     </div>
                 </div>
             </div>
