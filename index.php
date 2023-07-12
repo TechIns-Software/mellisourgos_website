@@ -69,7 +69,7 @@
                             <li>
                                 <div class="call-box">
                                     <div class="icon">
-                                        <i class="fal fa-envelope"></i>
+                                        <i class="fa fa-envelope"></i>
                                     </div>
                                     <div class="text">
                                         <strong>info@gmail.com</strong>
@@ -80,7 +80,7 @@
                             <li>
                                 <div class="call-box">
                                     <div class="icon">
-                                        <i class="fal fa-phone-alt"></i>
+                                        <i class="fa fa-phone-alt"></i>
                                     </div>
                                     <div class="text">
                                         <strong>+91 854 789-8746</strong>
@@ -112,38 +112,29 @@
                         <div class="main-menu">
                             <nav id="mobile-menu">
                                 <ul>
-                                    <li class="has-sub">
-                                        <a href="index.html">Home</a>
-                                        <ul>
-                                            <li><a href="index.html">Home Page 01</a></li>
-                                            <li><a href="index-2.html">Home Page 02</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li class="has-sub">
-                                        <a href="services.html">Services</a>
-                                        <ul>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="single-service.html">Services Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="projects.html">Case Studies</a></li>
+                                    <li><a href="#">Αρχική </a></li>
+                                    <li><a href="#">Όραμα</a></li>
+                                    <li><a href="#">Σχετικά με εμάς</a></li>
+                                    <li><a href="#">Εγκαταστάσεις</a></li>
+                                    <li><a href="#">Καριέρα</a></li>
+
+
                                     <li class="has-sub"><a href="#">Pages</a>
                                         <ul>
-                                            <li><a href="pricing.html">Pricing</a></li>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="faq.html">Faq</a></li>
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href=#">Pricing</a></li>
+                                            <li><a href="#">Team</a></li>
+                                            <li><a href="#">Faq</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">Blog Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="contact.html">Επικοινωνία</a></li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
                     <div class="col-xl-1 col-lg-2 text-right d-none d-lg-block">
-                        <a href="#" class="menu-tigger"><i class="fal fa-search"></i></a>
+                        <a href="#" class="menu-tigger"><i class="fa fa-search"></i></a>
                     </div>
                     <div class="col-12">
                         <div class="mobile-menu"></div>
@@ -357,7 +348,7 @@
                                     <div class="icon"><img src="assets/img/icon/sve-icon1.png" alt="icon01"></div>
                                     <h4><a href="single-service.html">Health Insurance</a></h4>
                                     <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</p>
-                                    <a class="link" href="single-service.html"><i class="fal fa-angle-right"></i></a>
+                                    <a class="link" href="single-service.html"><i class="fa fa-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -368,7 +359,7 @@
                                     <div class="icon"><img src="assets/img/icon/sve-icon2.png" alt="icon01"></div>
                                     <h4><a href="single-service.html">Home Insurance</a></h4>
                                     <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</p>
-                                    <a class="link" href="single-service.html"><i class="fal fa-angle-right"></i></a>
+                                    <a class="link" href="single-service.html"><i class="fa fa-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -379,7 +370,7 @@
                                     <div class="icon"><img src="assets/img/icon/sve-icon3.png" alt="icon01"></div>
                                     <h4><a href="single-service.html">Business Insurance</a></h4>
                                     <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</p>
-                                    <a class="link" href="single-service.html"><i class="fal fa-angle-right"></i></a>
+                                    <a class="link" href="single-service.html"><i class="fa fa-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -390,7 +381,7 @@
                                     <div class="icon"><img src="assets/img/icon/sve-icon4.png" alt="icon01"></div>
                                     <h4><a href="single-service.html">Vehicle Insurance</a></h4>
                                     <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</p>
-                                    <a class="link" href="single-service.html"><i class="fal fa-angle-right"></i></a>
+                                    <a class="link" href="single-service.html"><i class="fa fa-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -401,7 +392,7 @@
                                     <div class="icon"><img src="assets/img/icon/sve-icon3.png" alt="icon01"></div>
                                     <h4><a href="single-service.html">Business Insurance</a></h4>
                                     <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</p>
-                                    <a class="link" href="single-service.html"><i class="fal fa-angle-right"></i></a>
+                                    <a class="link" href="single-service.html"><i class="fa fa-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -797,8 +788,8 @@
                             <div class="b-meta">
                                 <div class="meta-info">
                                     <ul>
-                                        <li><i class="fal fa-user"></i> Admin</li>
-                                        <li><i class="fal fa-calendar-alt"></i> 24th March 2021</li>
+                                        <li><i class="fa fa-user"></i> Admin</li>
+                                        <li><i class="fa fa-calendar-alt"></i> 24th March 2021</li>
 
                                     </ul>
                                 </div>
@@ -817,8 +808,8 @@
                             <div class="b-meta">
                                 <div class="meta-info">
                                     <ul>
-                                        <li><i class="fal fa-user"></i> Admin</li>
-                                        <li><i class="fal fa-calendar-alt"></i> 24th March 2021</li>
+                                        <li><i class="fa fa-user"></i> Admin</li>
+                                        <li><i class="fa fa-calendar-alt"></i> 24th March 2021</li>
 
                                     </ul>
                                 </div>
@@ -837,8 +828,8 @@
                             <div class="b-meta">
                                 <div class="meta-info">
                                     <ul>
-                                        <li><i class="fal fa-user"></i> Admin</li>
-                                        <li><i class="fal fa-calendar-alt"></i> 24th March 2021</li>
+                                        <li><i class="fa fa-user"></i> Admin</li>
+                                        <li><i class="fa fa-calendar-alt"></i> 24th March 2021</li>
 
                                     </ul>
                                 </div>
@@ -1101,10 +1092,10 @@
                         <div class="f-contact">
                             <ul>
                                 <li>
-                                    <i class="icon fal fa-phone"></i>
+                                    <i class="icon fa fa-phone"></i>
                                     <span>1800-121-3637<br>+91-7052-101-786</span>
                                 </li>
-                                <li><i class="icon fal fa-envelope"></i>
+                                <li><i class="icon fa fa-envelope"></i>
                                     <span>
                                             <a href="mailto:info@example.com">info@example.com</a>
                                        <br>
@@ -1112,7 +1103,7 @@
                                        </span>
                                 </li>
                                 <li>
-                                    <i class="icon fal fa-map-marker-check"></i>
+                                    <i class="icon fa fa-map-marker-check"></i>
                                     <span>1247/Plot No. 39, 15th Phase,<br> LHB Colony, Kanpur</span>
                                 </li>
 
