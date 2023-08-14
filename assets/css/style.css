@@ -11303,7 +11303,7 @@ body[page='welcome'] .container-fluid{
 	text-align: left;
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 1000px){
 	.welcome_icons {
 		width: 70%;
 
@@ -11323,11 +11323,22 @@ body[page='welcome'] .container-fluid{
 
 .welcomeSubmitBtn{
 	background: #4B83FC;
-	min-width: 242px;
+	min-width: 200px;
 	color: white;
 	padding: 1em;
 	border: none;
 	border-radius: 15px;
+	margin: auto;
+}
+
+.welcomeLearnMore{
+	background: #fb7d00;
+	min-width: 200px;
+	color: white;
+	padding: 1em;
+	border: none;
+	border-radius: 15px;
+	margin: auto;
 }
 
 label[for="cv"]{

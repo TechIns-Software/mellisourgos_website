@@ -98,9 +98,21 @@
 
                 </div>
 
-                <div class="text-center">
-                <button class="welcomeSubmitBtn ">Υποβολή</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 text-center my-2">
+                            <button class="welcomeSubmitBtn ">Υποβολή</button>
+                        </div>
+
+                        <div class="col-lg-6 col-md-12 text-center my-2">
+                            <button onclick="window.location.href='index.php'" class="welcomeLearnMore ">Μάθε Περισσότερα</button>
+                        </div>
+
+                    </div>
+
                 </div>
+
+
             </div>
         </div>
     </div>
