@@ -1,1183 +1,1111 @@
+<!--https://reactheme.com/products/html/finbiz/index-seven.html-->
+<!DOCTYPE html>
+<html lang="en">
 
-<!doctype html>
-<html class="no-js" lang="zxx">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Insureyou - Insurance HTML Template </title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-    <!-- Place favicon.ico in the root directory -->
-
-    <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/dripicons.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <link rel="stylesheet" href="assets/css/aos.css">
-    <link rel="stylesheet" href="assets/css/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/default.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konstantinos Melissourgos </title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome-5.css">
+    <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/unicons.css">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
-<body>
-<!-- header -->
-<header class="header-area header-three">
-    <div class="header-top second-header d-none d-md-block">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6 d-none  d-md-block">
-                    <div class="header-social">
-                                <span>
-                                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#" title="LinkedIn"><i class="fab fa-instagram"></i></a>
-                                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                                    <a href="#" title="Twitter"><i class="fab fa-youtube"></i></a>
-                                   </span>
-                        <!--  /social media icon redux -->
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 text-right d-none d-md-block">
-                    <div class="header-cta">
-                        <ul>
-                            <li><a href="#">Solution Center</a></li>
-                            <li><a href="#">Our Offers</a></li>
-                            <li><a href="#">Why Us</a></li>
-                            <li><a href="#">24x7 Support</a></li>
-                        </ul>
-                    </div>
-                </div>
 
-            </div>
-        </div>
-    </div>
-    <div class="header-mid d-none d-md-block pt-25 pb-25">
+<body class="index-seven hr">
+<!-- start header area -->
+<!-- start header area -->
+<header class="header--sticky header-one six">
+    <div class="header-top header-top-one bg-1">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-2 col-md-12 d-none d-md-block">
-                    <div class="logo">
-                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="logo"></a>
+            <div class="row">
+                <div class="col-lg-6 d-xl-block d-none">
+                    <div class="left">
+                        <p class="left-text"> </p>
                     </div>
                 </div>
-                <div class="col-lg-10 col-md-10 text-right d-none d-lg-block">
-                    <div class="header-cta">
-                        <ul>
-                            <li>
-                                <div class="call-box">
-                                    <div class="icon">
-                                        <i class="fa fa-envelope"></i>
-                                    </div>
-                                    <div class="text">
-                                        <strong>info@gmail.com</strong>
-                                        <span>Email Now</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="call-box">
-                                    <div class="icon">
-                                        <i class="fa fa-phone-alt"></i>
-                                    </div>
-                                    <div class="text">
-                                        <strong>+91 854 789-8746</strong>
-                                        <span>Call Now !</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="contact.html" class="top-btn">Get A Quote</a>
-                            </li>
-
-                        </ul>
+                <div class="col-lg-6 d-xl-block d-none">
+                    <div class="right">
+                        <div class="mail">
+                            <i class="fas fa-envelope"></i>
+                            <a href="#">Melissourgoskonstantinos@gmail.com</a>
+                        </div>
+                        <div class="call">
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="#">
+                                Τηλ : +306944314855.
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id="header-sticky" class="menu-area">
+    <div class="header-main-one">
         <div class="container">
-            <div class="second-menu">
-                <div class="row align-items-center">
-                    <div class="col-lg-2 col-md-12  d-lg-none d-x-none">
-                        <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" alt="logo"></a>
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
+                    <div class="thumbnail">
+                        <a href="index.php">
+                            <img src="assets/images/logo/logo-1.svg" alt="finbiz-logo">
+                        </a>
+                    </div>
+                </div>
+                <div class=" col-xl-9 col-lg-8 col-md-8 col-sm-8 col-8">
+                    <div class="main-header">
+                        <nav class="nav-main mainmenu-nav d-none d-xl-block">
+                            <ul class="mainmenu">
+
+                                <li><a class="nav-item" href="index.php">Αρχική</a></li>
+                                <li><a class="nav-item" href="index.php">Οραμα</a></li>
+                                <li><a class="nav-item" href="index.php">Σχετικά με εμάς</a></li>
+                                <li><a class="nav-item" href="index.php">Γραφεία</a></li>
+                                <li><a class="nav-item" href="index.php">Καριέρα</a></li>
+                                <li><a class="nav-item" href="index.php">Βίντεο</a></li>
+                                <li><a class="nav-item" href="index.php">Επικοινωνία</a></li>
+<!--                                <li class="has-droupdown">-->
+<!--                                    <a class="nav-link" href="#">Home</a>-->
+<!--                                    <ul class="submenu menu-link1">-->
+<!--                                        <li class="menu-item">-->
+<!--                                            <a class="tag" href="#">Multipages</a>-->
+<!--                                            <ul>-->
+<!--                                                <li><a href="index.html">Main Home</a></li>-->
+<!--                                                <li><a href="index-two.html">Consulting Home</a></li>-->
+<!--                                                <li><a href="index-three.html">Corporate Home</a></li>-->
+<!--                                                <li><a href="index-four.html">Insurance Home</a></li>-->
+<!--                                                <li><a href="index-five.html">Marketing Home</a></li>-->
+<!--                                                <li><a href="index-six.html">Home finance</a></li>-->
+<!--                                                <li><a href="index-seven.html">Human Resources</a></li>-->
+<!--                                                <li><a href="index-eight.html">IT Solutions</a></li>-->
+<!--                                            </ul>-->
+<!--                                        </li>-->
+<!--                                        <li class="menu-item">-->
+<!--                                            <a class="tag" href="#">Onepages</a>-->
+<!--                                            <ul>-->
+<!--                                                <li><a href="onepage-one.html">Main Home Onepage</a></li>-->
+<!--                                                <li><a href="onepage-two.html">Consulting Home Onepage</a></li>-->
+<!--                                                <li><a href="onepage-three.html">Corporate Home Onepage</a></li>-->
+<!--                                                <li><a href="onepage-four.html">Insurance Home Onepage</a></li>-->
+<!--                                                <li><a href="onepage-five.html">Marketing Home Onepage</a></li>-->
+<!--                                                <li><a href="onepage-six.html">Finance Home Onepage</a></li>-->
+<!--                                                <li><a href="onepage-seven.html">Human resource Onepage</a></li>-->
+<!--                                                <li><a href="onepage-eight.html">IT Solutions Onepage</a></li>-->
+<!--                                            </ul>-->
+<!--                                        </li>-->
+<!--                                    </ul>-->
+<!--                                </li>-->
+                            </ul>
+                        </nav>
+                        <div class="button-area">
+                            <div class="search-input-area ">
+                                <div class="container">
+                                    <div class="search-input-inner">
+                                        <div class="input-div">
+                                            <input id="searchInput1" class="search-input" type="text" placeholder="Search by keyword or #">
+                                            <button><i class="far fa-search"></i></button>
+                                        </div>
+                                        <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button id="menu-btn" class="menu rts-btn btn-primary-alta ml--20 ml_sm--5">
+                                <img class="menu-dark" src="assets/images/icon/menu.png" alt="Menu-icon">
+                                <img class="menu-light" src="assets/images/icon/menu-light.png" alt="Menu-icon">
+                            </button>
                         </div>
-                    </div>
-                    <div class="col-xl-11 col-lg-10">
-
-                        <div class="main-menu">
-                            <nav id="mobile-menu">
-                                <ul>
-                                    <li><a href="#">Αρχική </a></li>
-                                    <li><a href="#">Όραμα</a></li>
-                                    <li><a href="#">Σχετικά με εμάς</a></li>
-                                    <li><a href="#">Εγκαταστάσεις</a></li>
-                                    <li><a href="#">Καριέρα</a></li>
-
-
-                                    <li class="has-sub"><a href="#">Pages</a>
-                                        <ul>
-                                            <li><a href=#">Pricing</a></li>
-                                            <li><a href="#">Team</a></li>
-                                            <li><a href="#">Faq</a></li>
-                                            <li><a href="#">Blog</a></li>
-                                            <li><a href="#">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">Επικοινωνία</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-xl-1 col-lg-2 text-right d-none d-lg-block">
-                        <a href="#" class="menu-tigger"><i class="fa fa-search"></i></a>
-                    </div>
-                    <div class="col-12">
-                        <div class="mobile-menu"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </header>
-<!-- header-end -->
-<!-- offcanvas-area -->
-<div class="offcanvas-menu">
-    <span class="menu-close"><i class="fas fa-times"></i></span>
-    <form role="search" method="get" id="searchform"   class="searchform" action="http://wordpress.zcube.in/xconsulta/">
-        <input type="text" name="s" id="search" placeholder="Search"/>
-        <button><i class="fa fa-search"></i></button>
-    </form>
+<!-- End header area -->
 
+<div id="side-bar" class="side-bar">
+    <button class="close-icon-menu"><i class="far fa-times"></i></button>
+    <!-- inner menu area desktop start -->
+    <div class="rts-sidebar-menu-desktop">
+        <a class="logo-1" href="index.php"><img class="logo" src="assets/images/logo/logo.svg" alt="melissourgos_logo"></a>
+<!--        <a class="logo-2" href="index.html"><img class="logo" src="assets/images/logo/logo-4.svg" alt="finbiz_logo"></a>-->
+<!--        <a class="logo-3" href="index.html"><img class="logo" src="assets/images/logo/logo-3.svg" alt="finbiz_logo"></a>-->
+<!--        <a class="logo-4" href="index.html"><img class="logo" src="assets/images/logo/logo-5.svg" alt="finbiz_logo"></a>-->
+        <div class="body d-none d-xl-block">
+            <p class="disc">
+                Μάθε ν’ ακούς. Η ευκαιρία καμιά φορά χτυπάει την πόρτα σου πολύ σιγανά.
+            </p>
+            <div class="get-in-touch">
+                <!-- title -->
+                <div class="h6 title">Ελα σε επικοινωνία μαζί μας</div>
+                <!-- title End -->
+                <div class="wrapper">
+                    <!-- single -->
+                    <div class="single">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="#">+306944314855.</a>
+                    </div>
+                    <!-- single ENd -->
+                    <!-- single -->
+                    <div class="single">
+                        <i class="fas fa-envelope"></i>
+                        <a href="#" style="font-size: .9em">Melissourgoskonstantinos@gmail.com</a>
+                    </div>
+                    <!-- single ENd -->
 
-    <div id="cssmenu3" class="menu-one-page-menu-container">
-        <ul  class="menu">
-            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html">Home</a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="about.html">About Us</a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="services.html">Services</a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="pricing.html">Pricing </a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="team.html">Team </a></li>
-
-            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="projects.html">Cases Study</a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="blog.html">Blog</a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="contact.html">Contact</a></li>
-        </ul>
+                    <!-- single -->
+                    <div class="single">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="#">Λεωφ. Κηφισίας 131</a>
+                    </div>
+                    <!-- single ENd -->
+                </div>
+                <div class="social-wrapper-two menu">
+                    <a href="https://www.facebook.com/Melissourgos.Konstantinos"><i class="fab fa-facebook-f"></i></a>
+<!--                        TODO : ΠΡΕΠΕΙ ΝΑ ΒΑΛΟΥΜΕ ΤΟ ΤΙΚ ΤΟΚ-->
+                    <a href="https://www.instagram.com/melissourgos.k/"><i class="fab fa-instagram"></i></a>
+                     <a href="https://www.linkedin.com/in/konstantinos-melissourgos/"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="body-mobile d-block d-xl-none">
+            <nav class="nav-main mainmenu-nav">
+                <ul class="mainmenu">
+                    <li class="menu-item"><a class="menu-link" href="#">Αρχική</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">Όραμα</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">Γραφεία</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">Σχετικά με εμάς</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">Καριέρα</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">Βίντεο</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">Επικοινωνία</a></li>
+                </ul>
+            </nav>
+            <div class="social-wrapper-two menu mobile-menu">
+                <a href="https://www.facebook.com/Melissourgos.Konstantinos"><i class="fab fa-facebook-f"></i></a>
+                <!--                        TODO : ΠΡΕΠΕΙ ΝΑ ΒΑΛΟΥΜΕ ΤΟ ΤΙΚ ΤΟΚ-->
+                <a href="https://www.instagram.com/melissourgos.k/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/konstantinos-melissourgos/"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
     </div>
+    <!-- inner menu area desktop End -->
+</div>
 
-    <div id="cssmenu2" class="menu-one-page-menu-container">
-        <ul id="menu-one-page-menu-12" class="menu">
-            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#home"><span>+8 12 3456897</span></a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#howitwork"><span>info@example.com</span></a></li>
-        </ul>
+<div id="anywhere-home"></div>
+<!-- ENd Header Area -->
+
+<!-- rts banner area start -->
+<div class="rts-banner-area banner-human-bg rts-section-gap">
+    <div class="shape">
+        <img src="assets/images/banner/shape/h7-banner.png" alt="shape">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- banner area inner six -->
+                <div class="banner-inner-six">
+                    <h1 class="title mb--30">
+                        <span class="pre">Ευκαιρία </span> <br>
+                         <span class="primary">Καριέρας</span>
+                    </h1>
+                    <p class="disc">
+                        Θέλεις να πραγματοποιήσεις τα όνειρα σου μέσω μιας <br>καριέρας σε έναν σταθερό, ασφαλή και συνεχώς αναπτυσσόμενο κλάδο;
+                    </p>
+                    <a href="#" class="rts-btn btn-primary-5 style-six rounded-2 seven">Μαθε Περισσοτερα</a>
+                </div>
+                <!-- banner area inner six end -->
+            </div>
+        </div>
     </div>
 </div>
-<div class="offcanvas-overly"></div>
-<!-- offcanvas-end -->
-<!-- main-area -->
-<main>
-    <!-- slider-area -->
-    <section id="parallax" class="slider-area fix p-relative">
-<!--        <div class="slider-shape ss-one layer" data-depth="0.10"><img src="assets/img/bg/slider_shape01.png" alt="shape"></div>-->
-<!--        <div class="slider-shape ss-two layer" data-depth="0.30"><img src="assets/img/bg/slider_shape02.png" alt="shape"></div>-->
-<!--        <div class="slider-shape ss-three layer" data-depth="0.40"><img src="assets/img/bg/slider_shape03.png" alt="shape"></div>-->
-        <div class="slider-active" style="background: #fff;">
-            <div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(assets/img/slider/agent.jpg); background-position:50%, center   background-size: cover;">
-                <div class="container">
-                    <div class="row justify-content-center align-items-center">
+<!-- rts banner area end -->
 
-                        <div class="col-lg-7 col-md-7">
-                            <div class="slider-content s-slider-content mt-100">
-                                <h5 data-animation="fadeInUp" data-delay=".4s">Ασφαλιστικος  <span>Συμβουλος</span> </h5>
-                                <h2 data-animation="fadeInUp" data-delay=".4s">Πραγματοποίησε  <span>τα </span>όνειρα σου μαζί μας!</h2>
-                                <p data-animation="fadeInUp" data-delay=".6s">Προσφέρουμε έναν ανταγωνιστικό μισθό και πλήρη κατάρτιση για να επιτύχετε στην θέση αυτή. Επίσης, παρέχουμε ευέλικτο ωράριο εργασίας και ευκαιρίες για επαγγελματική ανάπτυξη και προόδου.</p>
-
-                                <div class="slider-btn mt-30 mb-105">
-                                    <a href="#" class="btn ss-btn mr-15" data-animation="fadeInLeft" data-delay=".4s">Μαθε Περισσοτερα </a>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="col-lg-5 col-md-5 p-relative">
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(assets/img/slider/agent2.jpg); background-size: cover;">
-                <div class="container">
-                    <div class="row justify-content-center align-items-center">
-
-                        <div class="col-lg-7 col-md-7">
-                            <div class="slider-content s-slider-content mt-100">
-                                <h5 data-animation="fadeInUp" data-delay=".4s">Ασφαλιστικος <span>Πρακτορας</span> </h5>
-                                <h2 data-animation="fadeInUp" data-delay=".4s">Πρόσφερε <span>λύσεις </span> ασφάλισης </h2>
-                                <p data-animation="fadeInUp" data-delay=".6s">Αν είσαι ένας ενθουσιώδης και αποφασισμένος επαγγελματίας που επιθυμεί να καλλιεργήσει την καριέρα του στον κλάδο της ασφάλισης, στείλε το βιογραφικό σου σημείωμα στη διεύθυνση.</p>
-
-                                <div class="slider-btn mt-30 mb-105">
-                                    <a href="#" class="btn ss-btn mr-15" data-animation="fadeInLeft" data-delay=".4s">Λεπτομερειες </a>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="col-lg-5 col-md-5 p-relative">
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    </section>
-    <!-- slider-area-end -->
-
-    <!-- about-area -->
-    <section class="about-area about-p pt-120 pb-120 p-relative fix">
+<div class="bg-shape-wrapper-main">
+    <!-- rts about area start -->
+    <div class="rts-about-area-start rts-section-gapBottom">
         <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="s-about-img p-relative" data-aos="fade-up" data-aos-duration="1000">
-                        <img src="assets/img/features/about_img_02.png" alt="img">
-
-                    </div>
-
-                </div>
-
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="about-content s-about-content">
-                        <div class="about-title second-title pb-25">
-                            <h3 data-aos="fade-up" data-aos-duration="1000">Ψάχνεις το επόμενο βήμα στην καριέρα σου; </h3>
+            <div class="row align-items-center">
+                <div class="col-lg-6 pr--70 pr_md--0 pr_sm--0">
+                    <div class="title-area-style-six text-start">
+                        <div class="pre-title">
+                            <img src="assets/images/banner/shape/pre-title.png" alt="pre-title">
+                            <span class="pre">Σχετικα με εμας</span>
+                            <img class="two" src="assets/images/banner/shape/pre-title.png" alt="pre-title">
                         </div>
-                        <p data-aos="fade-up" data-aos-duration="1000">Προσφέρουμε έναν ανταγωνιστικό μισθό και πλήρη κατάρτιση για να επιτύχετε στον ρόλο αυτόν. Επιπλέον, παρέχουμε ευέλικτο ωράριο εργασίας και ευκαιρίες για επαγγελματική ανάπτυξη και προόδου.</p>
+                        <h2 class="title">
+                            Here is your perfect <br>
+                            Marketing Solution
+                        </h2>
+                    </div>
+                    <div class="about-content-inner-style-six">
+                        <p class="disc">
+                            Platea vehicula rutrum curae magna tacitiacut msuada inceptos phasellus massa, eget ultres
+                            tempor lacinia dictumst tincidunt leo mollis luctus varius gravida eleifend cursus litora
+                        </p>
+                        <div class="item-check-inner">
+                            <div class="single-col">
+                                <div class="single-check">
+                                    <i class="fas fa-check-circle"></i>
+                                    24/7 Call Services Avilable
+                                </div>
+                                <div class="single-check">
+                                    <i class="fas fa-check-circle"></i>
+                                    Great Skilled Consultant
+                                </div>
+                                <div class="single-check">
+                                    <i class="fas fa-check-circle"></i>
+                                    Expert Team Members
+                                </div>
+                            </div>
+                            <div class="single-col">
+                                <div class="single-check">
+                                    <i class="fas fa-check-circle"></i>
+                                    How to improve business
 
-                        <div class="about-content3 mt-30" data-aos="fade-up" data-aos-duration="1200">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <ul class="green">
-                                        <li> 24 Month / 24,000km Nationwide Warranty monotone</li>
-                                        <li> Curabitur dapibus nisl a urna congue, in pharetra urna accumsan.</li>
-                                        <li> Customer Rewards Program and excellent technology</li>
-                                    </ul>
+                                </div>
+                                <div class="single-check">
+                                    <i class="fas fa-check-circle"></i>
+                                    Business is the best plan
+                                </div>
+                                <div class="single-check">
+                                    <i class="fas fa-check-circle"></i>
+                                    Services we provide
                                 </div>
                             </div>
                         </div>
 
                     </div>
                 </div>
-
+                <div class="col-lg-6">
+                    <div class="thumbnail-about-six">
+                        <img src="assets/images/about/02.png" alt="about-image">
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-    <!-- about-area-end -->
-    <!-- service-area -->
-    <section class="service-details pb-60 p-relative fix">
+    </div>
+    <!-- rts about area end -->
+
+    <!-- client rationg area start -->
+    <div class="rts-client-rating rts-section-gapBottom">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="services-box01 mb-30" data-aos="fade-left">
-                        <div class="number">01</div>
-                        <h5>Ανταγωνιστικός Μισθός</h5>
-                        <p>Nullam egestas eros et nulla tempus, vel tempor neque scelerisque. Morbi eleifend convallis turpis, ac scelerisque.</p>
-                        <a href="#" class="mt-15 hover-underline-animation">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="services-box01 mb-30" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="number">02</div>
-                        <h5>Συνεχή Εκπαίδευση</h5>
-                        <p>Nullam egestas eros et nulla tempus, vel tempor neque scelerisque. Morbi eleifend convallis turpis, ac scelerisque.</p>
-                        <a href="#" class="mt-15 hover-underline-animation">Learn More</a>
-                    </div>
-                </div>
+                <div class="col-lg-12 position-relative">
+                    <div class="swiper clients-review-7">
+                        <div class="swiper-wrapper">
 
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="services-box01 mb-30" data-aos="fade-right">
-                        <div class="number">03</div>
-                        <h5>Bonus Απόδοσης</h5>
-                        <p>Nullam egestas eros et nulla tempus, vel tempor neque scelerisque. Morbi eleifend convallis turpis, ac scelerisque.</p>
-                        <a href="#" class="mt-15 hover-underline-animation">Learn More</a>
+                            <div class="swiper-slide">
+                                <div class="single-testimonials-styele-clients-7 text-center">
+                                    <div class="logo">
+                                        <img src="assets/images/testimonials/icon/logo-04.png" alt="">
+                                    </div>
+                                    <div class="inner">
+                                        <p class="disc">
+                                            4.88 out of 5 star from 1,645 reviews
+                                        </p>
+                                        <div class="stars-area">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-testimonials-styele-clients-7 text-center">
+                                    <div class="logo">
+                                        <img src="assets/images/testimonials/icon/logo-04.png" alt="">
+                                    </div>
+                                    <div class="inner">
+                                        <p class="disc">
+                                            4.88 out of 5 star from 1,645 reviews
+                                        </p>
+                                        <div class="stars-area">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-testimonials-styele-clients-7 text-center">
+                                    <div class="logo">
+                                        <img src="assets/images/testimonials/icon/logo-04.png" alt="">
+                                    </div>
+                                    <div class="inner">
+                                        <p class="disc">
+                                            4.88 out of 5 star from 1,645 reviews
+                                        </p>
+                                        <div class="stars-area">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
 
             </div>
         </div>
-    </section>
-    <!-- service-details2-area-end -->
-    <!-- video-area -->
-    <section id="video" class="video-area p-relative" data-aos="fade-up" data-aos-duration="1000">
+    </div>
+    <!-- client rationg area end -->
+
+    <!-- working process start -->
+    <div class="rts-working-process rts-section-gapBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-area-style-six text-center">
+                        <div class="pre-title">
+                            <img src="assets/images/banner/shape/pre-title.png" alt="pre-title">
+                            <span class="pre">Work Process</span>
+                            <img class="two" src="assets/images/banner/shape/pre-title.png" alt="pre-title">
+                        </div>
+                        <h2 class="title">
+                            Why Choose us?
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt--20">
+                <div class="col-xl-3 col-md-4">
+                    <!-- single-service area start -->
+                    <div class="rts-single-service-style-process text-center">
+                        <div class="icon">
+                            <img src="assets/images/service/icon/22.svg" alt="">
+                        </div>
+                        <h5 class="title">
+                            Create an account
+                        </h5>
+                        <p class="disc">
+                            Dictum stem tristique conubia arturie ornare vivamus euismod
+                        </p>
+                        <a href="#" class="rts-btn btn-primary-5 rounded-2"><i class="fal fa-arrow-right"></i></a>
+                    </div>
+                    <!-- single-service area end -->
+                </div>
+                <div class="col-xl-3 col-md-4">
+                    <!-- single-service area start -->
+                    <div class="rts-single-service-style-process text-center">
+                        <div class="icon">
+                            <img src="assets/images/service/icon/23.svg" alt="">
+                        </div>
+                        <h5 class="title">
+                            Consult with us
+                        </h5>
+                        <p class="disc">
+                            Dictum stem tristique conubia arturie ornare vivamus euismod
+                        </p>
+                        <a href="#" class="rts-btn btn-primary-5 rounded-2"><i class="fal fa-arrow-right"></i></a>
+                    </div>
+                    <!-- single-service area end -->
+                </div>
+                <div class="col-xl-3 col-md-4">
+                    <!-- single-service area start -->
+                    <div class="rts-single-service-style-process text-center">
+                        <div class="icon">
+                            <img src="assets/images/service/icon/24.svg" alt="">
+                        </div>
+                        <h5 class="title">
+                            Fill up the form
+                        </h5>
+                        <p class="disc">
+                            Dictum stem tristique conubia arturie ornare vivamus euismod
+                        </p>
+                        <a href="#" class="rts-btn btn-primary-5 rounded-2"><i class="fal fa-arrow-right"></i></a>
+                    </div>
+                    <!-- single-service area end -->
+                </div>
+                <div class="col-xl-3 col-md-4">
+                    <!-- single-service area start -->
+                    <div class="rts-single-service-style-process text-center">
+                        <div class="icon">
+                            <img src="assets/images/service/icon/22.svg" alt="">
+                        </div>
+                        <h5 class="title">
+                            Get Started!
+                        </h5>
+                        <p class="disc">
+                            Dictum stem tristique conubia arturie ornare vivamus euismod
+                        </p>
+                        <a href="#" class="rts-btn btn-primary-5 rounded-2"><i class="fal fa-arrow-right"></i></a>
+                    </div>
+                    <!-- single-service area end -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- working process end -->
+
+    <!-- start vedio area start -->
+    <div class="rts-vedio-area-home-6 rts-section-gapBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="thumbnail-image-gallery">
+                        <img src="assets/images/gallery/01.jpg" alt="thumbnail-image">
+                        <a href="#" class="vedio-icone">
+                                <span id="play-video" class="video-play-button">
+                                    <img src="assets/images/about/shape/play-btn.png" alt="Play btn">
+                                    <span></span>
+                                </span>
+                            <div id="video-overlay" class="video-overlay">
+                                <span class="video-overlay-close">×</span>
+                            </div>
+                        </a>
+                        <div class="vedio-title-area">
+                            <h2 class="title">
+                                Watch Video Here
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-shape-vedio-section">
+            <img src="assets/images/gallery/bg-vedio.png" alt="bg">
+        </div>
+    </div>
+    <!-- start vedio area end -->
+</div>
+
+
+
+<!-- start call to action area -->
+<div class="rts-callto-acation-area rts-callto-acation-area4 bg-call-to-action-two">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="cta-two-wrapper">
+                    <div class="title-area">
+                        <h3 class="title">Let’s discuss about how we can help <br>
+                            make your insurance better</h3>
+                    </div>
+                    <a class="rts-btn btn-primary-5" href="contactus.html">Lets Work Together</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end call to action area -->
+
+<div class="bg-shape-wrapper-two">
+    <!-- customers testimonials start -->
+    <div class="rts-testimonials-6 rts-section-gap">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="s-video-wrap" style="background-image:url(assets/img/bg/video-img.png)">
-                        <div class="s-video-content text-center">
-                            <h2>Get Your Digitel Insurance As Per Your Needs</h2>
-                            <h6><a href="https://www.youtube.com/watch?v=7e90gBu4pas" class="popup-video mb-50"><img src="assets/img/bg/play-button.png" alt="circle_right"></a><br>
-                                Watch Us</h6>
-
+                    <div class="title-area-style-six text-center">
+                        <div class="pre-title">
+                            <img src="assets/images/banner/shape/pre-title.png" alt="pre-title">
+                            <span class="pre">Business Progress</span>
+                            <img class="two" src="assets/images/banner/shape/pre-title.png" alt="pre-title">
                         </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- video-area-end -->
-    <!-- services-five-area -->
-    <section id="services-05" class="services-05 services-09 pt-240 pb-100 p-relative fix" style=" background-color: #28314b;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12 col-md-12">
-                    <div class="section-title center-align mb-50 text-center" data-aos="fade-up" data-aos-duration="1000">
-                        <h2>
-                            Insurance Service We Provide You
+                        <h2 class="title">
+                            Customer Testimonials
                         </h2>
-
                     </div>
-
                 </div>
+            </div>
+            <div class="row g-5 mt--30">
+
                 <div class="col-lg-12">
-                    <div class="services-active"  data-aos="fade-up" data-aos-duration="1000">
-                        <div class="services-box-02">
-                            <div class="services-img">
-                                <img src="assets/img/bg/services-01.png" alt="icon01">
-                                <div class="services-content2">
-                                    <div class="icon"><img src="assets/img/icon/sve-icon1.png" alt="icon01"></div>
-                                    <h4><a href="single-service.html">Health Insurance</a></h4>
-                                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</p>
-                                    <a class="link" href="single-service.html"><i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="services-box-02">
-                            <div class="services-img">
-                                <img src="assets/img/bg/services-04.png" alt="icon01">
-                                <div class="services-content2">
-                                    <div class="icon"><img src="assets/img/icon/sve-icon2.png" alt="icon01"></div>
-                                    <h4><a href="single-service.html">Home Insurance</a></h4>
-                                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</p>
-                                    <a class="link" href="single-service.html"><i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="services-box-02">
-                            <div class="services-img">
-                                <img src="assets/img/bg/services-02.png" alt="icon01">
-                                <div class="services-content2">
-                                    <div class="icon"><img src="assets/img/icon/sve-icon3.png" alt="icon01"></div>
-                                    <h4><a href="single-service.html">Business Insurance</a></h4>
-                                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</p>
-                                    <a class="link" href="single-service.html"><i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="services-box-02">
-                            <div class="services-img">
-                                <img src="assets/img/bg/services-03.png" alt="icon01">
-                                <div class="services-content2">
-                                    <div class="icon"><img src="assets/img/icon/sve-icon4.png" alt="icon01"></div>
-                                    <h4><a href="single-service.html">Vehicle Insurance</a></h4>
-                                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</p>
-                                    <a class="link" href="single-service.html"><i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="services-box-02">
-                            <div class="services-img">
-                                <img src="assets/img/bg/services-02.png" alt="icon01">
-                                <div class="services-content2">
-                                    <div class="icon"><img src="assets/img/icon/sve-icon3.png" alt="icon01"></div>
-                                    <h4><a href="single-service.html">Business Insurance</a></h4>
-                                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</p>
-                                    <a class="link" href="single-service.html"><i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="swiper clients-review-testimonials-7">
+                        <div class="swiper-wrapper">
 
+                            <div class="swiper-slide">
+                                <div class="testimonials-7-style">
+                                    <a class="thumb" href="#"><img src="assets/images/testimonials/08.png" alt="image"></a>
+                                    <div class="body">
+                                        <h5 class="title">
+                                            The quick settle tips
+                                        </h5>
+                                        <p class="disc">
+                                            “Itae varius intger justo neque massa facisi orci, lobortis rutrum dictumst morbi metus
+                                            aptent sem nunc a conubia”
+                                        </p>
+                                    </div>
+                                    <div class="footer">
+                                        <div class="name-area">
+                                            <a href="#">
+                                                <h6 class="title">
+                                                    Andrew Smith
+                                                </h6>
+                                            </a>
+                                            <span>Zoko Author</span>
+                                        </div>
+                                        <div class="stars-area">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonials-7-style">
+                                    <a class="thumb" href="#"><img src="assets/images/testimonials/08.png" alt="image"></a>
+                                    <div class="body">
+                                        <h5 class="title">
+                                            The quick settle tips
+                                        </h5>
+                                        <p class="disc">
+                                            “Itae varius intger justo neque massa facisi orci, lobortis rutrum dictumst morbi metus
+                                            aptent sem nunc a conubia”
+                                        </p>
+                                    </div>
+                                    <div class="footer">
+                                        <div class="name-area">
+                                            <a href="#">
+                                                <h6 class="title">
+                                                    Andrew Smith
+                                                </h6>
+                                            </a>
+                                            <span>Zoko Author</span>
+                                        </div>
+                                        <div class="stars-area">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonials-7-style">
+                                    <a class="thumb" href="#"><img src="assets/images/testimonials/08.png" alt="image"></a>
+                                    <div class="body">
+                                        <h5 class="title">
+                                            The quick settle tips
+                                        </h5>
+                                        <p class="disc">
+                                            “Itae varius intger justo neque massa facisi orci, lobortis rutrum dictumst morbi metus
+                                            aptent sem nunc a conubia”
+                                        </p>
+                                    </div>
+                                    <div class="footer">
+                                        <div class="name-area">
+                                            <a href="#">
+                                                <h6 class="title">
+                                                    Andrew Smith
+                                                </h6>
+                                            </a>
+                                            <span>Zoko Author</span>
+                                        </div>
+                                        <div class="stars-area">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonials-7-style">
+                                    <a class="thumb" href="#"><img src="assets/images/testimonials/08.png" alt="image"></a>
+                                    <div class="body">
+                                        <h5 class="title">
+                                            The quick settle tips
+                                        </h5>
+                                        <p class="disc">
+                                            “Itae varius intger justo neque massa facisi orci, lobortis rutrum dictumst morbi metus
+                                            aptent sem nunc a conubia”
+                                        </p>
+                                    </div>
+                                    <div class="footer">
+                                        <div class="name-area">
+                                            <a href="#">
+                                                <h6 class="title">
+                                                    Andrew Smith
+                                                </h6>
+                                            </a>
+                                            <span>Zoko Author</span>
+                                        </div>
+                                        <div class="stars-area">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
+                        </div>
                     </div>
-
                 </div>
 
-            </div>
-            <div class="row align-items-center">
-
-                <div class="col-md-12 text-center">
-                    <div class="text-bg"  data-aos="fade-up" data-aos-duration="1000">
-                        <h2>  Επιτεύγματα </h2>
+                <!-- <div class="col-lg-4">
+                    <div class="testimonials-7-style">
+                        <a class="thumb" href="#"><img src="assets/images/testimonials/08.png" alt="image"></a>
+                        <div class="body">
+                            <h5 class="title">
+                                The quick settle tips
+                            </h5>
+                            <p class="disc">
+                                “Itae varius intger justo neque massa facisi orci, lobortis rutrum dictumst morbi metus
+                                aptent sem nunc a conubia”
+                            </p>
+                        </div>
+                        <div class="footer">
+                            <div class="name-area">
+                                <a href="#">
+                                    <h6 class="title">
+                                        Andrew Smith
+                                    </h6>
+                                </a>
+                                <span>Zoko Author</span>
+                            </div>
+                            <div class="stars-area">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="col-lg-4">
+                    <div class="testimonials-7-style">
+                        <a class="thumb" href="#"><img src="assets/images/testimonials/08.png" alt="image"></a>
+                        <div class="body">
+                            <h5 class="title">
+                                The quick settle tips
+                            </h5>
+                            <p class="disc">
+                                “Itae varius intger justo neque massa facisi orci, lobortis rutrum dictumst morbi metus
+                                aptent sem nunc a conubia”
+                            </p>
+                        </div>
+                        <div class="footer">
+                            <div class="name-area">
+                                <a href="#">
+                                    <h6 class="title">
+                                        Andrew Smith
+                                    </h6>
+                                </a>
+                                <span>Zoko Author</span>
+                            </div>
+                            <div class="stars-area">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonials-7-style">
+                        <a class="thumb" href="#"><img src="assets/images/testimonials/08.png" alt="image"></a>
+                        <div class="body">
+                            <h5 class="title">
+                                The quick settle tips
+                            </h5>
+                            <p class="disc">
+                                “Itae varius intger justo neque massa facisi orci, lobortis rutrum dictumst morbi metus
+                                aptent sem nunc a conubia”
+                            </p>
+                        </div>
+                        <div class="footer">
+                            <div class="name-area">
+                                <a href="#">
+                                    <h6 class="title">
+                                        Andrew Smith
+                                    </h6>
+                                </a>
+                                <span>Zoko Author</span>
+                            </div>
+                            <div class="stars-area">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
             </div>
-
-
         </div>
-    </section>
-    <!-- services-three-area -->
-    <!-- counter-area -->
-    <div class="counter-area p-relative ">
-        <div class="container pt-50 pb-50">
+    </div>
+    <!-- customers testimonials end -->
 
-            <div class="row p-relative">
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="single-counter"  data-aos="fade-up" data-aos-duration="1000">
-                        <div class="counter p-relative">
-                            <span class="count">1547</span>
-                            <p>Project <br>Completed</p>
-                        </div>
-
+    <!-- business progress area start -->
+    <div class="business-progress-area rts-section-gapBottom">
+        <div class="box">
+            <img src="assets/images/business-goal/icon/box.png" alt="box">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="thumbnail-progress-7">
+                        <img src="assets/images/business-goal/05.png" alt="progress">
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="single-counter"  data-aos="fade-up" data-aos-duration="1300">
-                        <div class="counter p-relative">
-                            <span class="count">2587</span>
-                            <p>Our Happy <br>Clients</p>
+                <div class="col-lg-6">
+                    <div class="title-area-style-six text-start">
+                        <div class="pre-title">
+                            <img src="assets/images/banner/shape/pre-title.png" alt="pre-title">
+                            <span class="pre">Business Progress</span>
+                            <img class="two" src="assets/images/banner/shape/pre-title.png" alt="pre-title">
                         </div>
-
+                        <h2 class="title">
+                            We’re Solve Revolutionary for your Company
+                        </h2>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="single-counter"  data-aos="fade-up" data-aos-duration="1600">
-                        <div class="counter p-relative">
-                            <span class="count">1879</span>
-                            <p>Cup <br>Of Coffee</p>
+                    <div class="inner-goal-progress-7">
+                        <p class="disc">
+                            Vehicula euismod ante dis ullamcorper quam orci facilisis, condimentum cursus mattis
+                            tincidunt vitae porta litora, dui ridiculus enim lacinia blandit curabitur. Dui dapibus
+                            praesent magna tempor metus facilisis proin imperdiet
+                        </p>
+                        <div class="row mb--50 g-5">
+                            <div class="col-lg-6">
+                                <div class="left-business-goal">
+                                    <div class="left">
+                                        <h4 class="title">
+                                            98%
+                                        </h4>
+                                        <p class="dsic">
+                                            Company Growth
+                                        </p>
+                                    </div>
+                                    <div class="right">
+                                        <img src="assets/images/business-goal/icon/05.svg" alt="logo">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="left-business-goal">
+                                    <div class="left">
+                                        <h4 class="title">
+                                            98%
+                                        </h4>
+                                        <p class="dsic">
+                                            Company Growth
+                                        </p>
+                                    </div>
+                                    <div class="right">
+                                        <img src="assets/images/business-goal/icon/05.svg" alt="logo">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="single-counter"  data-aos="fade-up" data-aos-duration="1900">
-                        <div class="counter p-relative">
-                            <span class="count">2547</span>
-                            <p>Win <br>Awards</p>
-                        </div>
+                        <a href="#" class="rts-btn btn-primary-5">Let’s Work Together</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- counter-area-end -->
-    <!-- skill-area -->
-    <section id="skill" class="skill-area p-relative fix pt-120">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-6 col-md-12 col-sm-12 pr-30">
-                    <div class="skills-img"  data-aos="fade-right" data-aos-duration="1000">
-                        <img src="assets/img/bg/skills-img.png" alt="img" class="img">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="skills-content s-about-content" data-aos="fade-left" data-aos-duration="1000">
-                        <div class="skills-title pb-20">
-                            <h2>We Are Best In Our Class</h2>
-                        </div>
-                        <p>Nunc pretium, sem a ullamcorper semper, magna mi molestie ante, nec pellentesque libero tortor venenatis enim. </p>
-                        <div class="mt-20">
-                            <div class="skills">
-                                <div class="skill mb-30">
-                                    <div class="skill-name">Success Cases</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per" id="80"></div>
-                                    </div>
-                                </div>
-                                <div class="skill mb-30">
-                                    <div class="skill-name">Insurance Experience</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per" id="90"></div>
-                                    </div>
-                                </div>
-                                <div class="skill mb-30">
-                                    <div class="skill-name">Digital Policy</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per" id="70"></div>
-                                    </div>
-                                </div>
+    <!-- business progress area end -->
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- skill-area-end -->
-    <!-- pricing-area -->
-    <section id="pricing" class="pricing-area pt-70 pb-60 fix p-relative">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-6 col-md-12">
-                    <div class="section-title center-align pr-60" data-aos="fade-up" data-aos-duration="1000">
-                        <h2>
-                            Our Flexible <br>Pricing Plans
-                        </h2>
-                        <p class="pt-30" data-aos="fade-up" data-aos-duration="1200">Aliquam erat volutpat. Aenean ac placerat diam, eu consectetur purus. Aenean eget egestas erat. Morbi maximus, augue nec vestibulum varius, nunc arcu sodales eros, sit amet cursus est lectus et odio.</p>
-                        <p data-aos="fade-up" data-aos-duration="1400">Vestibulum a porttitor nisl. Pellentesque ligula arcu, ullamcorper ac posuere id, dictum eget nibh. Ut hendrerit ipsum at diam porta, quis cursus dui molestie. Sed dapibus sapien id odio convallis, nec pellentesque tortor ornare.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-12">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="pricing-box pricing-box2 mb-60" data-aos="fade-left" data-aos-duration="1000">
-                                <div class="pricing-head">
-                                    <h3>Premium</h3>
-                                    <div class="price-count">
-                                        <h2>$29.99 <strong>/Month</strong></h2>
-                                    </div>
-                                    <hr>
-                                </div>
-
-                                <div class="pricing-body mt-20 mb-30 text-left">
-                                    <ul>
-                                        <li>In eu gravida libero</li>
-                                        <li>Praesent bibendum</li>
-                                        <li>Vivamus preti ultricies </li>
-                                        <li>Non eleifend</li>
-                                        <li>Auctor leo id</li>
-                                    </ul>
-                                </div>
-
-
-                                <div class="pricing-btn">
-                                    <a href="contact.html" class="btn ss-btn">Join Now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="pricing-box pricing-box2 active mb-60" data-aos="fade-left" data-aos-duration="1400">
-                                <div class="pricing-head">
-                                    <h3>Standard</h3>
-                                    <div class="price-count">
-                                        <h2>$39.99 <strong>/Month</strong></h2>
-                                    </div>
-                                    <hr>
-                                </div>
-
-                                <div class="pricing-body mt-20 mb-30 text-left">
-                                    <ul>
-                                        <li>In eu gravida libero</li>
-                                        <li>Praesent bibendum</li>
-                                        <li>Vivamus preti ultricies </li>
-                                        <li>Non eleifend</li>
-                                        <li>Auctor leo id</li>
-                                    </ul>
-                                </div>
-
-
-                                <div class="pricing-btn">
-                                    <a href="contact.html" class="btn ss-btn">Join Now</a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- pricing-area-end -->
-    <!-- testimonial-area -->
-    <section id="testimonial" class="testimonial-area pt-120 pb-30 p-relative fix" style="background-color: #28314b;">
+    <!-- rts blog area start -->
+    <div class="rts-blog-area rts-section-gapBottom">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title center-align mb-50 text-center"  data-aos="fade-up" data-aos-duration="1000">
-                        <h2>What People Are Saying</h2>
-                    </div>
-
-                </div>
-                <div class="col-lg-12">
-                    <div class="testimonial-active"  data-aos="fade-up" data-aos-duration="1400">
-                        <div class="single-testimonial">
-                            <p>“Nullam pulvinar dolor risus, vitae tempor nisi volutpat sit amet. Duis lobortis, velit et eleifend viverra, dolor orci porta arcu, non imperdiet lectus lorem a dolor. Etiam ac tellus bibendum, molestie sapien condimentum, vehicula augue”.</p>
-                            <div class="qt-img">
-                                <img src="assets/img/testimonial/qt-icon.png" alt="img">
-                            </div>
-                            <div class="testi-author">
-                                <img src="assets/img/testimonial/testi_avatar.png" alt="img">
-                                <div class="ta-info">
-                                    <h6>Miranda H. Halim</h6>
-                                    <span>Head Of Idea</span>
-                                </div>
-                            </div>
+                <div class="col-12">
+                    <div class="title-area-style-six text-center">
+                        <div class="pre-title">
+                            <img src="assets/images/banner/shape/pre-title.png" alt="pre-title">
+                            <span class="pre">Business Progress</span>
+                            <img class="two" src="assets/images/banner/shape/pre-title.png" alt="pre-title">
                         </div>
-                        <div class="single-testimonial">
-                            <p>“Nullam pulvinar dolor risus, vitae tempor nisi volutpat sit amet. Duis lobortis, velit et eleifend viverra, dolor orci porta arcu, non imperdiet lectus lorem a dolor. Etiam ac tellus bibendum, molestie sapien condimentum, vehicula augue”.</p>
-                            <div class="qt-img">
-                                <img src="assets/img/testimonial/qt-icon.png" alt="img">
-                            </div>
-                            <div class="testi-author">
-                                <img src="assets/img/testimonial/testi_avatar_02.png" alt="img">
-                                <div class="ta-info">
-                                    <h6>Braitly Dcosta</h6>
-                                    <span>Head Of Offcer</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-testimonial">
-                            <p>“Nullam pulvinar dolor risus, vitae tempor nisi volutpat sit amet. Duis lobortis, velit et eleifend viverra, dolor orci porta arcu, non imperdiet lectus lorem a dolor. Etiam ac tellus bibendum, molestie sapien condimentum, vehicula augue”.</p>
-                            <div class="qt-img">
-                                <img src="assets/img/testimonial/qt-icon.png" alt="img">
-                            </div>
-                            <div class="testi-author">
-                                <img src="assets/img/testimonial/testi_avatar_03.png" alt="img">
-                                <div class="ta-info">
-                                    <h6>Roboto Dose</h6>
-                                    <span>Client</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-testimonial">
-                            <p>“Nullam pulvinar dolor risus, vitae tempor nisi volutpat sit amet. Duis lobortis, velit et eleifend viverra, dolor orci porta arcu, non imperdiet lectus lorem a dolor. Etiam ac tellus bibendum, molestie sapien condimentum, vehicula augue”.</p>
-                            <div class="qt-img">
-                                <img src="assets/img/testimonial/qt-icon.png" alt="img">
-                            </div>
-                            <div class="testi-author">
-                                <img src="assets/img/testimonial/testi_avatar.png" alt="img">
-                                <div class="ta-info">
-                                    <h6>Miranda H. Halim</h6>
-                                    <span>Head Of Idea</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-testimonial">
-                            <p>“Nullam pulvinar dolor risus, vitae tempor nisi volutpat sit amet. Duis lobortis, velit et eleifend viverra, dolor orci porta arcu, non imperdiet lectus lorem a dolor. Etiam ac tellus bibendum, molestie sapien condimentum, vehicula augue”.</p>
-                            <div class="qt-img">
-                                <img src="assets/img/testimonial/qt-icon.png" alt="img">
-                            </div>
-                            <div class="testi-author">
-                                <img src="assets/img/testimonial/testi_avatar_02.png" alt="img">
-                                <div class="ta-info">
-                                    <h6>Braitly Dcosta</h6>
-                                    <span>Head Of Offcer</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-testimonial">
-                            <p>“Nullam pulvinar dolor risus, vitae tempor nisi volutpat sit amet. Duis lobortis, velit et eleifend viverra, dolor orci porta arcu, non imperdiet lectus lorem a dolor. Etiam ac tellus bibendum, molestie sapien condimentum, vehicula augue”.</p>
-                            <div class="qt-img">
-                                <img src="assets/img/testimonial/qt-icon.png" alt="img">
-                            </div>
-                            <div class="testi-author">
-                                <img src="assets/img/testimonial/testi_avatar_03.png" alt="img">
-                                <div class="ta-info">
-                                    <h6>Roboto Dose</h6>
-                                    <span>Client</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="row align-items-center">
-
-                <div class="col-md-12 text-center">
-                    <div class="text-bg"  data-aos="fade-up" data-aos-duration="1000">
-                        <h2>Feedback</h2>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- testimonial-area-end -->
-    <!-- gallery-area -->
-    <section class="gallery-area fix" data-aos="fade-up" data-aos-duration="1000">
-        <div class="container-fluid">
-            <div class="row portfolio-active">
-                <div class="col-lg-4 col-md-12 mb-30">
-                    <a href="projects-detail.html">
-                        <figure class="gallery-image">
-                            <img src="assets/img/gallery/protfolio-img01.png" alt="img" class="img">
-                            <figcaption>
-                                <h4>Life Protection</h4>
-                                <span>Insurance</span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-12 mb-30">
-                    <a href="projects-detail.html">
-                        <figure class="gallery-image">
-                            <img src="assets/img/gallery/protfolio-img02.png" alt="img" class="img">
-                            <figcaption>
-                                <h4>Life Protection</h4>
-                                <span>Insurance</span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-
-                <div class="col-lg-4 col-md-12 mb-30">
-                    <a href="projects-detail.html">
-                        <figure class="gallery-image">
-                            <img src="assets/img/gallery/protfolio-img03.png" alt="img" class="img">
-                            <figcaption>
-                                <h4>Life Protection</h4>
-                                <span>Insurance</span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-12 mb-30">
-                    <a href="projects-detail.html">
-                        <figure class="gallery-image">
-                            <img src="assets/img/gallery/protfolio-img01.png" alt="img" class="img">
-                            <figcaption>
-                                <h4>Life Protection</h4>
-                                <span>Insurance</span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-12 mb-30">
-                    <a href="projects-detail.html">
-                        <figure class="gallery-image">
-                            <img src="assets/img/gallery/protfolio-img02.png" alt="img" class="img">
-                            <figcaption>
-                                <h4>Life Protection</h4>
-                                <span>Insurance</span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-
-                <div class="col-lg-4 col-md-12 mb-30">
-                    <a href="projects-detail.html">
-                        <figure class="gallery-image">
-                            <img src="assets/img/gallery/protfolio-img03.png" alt="img" class="img">
-                            <figcaption>
-                                <h4>Life Protection</h4>
-                                <span>Insurance</span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- gallery-area-end -->
-    <!-- blog-area -->
-    <section id="blog" class="blog-area p-relative fix pt-90 pb-90">
-        <div class="container">
-            <div class="row align-items-center mb-50">
-                <div class="col-lg-6 col-md-6">
-                    <div class="section-title center-align " data-aos="fade-up" data-aos-duration="1000">
-                        <h2>
-                            Read Latest News
+                        <h2 class="title">
+                            Latest Blog Posts
                         </h2>
-
                     </div>
-
-                </div>
-                <div class="col-lg-6 col-md-6 text-right  d-none d-lg-block">
-                    <a href="#contact" class="btn ss-btn" data-aos="fade-up" data-aos-duration="1000">More News </a>
                 </div>
             </div>
-            <div class="row"  data-aos="fade-up" data-aos-duration="1400">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-post2 hover-zoomin mb-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
-                        <div class="blog-thumb2">
-                            <a href="blog-details.html"><img src="assets/img/blog/inner_b1.jpg" alt="img"></a>
-                        </div>
-                        <div class="blog-content2">
-                            <div class="b-meta">
-                                <div class="meta-info">
-                                    <ul>
-                                        <li><i class="fa fa-user"></i> Admin</li>
-                                        <li><i class="fa fa-calendar-alt"></i> 24th March 2021</li>
-
-                                    </ul>
-                                </div>
+            <div class="row mt--10 g-5">
+                <div class="col-lg-4">
+                    <!-- single blog area start -->
+                    <div class="rts-blog-area-style-seven">
+                        <div class="thumbnail">
+                            <a href="#"><img src="assets/images/blog/14.png" alt="blog-area"></a>
+                            <div class="badge">
+                                <span>25. 05. 2023</span>
                             </div>
-                            <h4><a href="blog-details.html">Cras accumsan nulla nec lacus ultricies placerat.</a></h4>
-                            <p>Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.</p>
+                        </div>
+                        <div class="content-inner">
+                            <div class="top-blog">
+                                <span class="main">Business Solution</span>
+                                <span> / by David Dolean</span>
+                            </div>
+                            <a class="title" href="#">
+                                <h5 class="title">
+                                    The quick settle tips of the
+                                    new ages exist
+                                </h5>
+                            </a>
+                            <a class="rts-read-more btn-primary" href="blog-details.html"><i
+                                    class="far fa-arrow-right"></i>Read
+                                More</a>
                         </div>
                     </div>
+                    <!-- single blog area end -->
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-post2 mb-30 hover-zoomin wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
-                        <div class="blog-thumb2">
-                            <a href="blog-details.html"><img src="assets/img/blog/inner_b2.jpg" alt="img"></a>
-                        </div>
-                        <div class="blog-content2">
-                            <div class="b-meta">
-                                <div class="meta-info">
-                                    <ul>
-                                        <li><i class="fa fa-user"></i> Admin</li>
-                                        <li><i class="fa fa-calendar-alt"></i> 24th March 2021</li>
-
-                                    </ul>
-                                </div>
+                <div class="col-lg-4">
+                    <!-- single blog area start -->
+                    <div class="rts-blog-area-style-seven">
+                        <div class="thumbnail">
+                            <a href="#"><img src="assets/images/blog/15.png" alt="blog-area"></a>
+                            <div class="badge">
+                                <span>25. 05. 2023</span>
                             </div>
-                            <h4><a href="blog-details.html">Dras accumsan nulla nec lacus ultricies placerat.</a></h4>
-                            <p>Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.</p>
+                        </div>
+                        <div class="content-inner">
+                            <div class="top-blog">
+                                <span class="main">Business Solution</span>
+                                <span> / by David Dolean</span>
+                            </div>
+                            <a class="title" href="#">
+                                <h5 class="title">
+                                    The quick settle tips of the
+                                    new ages exist
+                                </h5>
+                            </a>
+                            <a class="rts-read-more btn-primary" href="blog-details.html"><i
+                                    class="far fa-arrow-right"></i>Read
+                                More</a>
                         </div>
                     </div>
+                    <!-- single blog area end -->
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-post2 mb-30 hover-zoomin wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
-                        <div class="blog-thumb2">
-                            <a href="blog-details.html"><img src="assets/img/blog/inner_b3.jpg" alt="img"></a>
-                        </div>
-                        <div class="blog-content2">
-                            <div class="b-meta">
-                                <div class="meta-info">
-                                    <ul>
-                                        <li><i class="fa fa-user"></i> Admin</li>
-                                        <li><i class="fa fa-calendar-alt"></i> 24th March 2021</li>
-
-                                    </ul>
-                                </div>
+                <div class="col-lg-4">
+                    <!-- single blog area start -->
+                    <div class="rts-blog-area-style-seven">
+                        <div class="thumbnail">
+                            <a href="#"><img src="assets/images/blog/16.png" alt="blog-area"></a>
+                            <div class="badge">
+                                <span>25. 05. 2023</span>
                             </div>
-                            <h4><a href="blog-details.html">Seas accumsan nulla nec lacus ultricies placerat.</a></h4>
-                            <p>Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.</p>
+                        </div>
+                        <div class="content-inner">
+                            <div class="top-blog">
+                                <span class="main">Business Solution</span>
+                                <span> / by David Dolean</span>
+                            </div>
+                            <a class="title" href="#">
+                                <h5 class="title">
+                                    The quick settle tips of the
+                                    new ages exist
+                                </h5>
+                            </a>
+                            <a class="rts-read-more btn-primary" href="blog-details.html"><i
+                                    class="far fa-arrow-right"></i>Read
+                                More</a>
                         </div>
                     </div>
+                    <!-- single blog area end -->
                 </div>
-
-
             </div>
         </div>
-    </section>
-    <!-- blog-area-end -->
-    <!-- contact-area -->
-    <section id="contact" class="contact-area after-none contact-bg pb-120 p-relative fix">
-        <div class="container">
+    </div>
+    <!-- rts blog area edn -->
+</div>
 
-            <div class="row">
-
-                <div class="col-lg-6 col-md-12 order-1">
-                    <img src="assets/img/bg/contact-img.png" alt="img" data-aos="fade-right" data-aos-duration="1000">
+<!-- start footer area -->
+<!-- rts footer area start -->
+<div class="rts-footer-area footer-one rts-section-gapTop bg-footer-one">
+    <div class="container bg-shape-f1">
+        <!-- footer call to action area -->
+        <div class="row">
+            <div class="col-12">
+                <div class="rts-cta-wrapper">
+                    <div class="background-cta">
+                        <div class="row">
+                            <!-- cta-left -->
+                            <div class="col-lg-6">
+                                <div class="cta-left-wrapepr">
+                                    <p class="cta-disc">
+                                        Latest Business Ideas
+                                    </p>
+                                    <h3 class="title">Sign Up Newsletter</h3>
+                                </div>
+                            </div>
+                            <!-- cta left end -->
+                            <div class="col-lg-6">
+                                <!-- cta right -->
+                                <form class="cta-input-arae">
+                                    <input type="email" name="email" placeholder="Enter Email Address" required>
+                                    <button type="submit" class="rts-btn btn-primary">Subscribe Now</button>
+                                </form>
+                                <!-- cta right End -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6 col-md-12 order-2">
-                    <div class="section-title p-relative pr-60 mb-30">
-                        <h2  data-aos="fade-up" data-aos-duration="1000">
-                            Get Insurance Quote With Us
-                        </h2>
-                        <ul class="nav nav-tabs"  data-aos="fade-up" data-aos-duration="1400">
-                            <li>
-                                <span class="active" id="home-tab" data-bs-toggle="tab" data-bs-target="#voverview">Travel Insurance</span>
-                            </li>
-                            <li >
-                                <span id="profile-tab" data-bs-toggle="tab" data-bs-target="#degre">Home Insurance   </span>
-                            </li>
-                            <li>
-                                <span id="contact-tab" data-bs-toggle="tab" data-bs-target="#vgallery" aria-controls="vgallery">Life Insurance</span>
-                            </li>
+            </div>
+        </div>
+        <!-- footer call to action area End -->
+        <!-- rts footer area -->
+        <div class="row pt--120 pt_sm--80 pb--80 pb_sm--40">
+            <div class="col-xl-4 col-md-6 col-sm-12 col-12">
+                <div class="footer-one-single-wized seven">
+                    <div class="wized-title">
+                        <h5 class="title">Quick Links</h5>
+                        <img src="assets/images/footer/under-title.png" alt="finbiz_footer">
+                    </div>
+                    <div class="quick-link-inner">
+                        <ul class="links">
+                            <li><a href="#"><i class="far fa-arrow-right"></i> Forum Support</a></li>
+                            <li><a href="#"><i class="far fa-arrow-right"></i> Help & FAQ</a></li>
+                            <li><a href="#"><i class="far fa-arrow-right"></i> Contact Us</a></li>
+                            <li><a href="#"><i class="far fa-arrow-right"></i> Pricing & Plans</a></li>
+                            <li><a href="#"><i class="far fa-arrow-right"></i> Cookie Policy</a></li>
                         </ul>
-
+                        <ul class="links margin-left-70">
+                            <li><a href="#"><i class="far fa-arrow-right"></i> About Us</a></li>
+                            <li><a href="#"><i class="far fa-arrow-right"></i> My Account</a></li>
+                            <li><a href="#"><i class="far fa-arrow-right"></i>Our Company</a></li>
+                            <li><a href="#"><i class="far fa-arrow-right"></i>Service</a></li>
+                        </ul>
                     </div>
-                    <div class="tab-content" id="myTabContent"  data-aos="fade-up" data-aos-duration="1600">
-                        <div class="tab-pane fade show active" id="voverview" role="tabpanel">
-                            <div class="contact-bg">
-                                <form action="mail.php" method="post" class="contact-form">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-name mb-20">
-                                                <input type="text" id="firstn" name="firstn" placeholder="First Name" required>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-subject mb-20">
-                                                <input type="text" id="email" name="email" placeholder="info@" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-name mb-20">
-                                                <input type="text" id="phone" name="phone" placeholder="Phone No." required>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-subject mb-20">
-                                                <input type="text" id="tp" name="email" placeholder="Total Person" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-name mb-20">
-                                                <input type="text" id="des" name="destination" placeholder="Destination" required>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-subject mb-20">
-                                                <input type="text" id="sty" name="stay" placeholder="Days To Stay" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <div class="slider-btn mt-20">
-                                                <button class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Submit Request</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="degre" role="tabpanel">
-                            <div class="contact-bg">
-                                <form action="mail.php" method="post" class="contact-form">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-name mb-20">
-                                                <input type="text" id="firstn2" name="firstn" placeholder="First Name" required>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-subject mb-20">
-                                                <input type="text" id="email4" name="email" placeholder="info@" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-name mb-20">
-                                                <input type="text" id="phone2" name="phone" placeholder="Phone No." required>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-subject mb-20">
-                                                <input type="text" id="tp2" name="email" placeholder="Total Person" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-name mb-20">
-                                                <input type="text" id="des2" name="destination" placeholder="Destination" required>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-subject mb-20">
-                                                <input type="text" id="sty2" name="stay" placeholder="Days To Stay" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <div class="slider-btn mt-20">
-                                                <button class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Submit Request</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="vgallery" role="tabpanel">
-                            <div class="contact-bg">
-                                <form action="mail.php" method="post" class="contact-form">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-name mb-20">
-                                                <input type="text" id="firstn3" name="firstn" placeholder="First Name" required>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-subject mb-20">
-                                                <input type="text" id="email3" name="email" placeholder="info@" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-name mb-20">
-                                                <input type="text" id="phone3" name="phone" placeholder="Phone No." required>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-subject mb-20">
-                                                <input type="text" id="tp3" name="email" placeholder="Total Person" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-name mb-20">
-                                                <input type="text" id="des3" name="destination" placeholder="Destination" required>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6">
-                                            <div class="contact-field p-relative c-subject mb-20">
-                                                <input type="text" id="sty3" name="stay" placeholder="Days To Stay" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <div class="slider-btn mt-20">
-                                                <button class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Submit Request</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
+            <!-- footer mid area -->
+            <div class="col-xl-4 col-md-6 col-sm-12 col-12">
+                <div class="footer-one-single-wized mid-bg">
+                    <div class="wized-title">
+                        <h5 class="title">Opening Hours</h5>
+                        <img src="assets/images/footer/under-title.png" alt="finbiz_footer">
+                    </div>
+                    <div class="opening-time-inner">
+                        <div class="single-opening">
+                            <p class="day">Week Days</p>
+                            <p class="time">09.00 - 24:00</p>
+                        </div>
+                        <div class="single-opening">
+                            <p class="day">Saturday</p>
+                            <p class="time">08:00 - 03.00</p>
+                        </div>
+                        <div class="single-opening mb--30 mb_sm--10">
+                            <p class="day">Sunday</p>
+                            <p class="time">Day Off</p>
+                        </div>
+                        <a href="#" class="rts-btn btn-primary contact-us">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <!-- footer mid area end -->
 
+            <!-- footer end area post -->
+            <div class="col-xl-4 col-md-6 col-sm-12 col-12">
+                <div class="footer-one-single-wized seven margin-left-65">
+                    <div class="wized-title">
+                        <h5 class="title">Popular Updates</h5>
+                        <img src="assets/images/footer/under-title.png" alt="finbiz_footer">
+                    </div>
+                    <div class="post-wrapper">
+                        <!-- single post -->
+                        <div class="single-footer-post mb--30">
+                            <div class="left-thumbnail">
+                                <img src="assets/images/footer/post/01.png" alt="finbiz_business-post">
+                            </div>
+                            <div class="post-right">
+                                <p> <i class="fal fa-clock"></i> 15th April, 2022</p>
+                                <a href="blog-details.html">
+                                    <h6 class="title">Best Business Ideas For
+                                        Getting Solution</h6>
+                                </a>
+                                <a class="red-more" href="blog-details.html">Read More<i class="far fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- single post End -->
+                        <!-- single post -->
+                        <div class="single-footer-post">
+                            <div class="left-thumbnail">
+                                <img src="assets/images/footer/post/02.png" alt="finbiz_business-post">
+                            </div>
+                            <div class="post-right">
+                                <p> <i class="fal fa-clock"></i> 15th April, 2022</p>
+                                <a href="blog-details.html">
+                                    <h6 class="title">Best Business Ideas For
+                                        Getting Solution</h6>
+                                </a>
+                                <a class="red-more" href="blog-details.html">Read More<i class="far fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- single post End -->
+                    </div>
+                </div>
+            </div>
+            <!-- footer end area post end-->
         </div>
-
-    </section>
-    <!-- contact-area-end -->
-    <!-- newslater-area -->
-    <section class="newslater-area"  data-aos="fade-up" data-aos-duration="1000">
-        <div class="container" style="background-image: url(assets/img/bg/newslater-bg.png); background-repeat: no-repeat; background-size: cover;">
+        <!-- rts footer area End -->
+    </div>
+    <!-- copyright area start -->
+    <div class="rts-copyright-area">
+        <div class="container">
             <div class="row">
-
-                <div class="col-xl-12 col-lg-12 col-md-12">
-                    <div class="section-title mb-25 text-center">
-                        <h2>Subscribe To Newsletter</h2>
-                        <p>Since 2007 we have been a visionary and a reliable insurance partner for world-class insurance.</p>
-                    </div>
-                    <form name="ajax-form" id="contact-form4" action="#" method="post" class="contact-form newslater">
-                        <div class="form-group">
-                            <input class="form-control" id="email2" name="email" type="email" placeholder="Email Address..." value="" required="">
-                            <button type="submit" class="btn btn-custom" id="send2">Subscribe Now</button>
-                        </div>
-
-                    </form>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- newslater-aread-end -->
-</main>
-<!-- main-area-end -->
-
-<!-- footer -->
-<footer class="footer-bg footer-p pt-240" style="background-color: #28314b;">
-    <div class="footer-top pb-70">
-        <div class="container">
-            <div class="row justify-content-between">
-
-                <div class="col-xl-4 col-lg-4 col-sm-6">
-                    <div class="footer-widget mb-30" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="f-widget-title">
-                            <h2> <img src="assets/img/logo/f_logo.png" alt="img"></h2>
-                        </div>
-                        <div class="f-contact">
-                            <p>Suspendisse non sem ante. Cras pretium gravida leo a convallis. Nam malesuada interdum metus, sit amet dictum ante congue eu. Maecenas ut maximus enim.</p>
-
-                        </div>
-                        <div class="footer-social mt-10">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-sm-6">
-                    <div class="footer-widget mb-30" data-aos="fade-up" data-aos-duration="1400">
-                        <div class="f-widget-title">
-                            <h2>Our Links</h2>
-                        </div>
-                        <div class="footer-link">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html"> About</a></li>
-                                <li><a href="services.html"> Services </a></li>
-                                <li><a href="contact.html"> Contact Us</a></li>
-                                <li><a href="blog.html">Blog </a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-sm-6">
-                    <div class="footer-widget mb-30" data-aos="fade-up" data-aos-duration="1600">
-                        <div class="f-widget-title">
-                            <h2>Contact Us</h2>
-                        </div>
-                        <div class="f-contact">
-                            <ul>
-                                <li>
-                                    <i class="icon fa fa-phone"></i>
-                                    <span>1800-121-3637<br>+91-7052-101-786</span>
-                                </li>
-                                <li><i class="icon fa fa-envelope"></i>
-                                    <span>
-                                            <a href="mailto:info@example.com">info@example.com</a>
-                                       <br>
-                                       <a href="mailto:help@example.com">help@example.com</a>
-                                       </span>
-                                </li>
-                                <li>
-                                    <i class="icon fa fa-map-marker-check"></i>
-                                    <span>1247/Plot No. 39, 15th Phase,<br> LHB Colony, Kanpur</span>
-                                </li>
-
-                            </ul>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-3 col-sm-6">
-                    <div class="footer-widget mb-30" data-aos="fade-up" data-aos-duration="1800">
-                        <div class="f-widget-title">
-                            <h2>Latest Post</h2>
-                        </div>
-                        <div class="recent-blog-footer">
-                            <ul>
-                                <li>
-                                    <div class="thum"> <img src="assets/img/blog/s-blogimg-01.png" alt="img"></div>
-                                    <div class="text"> <a href="#">Nothing impossble to need hard work</a>
-                                        <span>7 March, 2020</span></div>
-                                </li>
-
-                                <li>
-                                    <div class="thum"> <img src="assets/img/blog/s-blogimg-02.png" alt="img"></div>
-                                    <div class="text"> <a href="#">Nothing impossble to need hard work</a>
-                                        <span>7 March, 2020</span></div>
-                                </li>
-
-                            </ul>
-
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <div class="copyright-wrap">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="copy-text text-center">
-                        Copyright &copy; Insureyou 2022 . All rights reserved.
+                <div class="col-12">
+                    <div class="text-center">
+                        <p>FINBIZ - Copyright 2022. All rights reserved.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</footer>
-<!-- footer-end -->
+    <!-- copyright area end -->
+</div>
+<!-- rts footer area end -->
+<!-- ENd footer Area -->
 
-<!-- JS here -->
-<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-<script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/slick.min.js"></script>
-<script src="assets/js/ajax-form.js"></script>
-<script src="assets/js/paroller.js"></script>
-<script src="assets/js/wow.min.js"></script>
-<script src="assets/js/js_isotope.pkgd.min.js"></script>
-<script src="assets/js/imagesloaded.min.js"></script>
-<script src="assets/js/parallax.min.js"></script>
-<script src="assets/js/jquery.waypoints.min.js"></script>
-<script src="assets/js/jquery.counterup.min.js"></script>
-<script src="assets/js/jquery.scrollUp.min.js"></script>
-<script src="assets/js/jquery.meanmenu.min.js"></script>
-<script src="assets/js/parallax-scroll.js"></script>
-<script src="assets/js/swiper.min.js"></script>
-<script src="assets/js/aos.js"></script>
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<script src="assets/js/element-in-view.js"></script>
+<!-- start loader -->
+<div class="loader-wrapper">
+    <div class="loader">
+    </div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+<!-- End loader -->
+
+<!-- progress Back to top -->
+<div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+</div>
+<!-- progress Back to top End -->
+
+
+<!-- scripts start form hear -->
+<script src="assets/js/vendor/jquery.min.js"></script>
+<script src="assets/js/vendor/jqueryui.js"></script>
+<script src="assets/js/vendor/waypoint.js"></script>
+<script src="assets/js/plugins/swiper.js"></script>
+<script src="assets/js/plugins/counterup.js"></script>
+<script src="assets/js/plugins/sal.min.js"></script>
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+<script src="assets/js/plugins/contact.form.js"></script>
+<!-- main Js -->
 <script src="assets/js/main.js"></script>
+<!-- scripts end form hear -->
 </body>
+
 </html>
