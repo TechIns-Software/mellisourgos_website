@@ -11417,6 +11417,10 @@ body {
 .home-blue .single-feature-one i {
   background: var(--color-primary-2);
 }
+.single span{
+  color: white;
+  font-weight: 500;
+}
 
 /*!
 Animate.css - http://daneden.me/animate
