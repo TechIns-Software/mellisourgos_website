@@ -9835,6 +9835,7 @@ iframe {
 Background Image 
 =============================*/
 .bg_image {
+  bo
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -19972,6 +19973,15 @@ p.disc.banner-para {
   }
 }
 
+.rts-about-area{
+  position: relative;
+  top: 5em;
+}
+
+.rts-faq-section{
+  position: relative;
+  bottom: 5em;
+}
 .rts-about-our-company-h2 {
   position: relative;
 }
@@ -28495,7 +28505,7 @@ p.disc.banner-para {
   font-weight: 600;
 }
 .faq-two-inner .title-area-faq .title {
-  color: #fff;
+  color: #000000;
   text-transform: uppercase;
   margin-top: 5px;
 }
@@ -28516,7 +28526,7 @@ p.disc.banner-para {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  color: #ffffff;
+  color: #4d4c4c;
   height: 60px;
   align-items: center;
   display: flex;
