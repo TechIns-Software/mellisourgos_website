@@ -11072,6 +11072,18 @@ body {
   align-items: center;
   position: relative;
 }
+.about-img{
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+
+.about-img img{
+  width: 400px;
+  border-radius: 15px;
+
+}
+
 .about-founder-wrapper .author-inner::after {
   position: absolute;
   content: "";

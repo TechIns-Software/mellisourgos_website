@@ -10,7 +10,7 @@ navbar($str,$title);
     <div class="rts-about-area rts-section-gap  ">
         <div class="container">
             <div class="row  align-items-center">
-                <div class="col-lg-12">
+                <div class="col-lg-6 col-md-12">
                     <div class="about-progress-inner">
                         <div class="title-area">
                             <span> Λίγα λόγια για εμένα   </span>
@@ -33,6 +33,11 @@ navbar($str,$title);
 
                         </div>
                         <!-- end -->
+                    </div>
+                </div>
+                <div  class="col-lg-6 col-md-12">
+                    <div class="about-img">
+                        <img class="img-fluid " src="../assets/images/about/about-section.jpg">
                     </div>
                 </div>
             </div>
