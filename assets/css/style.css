@@ -11024,7 +11024,7 @@ body {
   top: 2%;
 }
 .rts-title-area.contact::after {
-  content: "Hello";
+  content: "";
   left: 52%;
   transform: translateX(-50%);
   z-index: -1;
