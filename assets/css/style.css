@@ -11058,7 +11058,7 @@ body {
   }
 }
 .rts-title-area.contact-fluid::after {
-  content: "Contact Us";
+  content: "";
   left: 49%;
   transform: translateX(-50%);
   z-index: -1;
@@ -29284,6 +29284,7 @@ p.disc {
   font-weight: 500;
 }
 .single-contact-one-inner .content .info a h5 {
+
   margin-bottom: 0;
   transition: 0.3s;
 }

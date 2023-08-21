@@ -58,7 +58,7 @@ navbar($str,$title);
                             <p class="pre-title">
                                 Φορμα Καριερας
                             </p>
-                            <h2 class="title">Συμπλήρωσε την παρακάτω φόρμα </h2>
+                            <h2 class="title">Συμπλήρωσε την παρακάτω φόρμα! </h2>
                         </div>
                         <div id="form-messages"></div>
                         <form id="contact-form" action="mailer.php" method="post">

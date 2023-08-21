@@ -13,8 +13,8 @@ navbar($str,$title);
                 <div class="col-lg-12">
                     <div class="about-progress-inner">
                         <div class="title-area">
-                            <span>Σχετικά με εμένα</span>
-                            <h2 class="title">Λίγα λόγια για εμένα </h2>
+                            <span> Λίγα λόγια για εμένα   </span>
+                            <h2 class="title"> Σχετικά με εμένα</h2>
                         </div>
                         <!-- inner start -->
                         <div class="inner">

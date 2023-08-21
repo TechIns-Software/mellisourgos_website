@@ -101,7 +101,7 @@ function navbar($str='../',$title){
         <button class="close-icon-menu"><i class="far fa-times"></i></button>
         <!-- inner menu area desktop start -->
         <div class="rts-sidebar-menu-desktop">
-            <a class="logo-1" href="<?= $str ?>index.php"><img class="logo" src="assets/images/logo/logo.svg" alt="melissourgos_logo"></a>
+            <a class="logo-1" href="<?= $str ?>index.php"><img class="logo" src="<?= $str ?>assets/images/logo/logo.svg" alt="melissourgos_logo"></a>
 
             <div class="body d-none d-xl-block">
                 <p class="disc">
