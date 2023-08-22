@@ -52,9 +52,9 @@ function navbar($str='../',$title){
             <div class="container">
                 <div class="row">
                     <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
-                        <div class="thumbnail">
+                        <div class="navbar_logo">
                             <a href="<?= $str ?>index.php">
-                                <img src="<?= $str ?>assets/images/logo/logo-1.svg" alt="finbiz-logo">
+                                <img class="img-fluid" src="<?= $str ?>assets/images/logo/logo_new.png" alt="finbiz-logo">
                             </a>
                         </div>
                     </div>
@@ -64,11 +64,12 @@ function navbar($str='../',$title){
                                 <ul class="mainmenu">
 
                                     <li><a class="nav-item" href="<?= $str ?>index.php">Αρχική</a></li>
-                                    <li><a class="nav-item" href="<?= $str ?>vision/index.php">Οραμα</a></li>
+<!--                                    <li><a class="nav-item" href="--><?php //= $str ?><!--vision/index.php">Οραμα</a></li>-->
                                     <li><a class="nav-item" href="<?= $str ?>about/index.php">Σχετικά με εμένα</a></li>
                                     <li><a class="nav-item" href="<?= $str ?>office/index.php">Γραφεία</a></li>
                                     <li><a class="nav-item" href="<?= $str ?>career/index.php">Καριέρα</a></li>
-                                    <li><a class="nav-item" href="<?= $str ?>videos/index.php">Βίντεο</a></li>
+<!--                                    <li><a class="nav-item" href="--><?php //= $str ?><!--videos/index.php">Βίντεο</a></li>-->
+                                    <li><a class="nav-item" href="<?= $str ?>test/index.php">Αξιολόγηση</a></li>
                                     <li><a class="nav-item" href="<?= $str ?>contact/index.php">Επικοινωνία</a></li>
                                 </ul>
                             </nav>
@@ -144,11 +145,12 @@ function navbar($str='../',$title){
                 <nav class="nav-main mainmenu-nav">
                     <ul class="mainmenu">
                         <li class="menu-item"><a class="menu-link" href="<?= $str ?>index.php">Αρχική</a></li>
-                        <li class="menu-item"><a class="menu-link" href="<?= $str ?>vision/index.php">Όραμα</a></li>
+<!--                        <li class="menu-item"><a class="menu-link" href="--><?php //= $str ?><!--vision/index.php">Όραμα</a></li>-->
                         <li class="menu-item"><a class="menu-link" href="<?= $str ?>about/index.php">Σχετικά με εμάς</a></li>
                         <li class="menu-item"><a class="menu-link" href="<?= $str ?>office/index.php">Γραφεία</a></li>
                         <li class="menu-item"><a class="menu-link" href="<?= $str ?>career/index.php">Καριέρα</a></li>
-                        <li class="menu-item"><a class="menu-link" href="<?= $str ?>videos/index.php">Βίντεο</a></li>
+<!--                        <li class="menu-item"><a class="menu-link" href="--><?php //= $str ?><!--videos/index.php">Βίντεο</a></li>-->
+                        <li><a class="nav-item" href="<?= $str ?>test/index.php">Αξιολόγηση</a></li>
                         <li class="menu-item"><a class="menu-link" href="<?= $str ?>contact/index.php">Επικοινωνία</a></li>
                     </ul>
                 </nav>
@@ -182,19 +184,21 @@ function footer($str){
                     <div class="footer-one-single-wized seven">
                         <div class="wized-title">
                             <h5 class="title">Μενού</h5>
-                            <img src="assets/images/footer/under-title.png" alt="finbiz_footer">
+
                         </div>
                         <div class="quick-link-inner">
                             <ul class="links">
                                 <li><a href="<?= $str ?>index.php"><i class="far fa-arrow-right"></i> Αρχική</a></li>
-                                <li><a href="<?= $str ?>vision/index.php"><i class="far fa-arrow-right"></i> Όραμα</a></li>
+<!--                                <li><a href="--><?php //= $str ?><!--vision/index.php"><i class="far fa-arrow-right"></i> Όραμα</a></li>-->
                                 <li><a href="<?= $str ?>about/index.php"><i class="far fa-arrow-right"></i> Σχετικά με εμένα</a></li>
                                 <li><a href="<?= $str ?>office/index.php"><i class="far fa-arrow-right"></i> Γραφεία</a></li>
 
                             </ul>
                             <ul class="links margin-left-70">
                                 <li><a href="<?= $str ?>career/index.php"><i class="far fa-arrow-right"></i>  Καριέρα</a></li>
-                                <li><a href="<?= $str ?>videos/index.php"><i class="far fa-arrow-right"></i> Βίντεο</a></li>
+<!--                                <li><a href="--><?php //= $str ?><!--videos/index.php"><i class="far fa-arrow-right"></i> Βίντεο</a></li>-->
+
+                                <li><a href="<?= $str ?>test/index.php"><i class="far fa-arrow-right"></i> Αξιολόγηση</a></li>
                                 <li><a href="<?= $str ?>contact/index.php"><i class="far fa-arrow-right"></i> Επικοινωνία</a></li>
 
                             </ul>

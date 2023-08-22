@@ -68,8 +68,11 @@ navbar($str,$title);
                             </div>
 
 
-                            <input type="text" placeholder="Ηλικία" name="subject">
-                            <textarea placeholder="Μήνυμα" name="message"></textarea>
+                            <input type="text" placeholder="Κινητό" name="subject">
+                            <div class="cv_input ">
+                                <label  for="cv">Ανέβασμα Βιογραφικού    <i class="mx-3 fas fa-cloud-upload-alt"></i></label>
+                                <input type="file" id="cv" hidden="">
+                            </div>
                             <button type="submit" class="rts-btn btn-primary">Υποβολή</button>
                         </form>
                     </div>

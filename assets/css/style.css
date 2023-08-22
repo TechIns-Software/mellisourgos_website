@@ -18990,6 +18990,14 @@ p.disc.banner-para {
   color: #74787C;
   margin-left: 90px;
 }
+
+.discHero {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #282828;
+  margin-left: 90px;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .banner-inner-six .disc {
     margin-left: 60px;
@@ -28691,7 +28699,7 @@ p.disc.banner-para {
 }
 .contact-map-area-fluid .contact-map {
   width: 100%;
-  height: 580px;
+  height: 380px;
 }
 .contact-map-area-fluid .location {
   position: absolute;
@@ -30033,6 +30041,8 @@ p.disc {
   color: #fff;
   margin-bottom: 10px;
 }
+
+
 .footer-one-single-wized .quick-link-inner {
   display: flex;
 }
@@ -30735,3 +30745,23 @@ p.disc {
   color: var(--color-primary-2);
 }
 /*# sourceMappingURL=../maps/style.css.map */
+.navbar_logo a img{
+  padding: 5px;
+  height: 100px;
+  aspect-ratio: 16/9;
+  border-radius: 17px;
+}
+
+.cv_input label{
+  height: 55px;
+  width: 100%;
+  background: #F7F7F7;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding: 0 25px;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+}

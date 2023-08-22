@@ -19,7 +19,7 @@ navbar($str,$title);
                         <span class="pre">Ευκαιρία </span> <br>
                          <span class="primary">Καριέρας</span>
                     </h1>
-                    <p class="disc">
+                    <p class="discHero">
                         Θέλεις να πραγματοποιήσεις τα όνειρα σου μέσω μιας <br>καριέρας σε έναν σταθερό, ασφαλή και συνεχώς αναπτυσσόμενο κλάδο;
                     </p>
                     <a href="#" class="rts-btn btn-primary-5 style-six rounded-2 seven">Μαθε Περισσοτερα</a>
@@ -40,12 +40,12 @@ navbar($str,$title);
                     <div class="title-area-style-six text-start">
                         <div class="pre-title">
                             <img src="assets/images/banner/shape/pre-title.png" alt="pre-title">
-                            <span class="pre">Σχετικα με εμας</span>
+                            <span class="pre">Το οραμα μας</span>
                             <img class="two" src="assets/images/banner/shape/pre-title.png" alt="pre-title">
                         </div>
                         <h2 class="title">
-                            Here is your perfect <br>
-                            Marketing Solution
+                            Οι άνθρωποί μας είναι εδώ <br>
+
                         </h2>
                     </div>
                     <div class="about-content-inner-style-six">
@@ -54,37 +54,42 @@ navbar($str,$title);
                             Αναζητούμε ανθρώπους που δεν φοβούνται να αναλάβουν πρωτοβουλίες, να προκαλέσουν τα
                             όρια τους και να συμβάλλουν στο να κάνουμε τη διαφορά στον κόσμο μας.
                         </p>
+
+
+
                         <div class="item-check-inner">
                             <div class="single-col">
                                 <div class="single-check">
                                     <i class="fas fa-check-circle"></i>
-                                    24/7 Call Services Avilable
+                                   Ευέλικτο Ωράριο
                                 </div>
                                 <div class="single-check">
                                     <i class="fas fa-check-circle"></i>
-                                    Great Skilled Consultant
+                                    Επαγγελματικά Ταξίδια
                                 </div>
                                 <div class="single-check">
                                     <i class="fas fa-check-circle"></i>
-                                    Expert Team Members
+                                   Απολαβές Χωρίς Όριο
                                 </div>
                             </div>
                             <div class="single-col">
                                 <div class="single-check">
                                     <i class="fas fa-check-circle"></i>
-                                    How to improve business
+                                   Bonus Επίτευξης Στόχων
 
                                 </div>
                                 <div class="single-check">
                                     <i class="fas fa-check-circle"></i>
-                                    Business is the best plan
+                                  *************
                                 </div>
                                 <div class="single-check">
                                     <i class="fas fa-check-circle"></i>
-                                    Services we provide
+                                    *************
                                 </div>
                             </div>
                         </div>
+
+
 
                     </div>
                 </div>
@@ -112,7 +117,7 @@ navbar($str,$title);
                             <img class="two" src="assets/images/banner/shape/pre-title.png" alt="pre-title">
                         </div>
                         <h2 class="title">
-                          Ποιο ειναι το οραμα μας ;
+                       Ποια είναι τα βασικά στοιχεία <br> για την επιτυχία μας ;
                         </h2>
                     </div>
                 </div>
@@ -182,6 +187,14 @@ navbar($str,$title);
                     </div>
                     <!-- single-service area end -->
                 </div>
+
+                <div class="col-12 my-5 ">
+                    <div class="d-flex justify-content-center  my-5">
+                        <div>  <a class="rts-btn btn-primary-5 " href="career">Κάνε την Αξιολόγηση</a> </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>
@@ -201,7 +214,7 @@ navbar($str,$title);
                     <div class="title-area">
                         <h3 class="title">Ας συζητήσουμε πώς μπορούμε να <br> συνεργαστούμε και να καταταφέρουμε κάτι μοναδικό!</h3>
                     </div>
-                    <a class="rts-btn btn-primary-5" href="contactus.html">Καριέρα</a>
+                    <a class="rts-btn btn-primary-5" href="career">Καριέρα</a>
                 </div>
             </div>
         </div>
@@ -209,13 +222,9 @@ navbar($str,$title);
 </div>
 <!-- end call to action area -->
 
-<div class="bg-shape-wrapper-two">
-
-
-
-
+<div class="bg-shape-wrapper-two d-none">
     <!-- rts blog area start -->
-    <div class="rts-blog-area rts-section-gapBottom">
+    <div class="rts-blog-area rts-section-gapBottom ">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -264,6 +273,38 @@ navbar($str,$title);
         </div>
     </div>
     <!-- rts blog area edn -->
+</div>
+
+<div class="rts-contact-area contact-one">
+    <div class="container">
+        <div class="row align-items-center g-0">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="contact-image-one">
+                    <img src="assets/images/contact/01.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                <div class="contact-form-area-one">
+                    <div class="rts-title-area contact text-start">
+                        <p class="pre-title">
+                           Επικοινωνια
+                        </p>
+                        <h2 class="title">Φόρμα Επικοινωνίας</h2>
+                    </div>
+                    <div id="form-messages"></div>
+                    <form id="contact-form" action="mailer.php" method="post">
+                        <div class="name-email">
+                            <input type="text" placeholder="Ονοματεπώνυμο" name="name" required="">
+                            <input type="email" placeholder="Email " name="email" required="">
+                        </div>
+                        <input type="text" placeholder="Κινητό" name="subject">
+                        <textarea placeholder="Μήνυμα" name="message"></textarea>
+                        <button type="submit" class="rts-btn btn-primary">Υποβολή</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <?php

@@ -54,7 +54,7 @@ navbar($str,$title);
                             <div class="blog-details">
                                 <div class="blog-full">
                                     <blockquote>
-                                        <p class="margin-0">Το να είμαστε η καλύτερη ομάδα, έχει σημασία<br>
+                                        <p class="margin-0">Η επιτυχία δεν είναι τυχαία. Είναι αποτέλεσμα σκληρής δουλειάς,  αφοσίωσης και της ικανότητας να μάθεις από τα λάθη σου.
                                             <cite>NN Hellas</cite>
                                         </p>
                                     </blockquote>
@@ -73,9 +73,9 @@ navbar($str,$title);
                 <div class="col-lg-12">
                     <div class="faq-two-inner">
                         <div class="title-area-faq">
-                            <span class="sub">Συχνές Ερωτήσεις</span>
-                            <h2 class="title">We Are Experienced
-                                <span class="sm-title">Business <span>Solution</span></span>
+
+                            <h2 class="title">
+                                <span class="sm-title">Συχνες <span>Ερωτησεις</span></span>
                             </h2>
                         </div>
                         <!-- faq accordion area -->
