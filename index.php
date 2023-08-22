@@ -190,7 +190,7 @@ navbar($str,$title);
 
                 <div class="col-12 my-5 ">
                     <div class="d-flex justify-content-center  my-5">
-                        <div>  <a class="rts-btn btn-primary-5 " href="career">Κάνε την Αξιολόγηση</a> </div>
+                        <div>  <a class="rts-btn btn-primary-5 " href="test">Κάνε την Αξιολόγηση</a> </div>
                     </div>
                 </div>
 
