@@ -49,15 +49,15 @@ navbar($str,$title);
                             <h2 class="title">Φόρμα Επικοινωνίας</h2>
                         </div>
                         <div class="form-wrapper">
-                            <div id="form-messages"></div>
-                            <form id="contact-form" action="mailer.php" method="post">
+
+                            <form id="contact-form">
                                 <div class="name-email">
-                                    <input type="text" name="name" placeholder="Ονοματεπώνυμο" required="">
-                                    <input type="email" name="email" placeholder="Email " required="">
+                                    <input type="text" placeholder="Ονοματεπώνυμο" id="fullName" name="fullName" >
+                                    <input type="text" placeholder="Email " id="email" name="email" >
                                 </div>
-                                <input type="text" name="subject" placeholder="Θέμα">
-                                <textarea placeholder="Μήνυμα" name="message"></textarea>
-                                <button type="submit" class="rts-btn btn-primary">Υποβολή</button>
+                                <input type="text" placeholder="Κινητό" id="phone" name="phone">
+                                <textarea placeholder="Μήνυμα" id="message" name="message"></textarea>
+                                <button type="submit" onclick="submitContactForm()" class="rts-btn btn-primary">Υποβολή</button>
                             </form>
                         </div>
                     </div>

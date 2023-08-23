@@ -282,15 +282,15 @@ navbar($str,$title);
                         </p>
                         <h2 class="title">Φόρμα Επικοινωνίας</h2>
                     </div>
-                    <div id="form-messages"></div>
-                    <form id="contact-form" action="mailer.php" method="post">
+
+                    <form id="contact-form">
                         <div class="name-email">
-                            <input type="text" placeholder="Ονοματεπώνυμο" name="name" required="">
-                            <input type="email" placeholder="Email " name="email" required="">
+                            <input type="text" placeholder="Ονοματεπώνυμο" id="fullName" name="fullName" >
+                            <input type="text" placeholder="Email " id="email" name="email" >
                         </div>
-                        <input type="text" placeholder="Κινητό" name="subject">
-                        <textarea placeholder="Μήνυμα" name="message"></textarea>
-                        <button type="submit" class="rts-btn btn-primary">Υποβολή</button>
+                        <input type="text" placeholder="Κινητό" id="phone" name="phone">
+                        <textarea placeholder="Μήνυμα" id="message" name="message"></textarea>
+                        <button type="submit" onclick="submitContactForm('')" class="rts-btn btn-primary">Υποβολή</button>
                     </form>
                 </div>
             </div>

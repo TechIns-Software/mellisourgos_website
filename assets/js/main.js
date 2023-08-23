@@ -1172,4 +1172,37 @@
     }
   
     imJs.m();
-  })(jQuery, window)  
+  })(jQuery, window)
+
+function submitContactForm(relativePath='../'){
+  const fullName = $('#fullName').val().trim();
+  const email = $('#email').val().trim();
+  const phone = $('#phone').val().trim();
+  const message = $('#message').val().trim();
+
+  if ( fullName != '' || email != '' ||
+      phone != '' || message != '' ){
+
+    $.ajax({
+      url: relativePath+'assets/sendForm.php',
+      dataType: "json",
+      type: "Post",
+      async: true,
+      data:{
+        fullName :fullName,
+        email :email,
+        phone :phone,
+        message :message,
+      },
+      success: function (data) {
+        console.log(data)
+          alert(data[1]);
+        window.location.reload();
+
+
+      }
+    });
+  }
+
+
+}
