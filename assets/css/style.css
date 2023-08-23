@@ -18895,7 +18895,7 @@ p.disc.banner-para {
 }
 
 .banner-human-bg {
-  background-image: url(../images/banner/banner-11.png);
+  background-image: url(../images/bg/hero-section.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 1150px;
@@ -30747,7 +30747,7 @@ p.disc {
 /*# sourceMappingURL=../maps/style.css.map */
 .navbar_logo a img{
   padding: 5px;
-  height: 100px;
+  height: 120px;
   aspect-ratio: 16/9;
   border-radius: 17px;
 }
@@ -30817,4 +30817,26 @@ font-size: 20px!important;
   border-radius: 15px;
 
   background-color: #ebebeb;
+}
+.benefitsBox{
+  padding: 1em ;
+  background-color: #e5e4e4;
+  border-radius: 17px;
+  text-align: start;
+}
+
+.benefitsBox h4{
+  text-align: center;
+}
+.benefitsBox p{
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.benefitsBox ul li{
+  margin: 0;
+  padding: 0;
+
 }

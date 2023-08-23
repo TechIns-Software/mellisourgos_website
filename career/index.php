@@ -9,8 +9,9 @@ navbar($str,$title);
     <!-- rts about us section start -->
     <div class="rts-about-area rts-section-gap  ">
         <div class="container">
-            <div class="row  align-items-center">
-                <div class="col-lg-12 col-md-12">
+            <div class="row  ">
+
+                <div class="col-lg-12 col-md-12 ">
                     <div class="about-progress-inner">
                         <div class="title-area">
                             <span>Αρπαξε την ευκαιρία τώρα</span>
@@ -18,16 +19,50 @@ navbar($str,$title);
                         </div>
                         <!-- inner start -->
                         <div class="inner">
-                            <p class="disc">Αν πιστεύεις στον εαυτό σου αλλά έχεις κουραστεί στην τωρινή σου εργασία και δεν βλέπεις μέλλον…
-                               Αν σου αρέσει να βοηθάς τους ανθρώπους και κάνεις πολλά πράγματα αλλά δεν αμείβεσαι επαρκώς…
+                            <p class="disc">
+                                <b> Ψάχνεις την ευκαιρία για να κάνεις τη διαφορά στην καριέρα σου και να εισέλθεις σε
+                                    έναν κλάδο σταθερό και διαρκώς αναπτυσσόμενο; </b>
                             </p>
 
                             <p class="disc">
-                                <b> Αν ναί,</b> Συμπλήρωσε την παρακάτω φόρμα και ένας συνεργάτης θα σε καλέσει σύντομα για να σε
-                                    βοηθήσουμε να κάνεις τα όνειρά σου πραγματικότητα
+                                Διαθέτουμε ένα ισχυρό δίκτυο συμβούλων, το οποίο διακρίνεται από υψηλό αίσθημα ευθύνης
+                                και επαγγελματισμού. Σε μια ενωμένη ομάδα σαν τη δική μας, το ταλέντο και οι ιδέες
+                                κάνουν τη διαφορά και δίνουν μια μοναδική προοπτική.
                             </p>
 
+                            <p class="disc"> <b>  Αναζητούμε </b> λοιπόν συνεργάτες με ισχυρή προσωπικότητα ώστε να εργαστούν
+                                δίπλα μας και να στελεχώσουμε το τμήμα πωλήσεων. </p>
 
+                            <p class="disc">
+                                Προσφέρουμε πλήρη πρωτοποριακή εκπαίδευση αξιοποιώντας τις ήδη υπάρχουσες γνώσεις σας και στηρίζουμε τα μέλη της ομάδας μας σε κάθε τους βήμα.
+                            </p>
+
+                            <p class="disc">
+                                Μας διαφοροποιεί πως προσφέρουμε συμβουλευτικές υπηρεσίες σε ανθρώπους, νομικά πρόσωπα και επιχειρήσεις για θέματα που αφορούν την ζωή και την εξασφάλιση της.
+                                Πιο συγκεκριμένα στόχος μας είναι να βοηθάμε ανθρώπους να προστατέψουν το οικονομικό και βιωτικό επίπεδο τους διασφαλίζοντας ότι θα ικανοποιήσουν (οικονομικά) μελλοντικές ανάγκες και επιθυμίες τους.
+                            </p>
+
+                            <p class="disc">
+                                Συνδυάζοντας ομαδικό πνεύμα και καλή διάθεση πετυχαίνουμε τους στόχους μας με αποτέλεσμα να έχουμε υψηλές απολαβές και συνεχή επαγγελματική ανέλιξη.
+                            </p>
+
+                            <div class="benefitsBox">
+                                <h4>Τι προσφέρουμε ;</h4>
+                                <p>Συνεχή εκπαίδευση</p>
+                                <ul>
+                                    <li> Επιμόρφωση βάσει σύγχρονων εκπαιδευτικών εργαλείων και μεθόδων </li>
+                                    <li> Συμμετοχή σε συνέδρια και ταξίδια σε όλο τον κόσμο  </li>
+                                    <li> Επαγγελματική εξέλιξη και δυνατότητα διεθνούς καριέρας μέσα από ένα καθιερωμένο αξιοκρατικό σύστημα που εφαρμόζει ο Όμιλος  </li>
+                                </ul>
+
+                                <p>Οικονομικά κίνητρα</p>
+                                <ul>
+                                    <li> Bonus νέων συνεργατών </li>
+                                    <li> Bonus πολλαπλών κατηγοριών  </li>
+                                    <li> Διαχρονικές προμήθειες   </li>
+                                    <li> Συμμετοχή σε ομαδικό Αποταμιευτικό και Συνταξιοδοτικό Πρόγραμμα και Νοσοκομειακή και Ιατροφαρμακευτική κάλυψη   </li>
+                                </ul>
+                            </div>
 
 
 
@@ -36,29 +71,47 @@ navbar($str,$title);
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
-
-                </div>
             </div>
         </div>
     </div>
     <!-- rts about us section end -->
 
-    <div class="rts-contact-area contact-one">
-        <div class="container">
-            <div class="row align-items-center g-0">
-                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-                    <div class="contact-image-one">
-                        <img src="../assets/images/about/career.jpg" alt="">
+    <div class="rts-inner-blog ptb--70">
+        <div class="container custom">
+            <div class="row">
+                <div class="col-lg-12 pr-35 md-pr-15 md-mt-50">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="blog-details">
+                                <div class="blog-full">
+                                    <blockquote>
+                                        <p class="margin-0">
+                                            Να θυμάσαι. Οι ευκαιρίες ποτέ δεν χάνονται. Κάποιος αρπάζει αυτές που εσύ χάνεις.
+
+                                        </p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+            </div>
+        </div>
+    </div>
+
+    <div class="rts-contact-area contact-one ">
+        <div class="container py-4">
+            <div class="row align-items-center g-0">
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="contact-form-area-one">
                         <div class="rts-title-area contact text-start">
                             <p class="pre-title">
                                 Φορμα Καριερας
                             </p>
+
                             <h2 class="title">Συμπλήρωσε την παρακάτω φόρμα! </h2>
+                            <p> Επωφελήσου από την ευκαιρία και στείλε μας το βιογραφικό σου για το ενδεχόμενο πιθανής συνεργασίας.</p>
                         </div>
                         <div id="form-messages"></div>
                         <form id="contact-form" action="mailer.php" method="post">
