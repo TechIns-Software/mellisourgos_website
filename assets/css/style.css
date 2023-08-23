@@ -30840,3 +30840,17 @@ font-size: 20px!important;
   padding: 0;
 
 }
+.about-img-container{
+  text-align: center;
+
+}
+
+
+.about-img-container img{
+  margin: auto;
+  width: 70%;
+  height: 50%;
+  border-radius: 7px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.44);
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.44);
+}

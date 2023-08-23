@@ -40,19 +40,18 @@ navbar($str,$title);
                     <div class="title-area-style-six text-start">
                         <div class="pre-title">
                             <img src="assets/images/banner/shape/pre-title.png" alt="pre-title">
-                            <span class="pre">Το οραμα μας</span>
+                            <span class="pre">Λιγα λογια για εμενα</span>
                             <img class="two" src="assets/images/banner/shape/pre-title.png" alt="pre-title">
                         </div>
                         <h2 class="title">
-                            Οι άνθρωποί μας είναι εδώ <br>
+                            Οι άνθρωποί μας είναι εδώ!
 
                         </h2>
                     </div>
                     <div class="about-content-inner-style-six">
                         <p class="disc">
-                            Στην εταιρία μας, πιστεύουμε ότι οι άνθρωποί μας αποτελούν τον πιο πολύτιμο πόρο μας.
-                            Αναζητούμε ανθρώπους που δεν φοβούνται να αναλάβουν πρωτοβουλίες, να προκαλέσουν τα
-                            όρια τους και να συμβάλλουν στο να κάνουμε τη διαφορά στον κόσμο μας.
+                            Ονομάζομαι <b>Μελισσουργός Κωνσταντίνος</b> , είμαι γεννημένος στην Αθήνα και από νωρίς είχα πάθος για τη γνώση, τη δημιουργία και την καινοτομία.
+                             Με πάνω απο 30 χρόνια εμπειρίας στον ασφαλιστικό κλάδο.
                         </p>
 
 
@@ -67,25 +66,20 @@ navbar($str,$title);
                                     <i class="fas fa-check-circle"></i>
                                     Επαγγελματικά Ταξίδια
                                 </div>
-                                <div class="single-check">
-                                    <i class="fas fa-check-circle"></i>
-                                   Απολαβές Χωρίς Όριο
-                                </div>
+
                             </div>
                             <div class="single-col">
+
+                                <div class="single-check">
+                                    <i class="fas fa-check-circle"></i>
+                                    Απολαβές Χωρίς Όριο
+                                </div>
                                 <div class="single-check">
                                     <i class="fas fa-check-circle"></i>
                                    Bonus Επίτευξης Στόχων
 
                                 </div>
-                                <div class="single-check">
-                                    <i class="fas fa-check-circle"></i>
-                                  *************
-                                </div>
-                                <div class="single-check">
-                                    <i class="fas fa-check-circle"></i>
-                                    *************
-                                </div>
+
                             </div>
                         </div>
 
@@ -93,9 +87,9 @@ navbar($str,$title);
 
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="thumbnail-about-six">
-                        <img src="assets/images/about/02.png" alt="about-image">
+                <div class="col-lg-6 my-2">
+                    <div class="about-img-container">
+                        <img src="assets/images/about/about.jpg" alt="about-image">
                     </div>
                 </div>
             </div>
