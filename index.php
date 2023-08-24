@@ -83,7 +83,8 @@ navbar($str, $title);
             </div>
 
             <div class="col-12 text-center">
-                <p> Συμφωνά με τις μετρήσεις (2022) ο μέσος συνεργάτης του γραφείου έχει απολαβές πάνω από<b> 3.520 ευρώ το μήνα!</b> </p>
+                <p> Συμφωνά με τις μετρήσεις (2022) ο μέσος συνεργάτης του γραφείου έχει απολαβές πάνω από<b> 3.520 ευρώ
+                        το μήνα!</b></p>
 
             </div>
         </div>
@@ -279,7 +280,9 @@ navbar($str, $title);
                             Πρωτοποριακά εργαλεία
                         </h5>
                         <p class="disc">
-                            Προσφέρουμε πρόσβαση σε καινοτόμες τεχνολογίες και πλατφόρμες που επιτρέπουν την αποτελεσματική διαχείριση του πελατολογίου σας, την επαγγελματική παρουσία, την εκπαίδευση και την ανάπτυξη.
+                            Προσφέρουμε πρόσβαση σε καινοτόμες τεχνολογίες και πλατφόρμες που επιτρέπουν την
+                            αποτελεσματική διαχείριση του πελατολογίου σας, την επαγγελματική παρουσία, την εκπαίδευση
+                            και την ανάπτυξη.
                         </p>
 
                     </div>
@@ -288,8 +291,10 @@ navbar($str, $title);
 
                 <div class="col-12 my-5 ">
                     <div class=" my-5">
-                        <div class="d-block my-5 py-3 text-center"><a class="rts-btn btn-primary-5  " href="#contact"> Γνώρισε μας σήμερα</a></div>
-                        <div class="d-block my-5 py-3 text-center" ><a class="rts-btn btn-primary-5  " href="test">Είσαι εσωστρεφής ή εξωστρεφής;
+                        <div class="d-block my-5 py-3 text-center"><a class="rts-btn btn-primary-5  " href="#contact">
+                                Γνώρισε μας σήμερα</a></div>
+                        <div class="d-block my-5 py-3 text-center"><a class="rts-btn btn-primary-5  " href="test">Είσαι
+                                εσωστρεφής ή εξωστρεφής;
                                 Κάνε το τεστ; </a></div>
                     </div>
                 </div>
@@ -314,7 +319,9 @@ navbar($str, $title);
                         <h3 class="title">Ας συζητήσουμε πώς μπορούμε να <br> συνεργαστούμε και να καταταφέρουμε κάτι
                             μοναδικό!</h3>
                     </div>
-                    <button onclick="window.location.href='career'" class="rts-btn btn-primary-5 my-4" href="career">Γνώρισε μας σήμερα !</button>
+                    <button onclick="window.location.href='career'" class="rts-btn btn-primary-5 my-4" href="career">
+                        Γνώρισε μας σήμερα !
+                    </button>
                 </div>
 
             </div>
@@ -410,7 +417,38 @@ navbar($str, $title);
     </div>
 </div>
 
+<div class="modal-overlay active" id="modalContainer">
+    <div class="custom-modal">
+        <div class="mainWelcome ">
+            <div class="welcomeCard ">
+                <h3>Ευκαιρία Καριέρας !</h3>
+                <p>Μάθε ν’ ακούς.<br> Η ευκαιρία καμιά φορά χτυπάει την πόρτα σου πολύ σιγανά.</p>
+                <div class="welcomeForm">
+                    <div class="contact-form-area-one" type="modal">
+                        <form id="contact-form">
+                            <div class="name-email">
+                                <input type="text" placeholder="Ονοματεπώνυμο" id="fullName" name="fullName">
+                                <input type="text" placeholder="Email " id="email" name="email">
+                            </div>
+                            <input type="text" placeholder="Κινητό" id="phone" name="phone">
+                            <div class="cv_input ">
+                                <label for="cv">Ανέβασμα Βιογραφικού <i
+                                            class="mx-3 fas fa-cloud-upload-alt"></i></label>
+                                <input type="file" id="cv" hidden="">
+                            </div>
 
+                        </form>
+
+                        <div class="d-flex justify-content-center flex-wrap">
+                            <div class="mx-2"> <button href="#" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">Υποβολή</button> </div>
+                            <div class="mx-2"> <button onclick="removeModal()"  class="rts-btn btn-primary-2 ml--20 ml_sm--5 header-one-btn quote-btn">Δες την ιστοσελίδα  !</button> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php
 footer($str);

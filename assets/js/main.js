@@ -1,3 +1,4 @@
+var hasSeenTheModal = false;
 
 (function ($) {
     'use strict';
@@ -1206,3 +1207,9 @@ function submitContactForm(relativePath='../'){
 
 
 }
+
+function removeModal(){
+  $('#modalContainer').removeClass('active');
+  hasSeenTheModal = true;
+}
+
