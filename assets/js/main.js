@@ -1281,3 +1281,38 @@ function submitFormCv(e,relativepath = '../'){
 
 }
 
+function getTestData(event){
+  event.preventDefault();
+
+  const fullName = $('#fullName').val();
+  const phone = $('#phone').val();
+  testData = $(`#testForm`).serializeArray();
+  console.log(testData)
+
+  $.ajax({
+    type: "POST",
+    url: `../assets/sendTest.php`,
+    data: {
+      testData:testData,
+      fullName:fullName,
+      phone:phone
+    },
+    success: (data) => {
+      if (data['result'] == "success") {
+        alert('Η φόρμα στάλθηκε επιτυχώς');
+      }else if  (data['result'] == "failed"){
+        alert('Σφάλμα με την αποστολή φόρμας. Παρακαλώ προσπαθήστε αργότερα');
+      }
+      window.location.reload();
+
+    },
+    dataType: "json",
+    error: (error, typeError, cc) => {
+      console.log(error);
+      console.log(typeError);
+      console.log(cc);
+    }
+  });
+
+}
+
