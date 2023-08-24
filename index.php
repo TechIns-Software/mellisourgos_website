@@ -425,7 +425,7 @@ navbar($str, $title);
                 <p>Μάθε ν’ ακούς.<br> Η ευκαιρία καμιά φορά χτυπάει την πόρτα σου πολύ σιγανά.</p>
                 <div class="welcomeForm">
                     <div class="contact-form-area-one" type="modal">
-                        <form id="contact-form">
+                        <form id="contact-form2">
                             <div class="name-email">
                                 <input type="text" placeholder="Ονοματεπώνυμο" id="fullName" name="fullName">
                                 <input type="text" placeholder="Email " id="email" name="email">
@@ -434,14 +434,14 @@ navbar($str, $title);
                             <div class="cv_input ">
                                 <label for="cv">Ανέβασμα Βιογραφικού <i
                                             class="mx-3 fas fa-cloud-upload-alt"></i></label>
-                                <input type="file" id="cv" hidden="">
+                                <input onchange="uploadCv(event,'')" type="file" id="cv" hidden="">
                             </div>
 
                         </form>
 
-                        <div class="d-flex justify-content-center flex-wrap">
-                            <div class="mx-2"> <button href="#" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">Υποβολή</button> </div>
-                            <div class="mx-2"> <button onclick="removeModal()"  class="rts-btn btn-primary-2 ml--20 ml_sm--5 header-one-btn quote-btn">Δες την ιστοσελίδα  !</button> </div>
+                        <div class="text-center ">
+                            <div class="my-2"> <button onclick="submitFormCv(event,'')" id="submitBtn"  class="welcomeLearnMore">Υποβολή</button> </div>
+                            <div class="my-2"> <button onclick="removeModal()"  class="welcomeSubmitBtn">Δες την ιστοσελίδα  !</button> </div>
                         </div>
                     </div>
                 </div>

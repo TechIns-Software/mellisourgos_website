@@ -1213,3 +1213,71 @@ function removeModal(){
   hasSeenTheModal = true;
 }
 
+
+var isImageUploaded = false;
+var uniqueForm = '';
+function uploadCv(event,relativepath = '../') {
+  event.preventDefault();
+  console.log('im changed');
+  var fd = new FormData();
+  var cv = $('#cv')[0].files;
+  uniqueForm = Math.floor(Math.random() * 10)+'-'+Date.now();
+  // Check file selected or not
+  if (cv.length > 0 ) {
+    canUploadImage = false;
+    fd.append('file',cv[0]);
+    $.ajax({
+      url:relativepath+'assets/uploadCv.php',
+      type: 'post',
+      data: fd,
+      contentType: false,
+      processData: false,
+      success: function(response) {
+        isImageUploaded = true;
+        $("#submitBtn").attr("disabled", false);
+        alert("Το αρχείο ανέβηκε!. Παρακαλώ υποβάλετε την φόρμα ");
+      },
+    });
+  } else {
+    alert("Παρακαλώ επιλέξτε ένα αρχείο");
+  }
+}
+
+function submitFormCv(e,relativepath = '../'){
+  e.preventDefault();
+  $("#submitBtn").attr("disabled", false);
+  var formDataCv = {};
+  if (!isImageUploaded){
+    alert('Το ανέβασμα βιογραφικού είναι υποχρεωτικό.');
+    $("#submitBtn").attr("disabled", true);
+    return;
+  }
+  formDataCv = $(`#contact-form2`).serializeArray();
+  console.log(formDataCv)
+  $.ajax({
+    type: "POST",
+    url: relativepath+`assets/sendFormCv.php`,
+    data: {
+      infos:formDataCv
+    },
+    success: (data) => {
+      if (data['result'] == "success") {
+        alert('Η φόρμα στάλθηκε επιτυχώς');
+      }else if  (data['result'] == "failed"){
+        alert('Σφάλμα με την αποστολή φόρμας. Παρακαλώ προσπαθήστε αργότερα');
+      }
+      if (relativepath == ''){
+        removeModal()
+      }
+
+    },
+    dataType: "json",
+    error: (error, typeError, cc) => {
+      console.log(error);
+      console.log(typeError);
+      console.log(cc);
+    }
+  });
+
+}
+

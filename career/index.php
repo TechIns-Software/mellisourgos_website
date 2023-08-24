@@ -113,21 +113,27 @@ navbar($str,$title);
                             <h2 class="title">Συμπλήρωσε την παρακάτω φόρμα! </h2>
                             <p> Επωφελήσου από την ευκαιρία και στείλε μας το βιογραφικό σου για το ενδεχόμενο πιθανής συνεργασίας.</p>
                         </div>
-                        <div id="form-messages"></div>
-                        <form id="contact-form" action="mailer.php" method="post">
-                            <div class="name-email">
-                                <input type="text" placeholder="Ονοματεπώνυμο" name="name" required="">
-                                <input type="email" placeholder="Email " name="email" required="">
-                            </div>
 
+                        <div class="form-wrapper">
 
-                            <input type="text" placeholder="Κινητό" name="subject">
-                            <div class="cv_input ">
-                                <label  for="cv">Ανέβασμα Βιογραφικού    <i class="mx-3 fas fa-cloud-upload-alt"></i></label>
-                                <input type="file" id="cv" hidden="">
+                            <form id="contact-form2">
+                                <div class="name-email">
+                                    <input type="text" placeholder="Ονοματεπώνυμο" id="fullName" name="fullName">
+                                    <input type="text" placeholder="Email " id="email" name="email">
+                                </div>
+                                <input type="text" placeholder="Κινητό" id="phone" name="phone">
+                                <div class="cv_input ">
+                                    <label for="cv">Ανέβασμα Βιογραφικού <i
+                                                class="mx-3 fas fa-cloud-upload-alt"></i></label>
+                                    <input onchange="uploadCv(event,'../')" type="file" id="cv" hidden="">
+                                </div>
+
+                            </form>
+                            <div class="text-center ">
+                                <div class="my-2"> <button onclick="submitFormCv(event,'../')" id="submitBtn"  class="welcomeLearnMore">Υποβολή</button> </div>
+
                             </div>
-                            <button type="submit" class="rts-btn btn-primary">Υποβολή</button>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>

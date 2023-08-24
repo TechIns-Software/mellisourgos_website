@@ -30887,7 +30887,7 @@ font-size: 20px!important;
   background-color:transparent;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
   text-align: center;
   height: 100vh;
 }
@@ -30980,13 +30980,14 @@ font-size: 20px!important;
 }
 
 .welcomeSubmitBtn{
-  background: #4B83FC;
+  background: #3974ef;
   min-width: 200px;
   color: white;
   padding: 1em;
   border: none;
   border-radius: 15px;
   margin: auto;
+
 }
 
 .welcomeLearnMore{

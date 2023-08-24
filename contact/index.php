@@ -50,18 +50,23 @@ navbar($str,$title);
                         </div>
                         <div class="form-wrapper">
 
-                            <form id="contact-form">
+                            <form id="contact-form2">
                                 <div class="name-email">
-                                    <input type="text" placeholder="Ονοματεπώνυμο" id="fullName" name="fullName" >
-                                    <input type="text" placeholder="Email " id="email" name="email" >
+                                    <input type="text" placeholder="Ονοματεπώνυμο" id="fullName" name="fullName">
+                                    <input type="text" placeholder="Email " id="email" name="email">
                                 </div>
                                 <input type="text" placeholder="Κινητό" id="phone" name="phone">
                                 <div class="cv_input ">
-                                    <label  for="cv">Ανέβασμα Βιογραφικού    <i class="mx-3 fas fa-cloud-upload-alt"></i></label>
-                                    <input type="file" id="cv" hidden="">
+                                    <label for="cv">Ανέβασμα Βιογραφικού <i
+                                                class="mx-3 fas fa-cloud-upload-alt"></i></label>
+                                    <input onchange="uploadCv(event,'../')" type="file" id="cv" hidden="">
                                 </div>
-                                <button type="submit" class="rts-btn btn-primary">Υποβολή</button>
+
                             </form>
+                            <div class="text-center ">
+                                <div class="my-2"> <button onclick="submitFormCv(event,'../')" id="submitBtn"  class="welcomeLearnMore">Υποβολή</button> </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
