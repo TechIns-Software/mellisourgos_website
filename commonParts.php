@@ -40,7 +40,7 @@ function navbar($str='../',$title){
                             <div class="call">
                                 <i class="fas fa-phone-alt"></i>
                                 <a href="#">
-                                    Τηλ : +306944314855.
+                                    Τηλ : 210-4138888
                                 </a>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ function navbar($str='../',$title){
                                     <li><a class="nav-item" href="<?= $str ?>office/index.php">Γραφεία</a></li>
                                     <li><a class="nav-item" href="<?= $str ?>career/index.php">Καριέρα</a></li>
 <!--                                    <li><a class="nav-item" href="--><?php //= $str ?><!--videos/index.php">Βίντεο</a></li>-->
-                                    <li><a class="nav-item" href="<?= $str ?>test/index.php">Αξιολόγηση</a></li>
+                                    <li><a class="nav-item" href="<?= $str ?>test/index.php">Εσωστρεφής ή Εξωστρεφής;</a></li>
                                     <li><a class="nav-item" href="<?= $str ?>contact/index.php">Επικοινωνία</a></li>
                                 </ul>
                             </nav>
@@ -116,7 +116,7 @@ function navbar($str='../',$title){
                         <!-- single -->
                         <div class="single">
                             <i class="fas fa-phone-alt"></i>
-                            <a href="#">+306944314855.</a>
+                            <a href="#">210-4138888</a>
                         </div>
                         <!-- single ENd -->
                         <!-- single -->
@@ -150,7 +150,7 @@ function navbar($str='../',$title){
                         <li class="menu-item"><a class="menu-link" href="<?= $str ?>office/index.php">Γραφεία</a></li>
                         <li class="menu-item"><a class="menu-link" href="<?= $str ?>career/index.php">Καριέρα</a></li>
 <!--                        <li class="menu-item"><a class="menu-link" href="--><?php //= $str ?><!--videos/index.php">Βίντεο</a></li>-->
-                        <li><a class="nav-item" href="<?= $str ?>test/index.php">Αξιολόγηση</a></li>
+                        <li><a class="nav-item" href="<?= $str ?>test/index.php">Εσωστρεφής ή Εξωστρεφής;</a></li>
                         <li class="menu-item"><a class="menu-link" href="<?= $str ?>contact/index.php">Επικοινωνία</a></li>
                     </ul>
                 </nav>
@@ -198,7 +198,7 @@ function footer($str){
                                 <li><a href="<?= $str ?>career/index.php"><i class="far fa-arrow-right"></i>  Καριέρα</a></li>
 <!--                                <li><a href="--><?php //= $str ?><!--videos/index.php"><i class="far fa-arrow-right"></i> Βίντεο</a></li>-->
 
-                                <li><a href="<?= $str ?>test/index.php"><i class="far fa-arrow-right"></i> Αξιολόγηση</a></li>
+                                <li><a href="<?= $str ?>test/index.php"><i class="far fa-arrow-right"></i> Εσωστρεφής ή Εξωστρεφής;</a></li>
                                 <li><a href="<?= $str ?>contact/index.php"><i class="far fa-arrow-right"></i> Επικοινωνία</a></li>
 
                             </ul>
@@ -241,7 +241,7 @@ function footer($str){
                                 <!-- single -->
                                 <div class="single">
                                     <span>  Τηλ Επικοινωνίας:</span>
-                                    <a href="#">+306944314855.</a>
+                                    <a href="#">210-4138888</a>
                                 </div>
                                 <!-- single ENd -->
                                 <!-- single -->

@@ -1,8 +1,8 @@
 <?php
-include_once  'commonParts.php';
+include_once 'commonParts.php';
 $str = '';
 $title = 'Αρχική';
-navbar($str,$title);
+navbar($str, $title);
 ?>
 
 <!-- rts banner area start -->
@@ -17,12 +17,14 @@ navbar($str,$title);
                 <div class="banner-inner-six">
                     <h1 class="title mb--30">
                         <span class="pre">Ευκαιρία </span> <br>
-                         <span class="primary">Καριέρας</span>
+                        <span class="primary">Καριέρας</span>
                     </h1>
                     <p class="discHero">
-                        Θέλεις να πραγματοποιήσεις τα όνειρα σου μέσω μιας <br>καριέρας σε έναν σταθερό, ασφαλή και συνεχώς αναπτυσσόμενο κλάδο;
+                        Θέλεις να πραγματοποιήσεις τα όνειρα σου μέσω μιας <br>καριέρας σε έναν σταθερό, ασφαλή και
+                        συνεχώς αναπτυσσόμενο κλάδο;
                     </p>
-                    <a href="#" class="rts-btn btn-primary-5 style-six rounded-2 seven">Μαθε Περισσοτερα</a>
+                    <a href="#contact" class="rts-btn btn-primary-5 style-six rounded-2 seven">Γνωρισε μας σημερα!</a>
+
                 </div>
                 <!-- banner area inner six end -->
             </div>
@@ -30,6 +32,63 @@ navbar($str,$title);
     </div>
 </div>
 <!-- rts banner area end -->
+
+<div class="pb--120 pb_md--80 pb_sm--60 rts-counter-up-area rts-section-gapTop">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="counter-wrapper-two">
+                    <div class="single-counter">
+                        <img src="assets/images/counterup/icon/05.svg" alt="Business_counter">
+                        <div class="counter-details">
+                            <h2 class="title"><span class="counter animated fadeInDownBig">17.000000</span></h2>
+                            <p class="disc">Χαρτοφυλακιο</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="counter-wrapper-two">
+                    <div class="single-counter">
+                        <img src="assets/images/counterup/icon/08.svg" alt="Business_counter">
+                        <div class="counter-details">
+                            <h2 class="title"><span class="counter animated fadeInDownBig"> 64</span></h2>
+                            <p class="disc">Συνεργατες</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="counter-wrapper-two">
+                    <div class="single-counter">
+                        <img src="assets/images/counterup/icon/07.svg" alt="Business_counter">
+                        <div class="counter-details">
+                            <h2 class="title"><span class="counter animated fadeInDownBig"> 30.000</span></h2>
+                            <p class="disc">Πελατες</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="counter-wrapper-two">
+                    <div class="single-counter">
+                        <img src="assets/images/counterup/icon/07.svg" alt="Business_counter">
+                        <div class="counter-details">
+                            <h2 class="title"><span class="counter animated fadeInDownBig"> 22.000</span></h2>
+                            <p class="disc">Αποζημιωσεις ανα ημερα</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 text-center">
+                <p> Συμφωνά με τις μετρήσεις (2022) ο μέσος συνεργάτης του γραφείου έχει απολαβές πάνω από<b> 3.520 ευρώ το μήνα!</b> </p>
+
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="bg-shape-wrapper-main">
     <!-- rts about area start -->
@@ -44,42 +103,87 @@ navbar($str,$title);
                             <img class="two" src="assets/images/banner/shape/pre-title.png" alt="pre-title">
                         </div>
                         <h2 class="title">
-                            Οι άνθρωποί μας είναι εδώ!
-
+                            Σύντομο Βιογραφικό
                         </h2>
                     </div>
                     <div class="about-content-inner-style-six">
                         <p class="disc">
-                            Ο <b>  Κωνσταντίνος Μελισσουργός </b> είναι γεννημένος το 1966 στην Αθήνα, είναι παντρεμένος και περήφανος πατέρας ενός παιδιού. Στις ακαδημαϊκές του σπουδές επικεντρώθηκε στο Χρηματοοικονομικό πεδίο και στον προγραμματισμό Ηλεκτρονικών Υπολογιστών, κεφάλαια γνώσης που αποτελούν τις βάσεις της καριέρας του
+                            Ο <b> Κωνσταντίνος Μελισσουργός</b> είναι γεννημένος
+                            το 1966 στην Αθήνα, είναι παντρεμένος και περήφανος πατέρας ενός παιδιού.
+                            Στις ακαδημαϊκές του σπουδές επικεντρώθηκε στο Χρηματοοικονομικό πεδίο και στον
+                            προγραμματισμό Ηλεκτρονικών Υπολογιστών, κεφάλαια γνώσης που αποτελούν τις βάσεις της
+                            καριέρας του.
                         </p>
+
+                        <h4 class="benefitsTitle"> Ορισμένα από τα οφέλη της ευκαιρίας καριέρας που προσφέρουμε στην NN
+                            Hellas είναι:</h4>
 
                         <div class="item-check-inner">
                             <div class="single-col">
+
                                 <div class="single-check">
                                     <i class="fas fa-check-circle"></i>
-                                   Ευέλικτο Ωράριο
+                                    Ασφάλεια και σταθερότητα
+                                </div>
+                                <div class="single-check">
+                                    <i class="fas fa-check-circle"></i>
+                                    Ευέλικτο Ωράριο
                                 </div>
                                 <div class="single-check">
                                     <i class="fas fa-check-circle"></i>
                                     Επαγγελματικά Ταξίδια
                                 </div>
 
+                                <div class="single-check">
+                                    <i class="fas fa-check-circle"></i>
+                                    Συνεχή Εξέλιξη
+                                </div>
+
+                                <div class="single-check">
+                                    <i class="fas fa-check-circle"></i>
+                                    Συνέδρια
+                                </div>
+
+                                <div class="single-check">
+                                    <i class="fas fa-check-circle"></i>
+                                    Εκπαίδευση
+                                </div>
+
+
                             </div>
                             <div class="single-col">
 
+
                                 <div class="single-check">
                                     <i class="fas fa-check-circle"></i>
-                                    Απολαβές Χωρίς Όριο
+                                    Πιστοποιήσεις Επάρκειας
                                 </div>
                                 <div class="single-check">
                                     <i class="fas fa-check-circle"></i>
-                                   Bonus Επίτευξης Στόχων
+                                    Απολαβές δίχως όρια
+                                </div>
+                                <div class="single-check">
+                                    <i class="fas fa-check-circle"></i>
+                                    Bonus Επίτευξης Στόχων
+                                </div>
 
+                                <div class="single-check">
+                                    <i class="fas fa-check-circle"></i>
+                                    Ομαδική Ασφάλιση
+                                </div>
+
+                                <div class="single-check">
+                                    <i class="fas fa-check-circle"></i>
+                                    Ομαδικό Πνεύμα.
                                 </div>
 
                             </div>
-                        </div>
 
+                        </div>
+                        <div class="my-4">
+                            <a href="#contact" class="rts-btn btn-primary-5  style-six rounded-2 seven">Γνωρισε μας
+                                σημερα!</a>
+                        </div>
 
 
                     </div>
@@ -95,7 +199,6 @@ navbar($str,$title);
     <!-- rts about area end -->
 
 
-
     <!-- working process start -->
     <div class="rts-working-process rts-section-gapBottom">
         <div class="container">
@@ -108,71 +211,75 @@ navbar($str,$title);
                             <img class="two" src="assets/images/banner/shape/pre-title.png" alt="pre-title">
                         </div>
                         <h2 class="title">
-                       Ποια είναι τα βασικά στοιχεία <br> για την επιτυχία μας ;
+                            Ποια είναι τα βασικά στοιχεία <br> για την επιτυχία μας ;
                         </h2>
                     </div>
                 </div>
             </div>
             <div class="row mt--20">
-                <div class="col-xl-3 col-md-4">
+                <div class="col-xl-6 col-md-12">
                     <!-- single-service area start -->
                     <div class="rts-single-service-style-process text-center">
                         <div class="icon">
                             <img src="assets/images/service/icon/22.svg" alt="">
                         </div>
                         <h5 class="title">
-                         Ευκαιρίες Ανάπτυξης
+                            Προσωπική Υποστήριξη και Καθοδήγηση
                         </h5>
                         <p class="disc">
-                            Dictum stem tristique conubia arturie ornare vivamus euismod
+                            Σε κάθε βήμα της καριέρας σας, θα έχετε την πλήρη υποστήριξη και την καθοδήγηση της ομάδας
+                            μας. Δεν είστε μόνοι σας σε αυτό το ταξίδι – είμαστε δίπλα σας για να βοηθήσουμε στην
+                            επίτευξη των στόχων σας.
                         </p>
 
                     </div>
                     <!-- single-service area end -->
                 </div>
-                <div class="col-xl-3 col-md-4">
+                <div class="col-xl-6 col-md-12">
                     <!-- single-service area start -->
                     <div class="rts-single-service-style-process text-center">
                         <div class="icon">
                             <img src="assets/images/service/icon/23.svg" alt="">
                         </div>
                         <h5 class="title">
-                            Εργατικότητα
+                            Πρωτοποριακά Εκπαιδευτικά Προγράμματα
                         </h5>
                         <p class="disc">
-                            Dictum stem tristique conubia arturie ornare vivamus euismod
+                            Προσφέρουμε προγράμματα κατάρτισης και εκπαίδευσης που έχουν σχεδιαστεί για να σας
+                            εξοπλίσουν με τις πιο σύγχρονες γνώσεις και δεξιότητες, εγγυώμενοι την επιτυχία σας.
                         </p>
 
                     </div>
                     <!-- single-service area end -->
                 </div>
-                <div class="col-xl-3 col-md-4">
+                <div class="col-xl-6 col-md-12">
                     <!-- single-service area start -->
                     <div class="rts-single-service-style-process text-center">
                         <div class="icon">
                             <img src="assets/images/service/icon/24.svg" alt="">
                         </div>
                         <h5 class="title">
-                            Ομαδικότητα
+                            Δυνατότητα Ανάπτυξης
                         </h5>
                         <p class="disc">
-                            Dictum stem tristique conubia arturie ornare vivamus euismod
+                            Η δέσμευσή μας είναι να βλέπουμε το ταλέντο σας να ανθίζει. Προσφέρουμε πληθώρα ευκαιριών
+                            για ανάπτυξη, επιτρέποντάς σας να φτάσετε στην κορυφή μέσω της καριέρας στο management.
                         </p>
 
                     </div>
                     <!-- single-service area end -->
                 </div>
-                <div class="col-xl-3 col-md-4">
+                <div class="col-xl-6 col-md-12">
                     <!-- single-service area start -->
                     <div class="rts-single-service-style-process text-center">
                         <div class="icon">
                             <img src="assets/images/service/icon/22.svg" alt="">
                         </div>
                         <h5 class="title">
-                            Get Started!
+                            Πρωτοποριακά εργαλεία
                         </h5>
                         <p class="disc">
-                            Dictum stem tristique conubia arturie ornare vivamus euismod
+                            Προσφέρουμε πρόσβαση σε καινοτόμες τεχνολογίες και πλατφόρμες που επιτρέπουν την αποτελεσματική διαχείριση του πελατολογίου σας, την επαγγελματική παρουσία, την εκπαίδευση και την ανάπτυξη.
                         </p>
 
                     </div>
@@ -180,8 +287,10 @@ navbar($str,$title);
                 </div>
 
                 <div class="col-12 my-5 ">
-                    <div class="d-flex justify-content-center  my-5">
-                        <div>  <a class="rts-btn btn-primary-5 " href="test">Κάνε την Αξιολόγηση</a> </div>
+                    <div class=" my-5">
+                        <div class="d-block my-5 py-3 text-center"><a class="rts-btn btn-primary-5  " href="#contact"> Γνώρισε μας σήμερα</a></div>
+                        <div class="d-block my-5 py-3 text-center" ><a class="rts-btn btn-primary-5  " href="test">Είσαι εσωστρεφής ή εξωστρεφής;
+                                Κάνε το τεστ; </a></div>
                     </div>
                 </div>
 
@@ -195,19 +304,21 @@ navbar($str,$title);
 </div>
 
 
-
 <!-- start call to action area -->
 <div class="rts-callto-acation-area rts-callto-acation-area4 bg-call-to-action-two">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 py-3 ">
                 <div class="cta-two-wrapper">
                     <div class="title-area">
-                        <h3 class="title">Ας συζητήσουμε πώς μπορούμε να <br> συνεργαστούμε και να καταταφέρουμε κάτι μοναδικό!</h3>
+                        <h3 class="title">Ας συζητήσουμε πώς μπορούμε να <br> συνεργαστούμε και να καταταφέρουμε κάτι
+                            μοναδικό!</h3>
                     </div>
-                    <a class="rts-btn btn-primary-5" href="career">Καριέρα</a>
+                    <button onclick="window.location.href='career'" class="rts-btn btn-primary-5 my-4" href="career">Γνώρισε μας σήμερα !</button>
                 </div>
+
             </div>
+
         </div>
     </div>
 </div>
@@ -253,7 +364,7 @@ navbar($str,$title);
                                 </h5>
                             </a>
                             <a class="rts-read-more btn-primary" href="blog-details.html"><i
-                                    class="far fa-arrow-right"></i>Read
+                                        class="far fa-arrow-right"></i>Read
                                 More</a>
                         </div>
                     </div>
@@ -266,7 +377,7 @@ navbar($str,$title);
     <!-- rts blog area edn -->
 </div>
 
-<div class="rts-contact-area contact-one">
+<div class="rts-contact-area contact-one" id="contact">
     <div class="container">
         <div class="row align-items-center g-0">
             <div class="col-lg-4 col-md-12 col-sm-12 col-12">
@@ -278,25 +389,28 @@ navbar($str,$title);
                 <div class="contact-form-area-one">
                     <div class="rts-title-area contact text-start">
                         <p class="pre-title">
-                           Επικοινωνια
+                            Επικοινωνια
                         </p>
                         <h2 class="title">Φόρμα Επικοινωνίας</h2>
                     </div>
 
                     <form id="contact-form">
                         <div class="name-email">
-                            <input type="text" placeholder="Ονοματεπώνυμο" id="fullName" name="fullName" >
-                            <input type="text" placeholder="Email " id="email" name="email" >
+                            <input type="text" placeholder="Ονοματεπώνυμο" id="fullName" name="fullName">
+                            <input type="text" placeholder="Email " id="email" name="email">
                         </div>
                         <input type="text" placeholder="Κινητό" id="phone" name="phone">
                         <textarea placeholder="Μήνυμα" id="message" name="message"></textarea>
-                        <button type="submit" onclick="submitContactForm('')" class="rts-btn btn-primary">Υποβολή</button>
+                        <button type="submit" onclick="submitContactForm('')" class="rts-btn btn-primary">Υποβολή
+                        </button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
 
 <?php
 footer($str);

@@ -121,7 +121,7 @@ html {
   font-size: 10px;
   overflow: hidden;
   overflow-y: auto;
-  scroll-behavior: auto !important;
+  scroll-behavior: smooth !important;
 }
 
 body {
@@ -18914,7 +18914,7 @@ p.disc.banner-para {
 }
 
 .banner-inner-six {
-  top: 30%;
+  top: 20%;
   position: absolute;
 }
 @media only screen and (max-width: 575px) {
@@ -21884,10 +21884,8 @@ p.disc.banner-para {
 }
 
 .cta-two-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 90px 0;
+  padding: 40px 0;
+  text-align: center;
 }
 @media only screen and (max-width: 767px) {
   .cta-two-wrapper {
@@ -21896,7 +21894,7 @@ p.disc.banner-para {
   }
 }
 .cta-two-wrapper .title-area {
-  width: 70%;
+  width: 100%;
 }
 @media only screen and (max-width: 767px) {
   .cta-two-wrapper .title-area {
@@ -30767,6 +30765,7 @@ p.disc {
 }
 
 .office{
+  min-height: 190px;
   width: 80%;
   margin: auto;
   border-radius: 15px;
@@ -30854,3 +30853,8 @@ font-size: 20px!important;
   -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.44);
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.44);
 }
+
+.benefitsTitle{
+  font-size: 20px;
+}
+
