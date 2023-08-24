@@ -16700,6 +16700,7 @@ li.has-droupdown {
   transition: 0.3s;
   font-size: 16px;
 }
+
 .social-wrapper-two a::after {
   position: absolute;
   height: 45px;
@@ -16715,6 +16716,12 @@ li.has-droupdown {
 }
 .social-wrapper-two a:hover i {
   color: var(--color-primary);
+}
+.tiktokSvg{
+  fill: white;
+}
+.social-wrapper-two a:hover .tiktokSvg {
+  fill: var(--color-primary);
 }
 .social-wrapper-two a:hover::after {
   background: #ffecec;
@@ -17613,6 +17620,13 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
 }
 .social-wrapper-two.menu.mobile-menu a:hover::after {
   background: var(--color-primary);
+}
+
+.tiktokSvg2{
+  fill: var(--color-primary);
+}
+.social-wrapper-two a:hover .tiktokSvg2{
+  fill:#fff;
 }
 
 .home-blue .quote-btnmenu {
