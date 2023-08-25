@@ -215,12 +215,9 @@ function footer($str){
                         <div class="opening-time-inner">
                             <div class="single-opening">
                                 <p class="day">Δευτ. - Παρ. </p>
-                                <p class="time">09:00 - 17:00</p>
+                                <p class="time">09:00 - 20:00</p>
                             </div>
-                            <div class="single-opening">
-                                <p class="day">Σάββατο</p>
-                                <p class="time">10:00 - 14:00</p>
-                            </div>
+
 
                             <a href="#" class="rts-btn btn-primary contact-us">Επικοινωνία</a>
                         </div>
