@@ -128,6 +128,9 @@ navbar($str,$title);
                                     <input onchange="uploadCv(event,'../')" type="file" id="cv" hidden="">
                                 </div>
 
+                                <div class="spinner-border d-none"   role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
                             </form>
                             <div class="text-center ">
                                 <div class="my-2"> <button onclick="submitFormCv(event,'../')" id="submitBtn"  class="welcomeLearnMore">Υποβολή</button> </div>

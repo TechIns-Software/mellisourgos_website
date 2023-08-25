@@ -408,6 +408,9 @@ navbar($str, $title);
                         </div>
                         <input type="text" placeholder="Κινητό" id="phone" name="phone">
                         <textarea placeholder="Μήνυμα" id="message" name="message"></textarea>
+                        <div class="spinner-border d-none"   role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
                         <button type="submit" onclick="submitContactForm('')" class="rts-btn btn-primary">Υποβολή
                         </button>
                     </form>
@@ -438,9 +441,12 @@ navbar($str, $title);
                             </div>
 
                         </form>
+                        <div class="spinner-border d-none"   role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
 
                         <div class="text-center ">
-                            <div class="my-2"> <button onclick="submitFormCv(event,'')" id="submitBtn"  class="welcomeLearnMore">Υποβολή</button> </div>
+                            <div class="my-2"> <button onclick="submitFormCv(event,'')" id="submitBtn"   class="welcomeLearnMore">Υποβολή</button> </div>
                             <div class="my-2"> <button onclick="removeModal()"  class="welcomeSubmitBtn">Δες την ιστοσελίδα  !</button> </div>
                         </div>
                     </div>

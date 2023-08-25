@@ -313,7 +313,7 @@ function footer($str){
     <script src="<?= $str ?>assets/js/vendor/bootstrap.min.js"></script>
     <script src="<?= $str ?>assets/js/plugins/contact.form.js"></script>
     <!-- main Js -->
-    <script src="<?= $str ?>assets/js/main.js"></script>
+    <script src="<?= $str ?>assets/js/main.js?v=1.3"></script>
     <!-- scripts end form hear -->
     </body>
 

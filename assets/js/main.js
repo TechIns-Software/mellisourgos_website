@@ -1183,7 +1183,7 @@ function submitContactForm(relativePath='../'){
 
   if ( fullName != '' || email != '' ||
       phone != '' || message != '' ){
-
+    $('.spinner-border').removeClass('d-none');
     $.ajax({
       url: relativePath+'assets/sendForm.php',
       dataType: "json",
@@ -1197,6 +1197,7 @@ function submitContactForm(relativePath='../'){
       },
       success: function (data) {
         console.log(data)
+        $('.spinner-border').addClass('d-none');
           alert(data[1]);
         window.location.reload();
 
@@ -1218,7 +1219,7 @@ var isImageUploaded = false;
 var uniqueForm = '';
 function uploadCv(event,relativepath = '../') {
   event.preventDefault();
-  console.log('im changed');
+  $('.spinner-border').removeClass('d-none');
   var fd = new FormData();
   var cv = $('#cv')[0].files;
   uniqueForm = Math.floor(Math.random() * 10)+'-'+Date.now();
@@ -1235,6 +1236,7 @@ function uploadCv(event,relativepath = '../') {
       success: function(response) {
         isImageUploaded = true;
         $("#submitBtn").attr("disabled", false);
+        $('.spinner-border').addClass('d-none');
         alert("Το αρχείο ανέβηκε!. Παρακαλώ υποβάλετε την φόρμα ");
       },
     });
@@ -1246,6 +1248,7 @@ function uploadCv(event,relativepath = '../') {
 function submitFormCv(e,relativepath = '../'){
   e.preventDefault();
   $("#submitBtn").attr("disabled", false);
+  $('.spinner-border').removeClass('d-none');
   var formDataCv = {};
   if (!isImageUploaded){
     alert('Το ανέβασμα βιογραφικού είναι υποχρεωτικό.');
@@ -1266,6 +1269,7 @@ function submitFormCv(e,relativepath = '../'){
       }else if  (data['result'] == "failed"){
         alert('Σφάλμα με την αποστολή φόρμας. Παρακαλώ προσπαθήστε αργότερα');
       }
+      $('.spinner-border').addClass('d-none');
       if (relativepath == ''){
         removeModal()
       }
