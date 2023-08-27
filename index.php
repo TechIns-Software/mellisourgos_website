@@ -116,8 +116,7 @@ navbar($str, $title);
                             καριέρας του.
                         </p>
 
-                        <h4 class="benefitsTitle"> Ορισμένα από τα οφέλη της ευκαιρίας καριέρας που προσφέρουμε στην NN
-                            Hellas είναι:</h4>
+                        <h4 class="benefitsTitle"> Ορισμένα από τα οφέλη της ευκαιρίας καριέρας που προσφέρουμε είναι:</h4>
 
                         <div class="item-check-inner">
                             <div class="single-col">
