@@ -31,10 +31,12 @@ navbar($str, $title);
                     </div>
                 </div>
 
+
                 <div class="col-12 ">
                     <div class=" ">
                         <div class="testForm">
                             <form id="testForm">
+
                             <div class="testBox">
                                 <h5><input type="text" id="1_1" name="1_1"> Ο καταιγισμός ιδεών είναι καλύτερα να γίνεται αυθόρμητα.
                                 </h5>
@@ -109,6 +111,7 @@ navbar($str, $title);
 
 
                 </div>
+
 
 
             </div>
