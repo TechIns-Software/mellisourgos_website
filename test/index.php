@@ -9,7 +9,7 @@ navbar($str, $title);
     <!-- rts about us section start -->
     <div class="rts-about-area rts-section-gap  ">
         <div class="container">
-            <div class="row  align-items-center">
+            <div class="row ">
                 <div class="col-lg-12 col-md-12">
                     <div class="about-progress-inner">
                         <div class="title-area">
@@ -18,99 +18,248 @@ navbar($str, $title);
                         </div>
                         <!-- inner start -->
                         <div class="inner ">
-                            <p class="disc"> Κάθε αριθμός αντιπροσωπεύει δύο δηλώσεις. Για κάθε ζεύγος δίνετε από 3
-                                βαθμούς,
-                                με βάση το τι ισχύει για εσάς. Η κατανομή των πόντων είναι είτε 3 και 0, είτε 2 και 1
-                                δεν υπάρχουν μισοί πόντοι.
-                                <br> Αν π.χ. σας εκφράζει το Α και όχι το Β, τότε Α = 3 και Β = 0.
-                                <br> Αν συμφωνείτε λίγο με το Α αλλά περισσότερο με το Β, τότε Α = 1
-                                <br> <br> Απαντήστε με βάση το τι είναι στη φύση σας, κι οχι το τι πιστεύετε πως είναι
-                                το "σωστό".
+
+                            <p class="disc">
+                                Απαντήστε με βάση το τι είναι στη φύση σας, κι οχι το τι πιστεύετε πως είναι το "σωστό".
+                            </p>
+
                         </div>
                         <!-- end -->
                     </div>
                 </div>
 
 
-                <div class="col-12 ">
-                    <div class=" ">
-                        <div class="testForm">
-                            <form id="testForm">
-
-                            <div class="testBox">
-                                <h5><input type="text" id="1_1" name="1_1"> Ο καταιγισμός ιδεών είναι καλύτερα να γίνεται αυθόρμητα.
-                                </h5>
-                                <h5><input type="text" id="1_2" name="1_2"> Ο καταιγισμός ιδεών είναι καλύτερα να γίνεται όταν τα θέματα
-                                    έχουν διανεμηθεί από πριν.</h5>
-                            </div>
-
-                            <div class="testBox">
-                                <h5><input type="text" id="2_1" name="2_1"> Μια ιδανική μέρα ρεπό περιλαμβάνει χρόνο για εμένα.</h5>
-                                <h5><input type="text" id="2_2" name="2_2"> Μια ιδανική μέρα ρεπό κυλά παρέα με άλλους.</h5>
-                            </div>
-
-
-                            <div class="testBox">
-                                <h5><input type="text" id="3_1" name="3_1"> Οι άνθρωποι πιθανόν με θεωρούν κάπως μοναχικό</h5>
-                                <h5><input type="text" id="3_2" name="3_2"> Οι άνθρωποι πιθανόν σκέφτονται ότι μιλάω πάρα πολύ.</h5>
-                            </div>
-
-
-                            <div class="testBox">
-                                <h5><input type="text" id="4_1" name="4_1"> Όταν κάνω δικτύωση, είμαι καλός στο να περιφέρομαι
-                                    ανάμέσα στον κόσμο.</h5>
-                                <h5><input type="text" id="4_2" name="4_2"> Όταν κάνω δικτύωση, συνήθως εστιάζω σε ένα-δυο άτομα.
-                                </h5>
-                            </div>
-
-                            <div class="testBox">
-                                <h5><input type="text" id="5_1" name="5_1"> Προτιμώ να εργάζομαι ανεξάρτητα.</h5>
-                                <h5><input type="text" id="5_2" name="5_2"> Προτιμώ να εργάζομαι στο πλαίσιο μιας ομάδας.</h5>
-                            </div>
-
-                            <div class="testBox">
-                                <h5><input type="text" id="6_1" name="6_1"> Οι ιδέες μου έρχονται όταν σκέφτομαι τα πράγματα.</h5>
-                                <h5><input type="text" id="6_2" name="6_2"> Οι ιδέες μου έρχονται όταν συζητάω τα πράγματα.</h5>
-                            </div>
-
-                            <div class="testBox">
-                                <h5><input type="text" id="7_1" name="7_1" > Προτιμώ να γευματίζω παρέα με άλλα άτομα. </h5>
-                                <h5><input type="text" id="7_2" name="7_2"> Προτιμώ να γευματίζω μόνος ή με ένα άλλο άτομο.</h5>
-                            </div>
-
-                            <div class="testBox">
-                                <h5><input type="text" id="8_1" name="8_1" > Νιώθω άβολα να πιάνω κουβεντούλα. </h5>
-                                <h5><input type="text" id="8_2" name="8_2"> Είναι στη φύση μου να είμαι ομιλητικός.</h5>
-                            </div>
-
-                            <div class="testBox">
-                                <h5><input type="text" id="9_1" name="9_1" > Κάνω φίλους όπου πηγαίνω. </h5>
-                                <h5><input type="text" id="9_2" name="9_2"> Έχω λίγους πραγματικούς φίλους.</h5>
-                            </div>
-
-                            <div class="testBox">
-                                <h5><input type="text" id="10_1" name="10_1"> Συχνά νιώθω πως δεν γίνομαι κατανοητός. </h5>
-                                <h5><input type="text" id="10_2" name="10_2"> Γίνομαι εύκολα κατανοητός.</h5>
-                            </div>
-
-                            <div class="testBox">
-                                <h5><input type="text" id="11_1" name="11_1"> Έχω πολλά και ποικίλα ενδιαφέροντα. </h5>
-                                <h5><input type="text" id="11_2" name="11_2"> Έχω λίγα ενδιαφέροντα και ασχολούμαι με αυτά σε βάθος.
-                                </h5>
-                            </div>
-                            </form>
-
-                        </div>
-                        <div class="text-center my-2">
-                            <button href="#" class="rts-btn btn-primary-5 style-six rounded-2 seven"
-                                    data-bs-toggle="modal" data-bs-target="#exampleModal">Αποστολή</button>
-                        </div>
-
-
+                <form id="testForm">
+                <div class="questionBox ">
+                    <div class="d-flex justify-content-between flex-wrap  labelsBox">
+                        <div class="label-range">Α) Ο καταιγισμός ιδεών είναι καλύτερα να γίνεται αυθόρμητα. </div>
+                        <div class="label-range">Β) Ο καταιγισμός ιδεών είναι καλύτερα να γίνεται όταν τα θέματα έχουν διανεμηθεί από πριν.</div>
                     </div>
 
+                    <div class="__range __range-step __range-step-popup ">
 
+                        <input value="1" type="range" name="q_1" max="5" min="1" step="1" list="ticks2">
+                        <datalist id="ticks2">
+                            <option value="1">Συμφωνώ μόνο με το Α</option>
+                            <option value="2">Συμφωνώ κυρίως με το Α</option>
+                            <option value="3">Συμφωνώ και με το Α και το Β</option>
+                            <option value="4">Συμφωνώ κυρίως με το Β</option>
+                            <option value="5">Συμφωνώ μόνο με το Β</option>
+                        </datalist>
+                        <output class="__range-output-square"></output>
+                    </div>
                 </div>
+
+                <div class="questionBox ">
+                    <div class="d-flex justify-content-between flex-wrap  labelsBox">
+                        <div class="label-range">Α) Μια ιδανική μέρα ρεπό περιλαμβάνει χρόνο για εμένα. </div>
+                        <div class="label-range">Β) Μια ιδανική μέρα ρεπό κυλά παρέα με άλλους.</div>
+                    </div>
+
+                    <div class="__range __range-step __range-step-popup ">
+
+                        <input value="1" type="range" name="q_2" max="5" min="1" step="1" list="ticks2">
+                        <datalist id="ticks2">
+                            <option value="1">Συμφωνώ μόνο με το Α</option>
+                            <option value="2">Συμφωνώ κυρίως με το Α</option>
+                            <option value="3">Συμφωνώ και με το Α και το Β</option>
+                            <option value="4">Συμφωνώ κυρίως με το Β</option>
+                            <option value="5">Συμφωνώ μόνο με το Β</option>
+                        </datalist>
+                        <output class="__range-output-square"></output>
+                    </div>
+                </div>
+
+
+                <div class="questionBox ">
+                    <div class="d-flex justify-content-between flex-wrap  labelsBox">
+                        <div class="label-range">Α) Οι άνθρωποι πιθανόν με θεωρούν κάπως μοναχικό. </div>
+                        <div class="label-range">Β) Οι άνθρωποι πιθανόν σκέφτονται ότι μιλάω πάρα πολύ.</div>
+                    </div>
+
+                    <div class="__range __range-step __range-step-popup ">
+
+                        <input value="1" type="range" name="q_3" max="5" min="1" step="1" list="ticks2">
+                        <datalist id="ticks2">
+                            <option value="1">Συμφωνώ μόνο με το Α</option>
+                            <option value="2">Συμφωνώ κυρίως με το Α</option>
+                            <option value="3">Συμφωνώ και με το Α και το Β</option>
+                            <option value="4">Συμφωνώ κυρίως με το Β</option>
+                            <option value="5">Συμφωνώ μόνο με το Β</option>
+                        </datalist>
+                        <output class="__range-output-square"></output>
+                    </div>
+                </div>
+
+                <div class="questionBox ">
+                    <div class="d-flex justify-content-between flex-wrap  labelsBox">
+                        <div class="label-range">Α) Όταν κάνω δικτύωση, είμαι καλός στο να περιφέρομαι ανάμεσα στον κόσμο. </div>
+                        <div class="label-range">Β) Όταν κάνω δικτύωση, συνήθως εστιάζω σε ένα-δυο άτομα. </div>
+                    </div>
+
+                    <div class="__range __range-step __range-step-popup ">
+
+                        <input value="1" type="range" name="q_4" max="5" min="1" step="1" list="ticks2">
+                        <datalist id="ticks2">
+                            <option value="1">Συμφωνώ μόνο με το Α</option>
+                            <option value="2">Συμφωνώ κυρίως με το Α</option>
+                            <option value="3">Συμφωνώ και με το Α και το Β</option>
+                            <option value="4">Συμφωνώ κυρίως με το Β</option>
+                            <option value="5">Συμφωνώ μόνο με το Β</option>
+                        </datalist>
+                        <output class="__range-output-square"></output>
+                    </div>
+                </div>
+
+
+                <div class="questionBox ">
+                    <div class="d-flex justify-content-between flex-wrap  labelsBox">
+                        <div class="label-range">Α) Προτιμώ να εργάζομαι ανεξάρτητα. </div>
+                        <div class="label-range">Β) Προτιμώ να εργάζομαι στο πλαίσιο μιας ομάδας. </div>
+                    </div>
+
+                    <div class="__range __range-step __range-step-popup ">
+
+                        <input value="1" type="range" name="q_5" max="5" min="1" step="1" list="ticks2">
+                        <datalist id="ticks2">
+                            <option value="1">Συμφωνώ μόνο με το Α</option>
+                            <option value="2">Συμφωνώ κυρίως με το Α</option>
+                            <option value="3">Συμφωνώ και με το Α και το Β</option>
+                            <option value="4">Συμφωνώ κυρίως με το Β</option>
+                            <option value="5">Συμφωνώ μόνο με το Β</option>
+                        </datalist>
+                        <output class="__range-output-square"></output>
+                    </div>
+                </div>
+
+
+                <div class="questionBox ">
+                    <div class="d-flex justify-content-between flex-wrap  labelsBox">
+                        <div class="label-range">Α) Οι ιδέες μου έρχονται όταν σκέφτομαι τα πράγματα. </div>
+                        <div class="label-range">Β) Οι ιδέες μου έρχονται όταν συζητάω τα πράγματα. </div>
+                    </div>
+
+                    <div class="__range __range-step __range-step-popup ">
+
+                        <input value="1" type="range" name="q_6" max="5" min="1" step="1" list="ticks2">
+                        <datalist id="ticks2">
+                            <option value="1">Συμφωνώ μόνο με το Α</option>
+                            <option value="2">Συμφωνώ κυρίως με το Α</option>
+                            <option value="3">Συμφωνώ και με το Α και το Β</option>
+                            <option value="4">Συμφωνώ κυρίως με το Β</option>
+                            <option value="5">Συμφωνώ μόνο με το Β</option>
+                        </datalist>
+                        <output class="__range-output-square"></output>
+                    </div>
+                </div>
+
+                <div class="questionBox ">
+                    <div class="d-flex justify-content-between flex-wrap  labelsBox">
+                        <div class="label-range">Α) Προτιμώ να γευματίζω παρέα με άλλα άτομα. </div>
+                        <div class="label-range">Β) Προτιμώ να γευματίζω μόνος ή με ένα άλλο άτομο. </div>
+                    </div>
+
+                    <div class="__range __range-step __range-step-popup ">
+
+                        <input value="1" type="range" name="q_7" max="5" min="1" step="1" list="ticks2">
+                        <datalist id="ticks2">
+                            <option value="1">Συμφωνώ μόνο με το Α</option>
+                            <option value="2">Συμφωνώ κυρίως με το Α</option>
+                            <option value="3">Συμφωνώ και με το Α και το Β</option>
+                            <option value="4">Συμφωνώ κυρίως με το Β</option>
+                            <option value="5">Συμφωνώ μόνο με το Β</option>
+                        </datalist>
+                        <output class="__range-output-square"></output>
+                    </div>
+                </div>
+
+                <div class="questionBox ">
+                    <div class="d-flex justify-content-between flex-wrap  labelsBox">
+                        <div class="label-range">Α) Νιώθω άβολα να πιάνω κουβεντούλα. </div>
+                        <div class="label-range">Β) Είναι στη φύση μου να είμαι ομιλητικός. </div>
+                    </div>
+
+                    <div class="__range __range-step __range-step-popup ">
+
+                        <input value="1" type="range" name="q_8" max="5" min="1" step="1" list="ticks2">
+                        <datalist id="ticks2">
+                            <option value="1">Συμφωνώ μόνο με το Α</option>
+                            <option value="2">Συμφωνώ κυρίως με το Α</option>
+                            <option value="3">Συμφωνώ και με το Α και το Β</option>
+                            <option value="4">Συμφωνώ κυρίως με το Β</option>
+                            <option value="5">Συμφωνώ μόνο με το Β</option>
+                        </datalist>
+                        <output class="__range-output-square"></output>
+                    </div>
+                </div>
+
+                <div class="questionBox ">
+                    <div class="d-flex justify-content-between flex-wrap  labelsBox">
+                        <div class="label-range">Α) Κάνω φίλους όπου πηγαίνω. </div>
+                        <div class="label-range">Β) Έχω λίγους πραγματικούς φίλους. </div>
+                    </div>
+
+                    <div class="__range __range-step __range-step-popup ">
+
+                        <input value="1" type="range" name="q_9" max="5" min="1" step="1" list="ticks2">
+                        <datalist id="ticks2">
+                            <option value="1">Συμφωνώ μόνο με το Α</option>
+                            <option value="2">Συμφωνώ κυρίως με το Α</option>
+                            <option value="3">Συμφωνώ και με το Α και το Β</option>
+                            <option value="4">Συμφωνώ κυρίως με το Β</option>
+                            <option value="5">Συμφωνώ μόνο με το Β</option>
+                        </datalist>
+                        <output class="__range-output-square"></output>
+                    </div>
+                </div>
+
+                <div class="questionBox ">
+                    <div class="d-flex justify-content-between flex-wrap  labelsBox">
+                        <div class="label-range">Α) Συχνά νιώθω πως δεν γίνομαι κατανοητός. </div>
+                        <div class="label-range">Β) Γίνομαι εύκολα κατανοητός. </div>
+                    </div>
+
+                    <div class="__range __range-step __range-step-popup ">
+
+                        <input value="1" type="range" name="q_10" max="5" min="1" step="1" list="ticks2">
+                        <datalist id="ticks2">
+                            <option value="1">Συμφωνώ μόνο με το Α</option>
+                            <option value="2">Συμφωνώ κυρίως με το Α</option>
+                            <option value="3">Συμφωνώ και με το Α και το Β</option>
+                            <option value="4">Συμφωνώ κυρίως με το Β</option>
+                            <option value="5">Συμφωνώ μόνο με το Β</option>
+                        </datalist>
+                        <output class="__range-output-square"></output>
+                    </div>
+                </div>
+
+                <div class="questionBox ">
+                    <div class="d-flex justify-content-between flex-wrap  labelsBox">
+                        <div class="label-range">Α) Έχω πολλά και ποικίλα ενδιαφέροντα. </div>
+                        <div class="label-range">Β) Έχω λίγα ενδιαφέροντα και ασχολούμαι με αυτά σε βάθος. </div>
+                    </div>
+
+                    <div class="__range __range-step __range-step-popup ">
+
+                        <input value="1" type="range" name="q_11" max="5" min="1" step="1" list="ticks2">
+                        <datalist id="ticks2">
+                            <option value="1">Συμφωνώ μόνο με το Α</option>
+                            <option value="2">Συμφωνώ κυρίως με το Α</option>
+                            <option value="3">Συμφωνώ και με το Α και το Β</option>
+                            <option value="4">Συμφωνώ κυρίως με το Β</option>
+                            <option value="5">Συμφωνώ μόνο με το Β</option>
+                        </datalist>
+                        <output class="__range-output-square"></output>
+                    </div>
+                </div>
+                </form>
+
+                <div class="text-center  p-5 ">
+                    <button href="#" class="rts-btn btn-primary-5 style-six rounded-2 seven"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">Αποστολή
+                    </button>
+                </div>
+            </div>
 
 
 

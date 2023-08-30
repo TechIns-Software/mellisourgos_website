@@ -31022,39 +31022,156 @@ label[for="cv"]{
   margin-left: 15px;
 }
 
-.rangeLabel{
+.labelsBox{
 
-
-  padding: 1em;
+  width: 80%;
+  margin: auto;
 }
 
-.rangeLabel h5{
-  font-size: 17px!important;
+.label-range{
 
-
-}
-.rangeBox .range{
   width: 40%;
+  color: #1C2539;
+  font-family: Red Hat Display;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
-input[type="range"] {
-  -webkit-appearance: none;
-  margin-right: 15px;
-  width: 100%;
-  height: 27px;
-  background: rgba(255, 255, 255, 0.6);
+.questionBox{
+  margin: 1em auto;
   border-radius: 5px;
-
+  /*background-color: #e5dfdf;*/
+  border-bottom: 5px solid #1C2539;
 }
 
-input[type=range]::-webkit-slider-thumb {
+
+.__range input
+{
+  outline: none;
   -webkit-appearance: none;
-
-  height: 36px;
-  width: 36px;
-  border-radius: 50%;
-  background: rgb(234, 11, 11);
-  cursor: pointer;
-  margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+  background-color: #000000;
+  height: 3px;
+  width: 100%;
+  margin: 10px auto;
 }
+.__range input::-webkit-slider-thumb
+{
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+
+}
+.__range input::-moz-range-thumb
+{
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+
+}
+.__range input::-ms-thumb
+{
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+
+}
+.__range-step{
+  position: relative;
+}
+
+.__range-max{
+  float: right;
+}
+.__range-step input::-webkit-slider-thumb
+{
+  background: transparent;
+}
+.__range-step input::-moz-range-thumb
+{
+  background: transparent;
+}
+.__range-step input::-ms-thumb
+{
+  background: transparent;
+}
+.__range-step datalist {
+  position:relative;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  bottom: 16px;
+  /* disable text selection */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  /* disable click events */
+  pointer-events:none;
+}
+.__range-step datalist option {
+  width: 10px;
+  height: 10px;
+  min-height: 10px;
+  border-radius: 100px;
+  /* hide text */
+  white-space: nowrap;
+  padding:0;
+  line-height: 40px;
+}
+
+
+.__range-step-popup output
+{
+  position: absolute;
+  background-color: red;
+  width: fit-content;
+  height:fit-content;
+  text-align: center;
+  color: white;
+  border-radius: 100px;
+  display: inline-block;
+  font-size:12px;
+  bottom: 100%;
+  left: 0;
+  vertical-align: middle;
+  line-height: 30px;
+}
+.__range-step-popup .__range-output-square{
+  padding: 0 5px;
+  min-width: 25px;
+  width: auto !important;
+  border-radius: 5px !important;
+}
+.__range-step-popup output:after
+{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 10px solid red;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: 90%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -1px;
+}
+.__range-step-popup datalist{
+  overflow:hidden;
+}
+.__range-step{
+  margin:0 40px;
+}
+.__range-step-popup{
+  margin:40px 40px;
+}
+

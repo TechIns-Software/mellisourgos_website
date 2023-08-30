@@ -15,7 +15,7 @@ foreach ($formInfos as $index => $formInfo){
     $label = $formInfo['name'];
     $value2 = $formInfo['value'];
 
-    $email_body .= "<h4>$label ****  $value2 </h3> <br>";
+    $email_body .= "<h4>$label :  $value2 </h3> <br>";
     $sumOfTest =  $sumOfTest + intval($value2);
 }
 
