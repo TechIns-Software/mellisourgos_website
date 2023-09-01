@@ -79,7 +79,7 @@ navbar($str, $title);
                         <div class="single-counter">
                             <img src="../assets/images/counterup/icon/05.svg" alt="Business_counter">
                             <div class="counter-details">
-                                <h2 class="title"><span class="counter animated fadeInDownBig">17.000000</span></h2>
+                                <h2 class="title"><span class="counter animated fadeInDownBig">17,000,000</span></h2>
                                 <p class="disc">Χαρτοφυλακιο</p>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ navbar($str, $title);
                         <div class="single-counter">
                             <img src="../assets/images/counterup/icon/07.svg" alt="Business_counter">
                             <div class="counter-details">
-                                <h2 class="title"><span class="counter animated fadeInDownBig"> 30.000</span></h2>
+                                <h2 class="title"><span class="counter animated fadeInDownBig"> 30,000</span></h2>
                                 <p class="disc">Πελατες</p>
                             </div>
                         </div>
@@ -113,15 +113,15 @@ navbar($str, $title);
                         <div class="single-counter">
                             <img src="../assets/images/counterup/icon/07.svg" alt="Business_counter">
                             <div class="counter-details">
-                                <h2 class="title"><span class="counter animated fadeInDownBig"> 22.000</span></h2>
+                                <h2 class="title"><span class="counter animated fadeInDownBig"> 22,000</span></h2>
                                 <p class="disc">Αποζημιωσεις ανα ημερα</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12 text-center">
-                    <p> Συμφωνά με τις μετρήσεις (2022) ο μέσος συνεργάτης του γραφείου έχει απολαβές πάνω από<b> 3.520
+                <div class="col-12 text-center moneyCheck">
+                    <p> Συμφωνά με τις μετρήσεις (2022) ο μέσος συνεργάτης του γραφείου <br> έχει απολαβές πάνω από<b> 3.520
                             ευρώ το μήνα!</b></p>
 
                 </div>

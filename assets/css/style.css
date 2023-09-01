@@ -31237,3 +31237,15 @@ label[for="cv"]{
 .w-100{
   width: 100%!important;
 }
+
+.moneyCheck p{
+  width: 90%;
+  font-size:23px;
+}
+
+.moneyCheck p b{
+
+  color: var(--myprimary1);
+  font-weight: 700;
+
+}
