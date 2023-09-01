@@ -2,7 +2,12 @@
 session_start();
 $formInfos = $_POST['infos'];
 $name = $clientEmail = $phone = $age = $highSchool  = '';
-$cvData = $_SESSION['cvPath'];
+if (isset($_SESSION['cvPath'])){
+    $cvData = $_SESSION['cvPath'];
+}else{
+    $cvData = -1;
+}
+
 
 $name = $formInfos[0]['value'];
 $clientEmail = $formInfos[1]['value'];
@@ -61,7 +66,9 @@ $mail->addReplyTo($from, $nameDisplayed);
 $mail->addAddress($companyInfoEmail, $nameDisplayed);
 $mail->Subject = $subject;
 $mail->Body = $email_body;
-$mail->addAttachment($cvData, $name.'_cv.pdf');
+if ($cvData != -1){
+    $mail->addAttachment($cvData, $name.'_cv.pdf');
+}
 $mail->isHTML();
 if (!$mail->send()) {
 //    echo 'Mailer Error: ' . $mail->ErrorInfo;

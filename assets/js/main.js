@@ -1250,11 +1250,11 @@ function submitFormCv(e,relativepath = '../'){
   $("#submitBtn").attr("disabled", false);
   $('.spinner-border').removeClass('d-none');
   var formDataCv = {};
-  if (!isImageUploaded){
-    alert('Το ανέβασμα βιογραφικού είναι υποχρεωτικό.');
-    $("#submitBtn").attr("disabled", true);
-    return;
-  }
+  // if (!isImageUploaded){
+  //   alert('Το ανέβασμα βιογραφικού είναι υποχρεωτικό.');
+  //   $("#submitBtn").attr("disabled", true);
+  //   return;
+  // }
   formDataCv = $(`#contact-form2`).serializeArray();
   console.log(formDataCv)
   $.ajax({

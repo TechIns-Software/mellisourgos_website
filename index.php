@@ -41,7 +41,7 @@ navbar($str, $title);
                     <div class="single-counter">
                         <img src="assets/images/counterup/icon/05.svg" alt="Business_counter">
                         <div class="counter-details">
-                            <h2 class="title"><span class="counter animated fadeInDownBig">17.000000</span></h2>
+                            <h2 class="title"><span class="counter animated fadeInDownBig">17,000,000</span></h2>
                             <p class="disc">Χαρτοφυλακιο</p>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ navbar($str, $title);
                     <div class="single-counter">
                         <img src="assets/images/counterup/icon/07.svg" alt="Business_counter">
                         <div class="counter-details">
-                            <h2 class="title"><span class="counter animated fadeInDownBig"> 30.000</span></h2>
+                            <h2 class="title"><span class="counter animated fadeInDownBig"> 30,000</span></h2>
                             <p class="disc">Πελατες</p>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ navbar($str, $title);
                     <div class="single-counter">
                         <img src="assets/images/counterup/icon/07.svg" alt="Business_counter">
                         <div class="counter-details">
-                            <h2 class="title"><span class="counter animated fadeInDownBig"> 22.000</span></h2>
+                            <h2 class="title"><span class="counter animated fadeInDownBig"> 22,000</span></h2>
                             <p class="disc">Αποζημιωσεις ανα ημερα</p>
                         </div>
                     </div>
@@ -110,7 +110,7 @@ navbar($str, $title);
                     <div class="about-content-inner-style-six">
                         <p class="disc">
                             Ο <b> Κωνσταντίνος Μελισσουργός</b> είναι γεννημένος
-                            το 1966 στην Αθήνα, είναι παντρεμένος και περήφανος πατέρας ενός παιδιού.
+                            το 1966 στην Αθήνα, είναι παντρεμένος και περήφανος πατέρας μιας κόρης.
                             Στις ακαδημαϊκές του σπουδές επικεντρώθηκε στο Χρηματοοικονομικό πεδίο και στον
                             προγραμματισμό Ηλεκτρονικών Υπολογιστών, κεφάλαια γνώσης που αποτελούν τις βάσεις της
                             καριέρας του.
@@ -174,15 +174,15 @@ navbar($str, $title);
 
                                 <div class="single-check">
                                     <i class="fas fa-check-circle"></i>
-                                    Ομαδικό Πνεύμα.
+                                    Ομαδικό Πνεύμα
                                 </div>
 
                             </div>
 
                         </div>
                         <div class="my-4">
-                            <a href="#contact" class="rts-btn btn-primary-5  style-six rounded-2 seven">Γνωρισε μας
-                                σημερα!</a>
+                            <a href="#contact" class="btn-primary-mycustom2  ">Γνώρισε μας
+                                σήμερα!</a>
                         </div>
 
 
@@ -190,7 +190,7 @@ navbar($str, $title);
                 </div>
                 <div class="col-lg-6 my-2">
                     <div class="about-img-container">
-                        <img src="assets/images/about/about.jpg" alt="about-image">
+                        <img src="assets/images/about/about-sec2.jpg" alt="about-image">
                     </div>
                 </div>
             </div>
@@ -224,7 +224,7 @@ navbar($str, $title);
                             <img src="assets/images/service/icon/22.svg" alt="">
                         </div>
                         <h5 class="title">
-                            Προσωπική Υποστήριξη και Καθοδήγηση
+                            Προσωπική υποστήριξη και καθοδήγηση
                         </h5>
                         <p class="disc">
                             Σε κάθε βήμα της καριέρας σας, θα έχετε την πλήρη υποστήριξη και την καθοδήγηση της ομάδας
@@ -242,7 +242,7 @@ navbar($str, $title);
                             <img src="assets/images/service/icon/23.svg" alt="">
                         </div>
                         <h5 class="title">
-                            Πρωτοποριακά Εκπαιδευτικά Προγράμματα
+                            Πρωτοποριακά εκπαιδευτικά προγράμματα
                         </h5>
                         <p class="disc">
                             Προσφέρουμε προγράμματα κατάρτισης και εκπαίδευσης που έχουν σχεδιαστεί για να σας
@@ -259,7 +259,7 @@ navbar($str, $title);
                             <img src="assets/images/service/icon/24.svg" alt="">
                         </div>
                         <h5 class="title">
-                            Δυνατότητα Ανάπτυξης
+                            Δυνατότητα και ευκαιρίες ανάπτυξης
                         </h5>
                         <p class="disc">
                             Η δέσμευσή μας είναι να βλέπουμε το ταλέντο σας να ανθίζει. Προσφέρουμε πληθώρα ευκαιριών
@@ -290,9 +290,9 @@ navbar($str, $title);
 
                 <div class="col-12 my-5 ">
                     <div class=" my-5">
-                        <div class="d-block my-5 py-3 text-center"><a class="rts-btn btn-primary-5  " href="#contact">
+                        <div class="d-block my-5 py-3 text-center"><a class="btn-primary-mycustom2  " href="#contact">
                                 Γνώρισε μας σήμερα</a></div>
-                        <div class="d-block my-5 py-3 text-center"><a class="rts-btn btn-primary-5  " href="test">Είσαι
+                        <div class="d-block my-5 py-3 text-center"><a class=" btn-primary-mycustom1  " href="test">Είσαι
                                 εσωστρεφής ή εξωστρεφής;
                                 Κάνε το τεστ; </a></div>
                     </div>
@@ -318,7 +318,7 @@ navbar($str, $title);
                         <h3 class="title">Ας συζητήσουμε πώς μπορούμε να <br> συνεργαστούμε και να καταταφέρουμε κάτι
                             μοναδικό!</h3>
                     </div>
-                    <button onclick="window.location.href='career'" class="rts-btn btn-primary-5 my-4" href="career">
+                    <button onclick="window.location.href='career'" class="btn-primary-mycustom1" href="career">
                         Γνώρισε μας σήμερα !
                     </button>
                 </div>
@@ -419,12 +419,12 @@ navbar($str, $title);
     </div>
 </div>
 
-<div class="modal-overlay active" id="modalContainer">
+<div class="modal-overlay " id="modalContainer">
     <div class="custom-modal">
         <div class="mainWelcome ">
             <div class="welcomeCard ">
                 <h3>Ευκαιρία Καριέρας !</h3>
-                <p>Μάθε ν’ ακούς.<br> Η ευκαιρία καμιά φορά χτυπάει την πόρτα σου πολύ σιγανά.</p>
+                <p>Ακούς ;<br> Η ευκαιρία καμιά φορά χτυπάει την πόρτα σου πολύ σιγανά.</p>
                 <div class="welcomeForm">
                     <div class="contact-form-area-one" type="modal">
                         <form id="contact-form2">
@@ -446,7 +446,7 @@ navbar($str, $title);
 
                         <div class="text-center ">
                             <div class="my-2"> <button onclick="submitFormCv(event,'')" id="submitBtn"   class="welcomeLearnMore">Υποβολή</button> </div>
-                            <div class="my-2"> <button onclick="removeModal()"  class="welcomeSubmitBtn">Δες την ιστοσελίδα  !</button> </div>
+                            <div class="my-2"> <button onclick="removeModal()"  class="welcomeSubmitBtn">Μάθε Περισσότερα</button> </div>
                         </div>
                     </div>
                 </div>

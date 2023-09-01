@@ -14,8 +14,8 @@ navbar($str,$title);
                 <div class="col-lg-12 col-md-12 ">
                     <div class="about-progress-inner">
                         <div class="title-area">
-                            <span>Αρπαξε την ευκαιρία τώρα</span>
-                            <h2 class="title">Καρίερα </h2>
+                            <span>Άδραξε την ευκαιρία</span>
+                            <h2 class="title">Καριέρα </h2>
                         </div>
                         <!-- inner start -->
                         <div class="inner">
@@ -30,7 +30,7 @@ navbar($str,$title);
                                 κάνουν τη διαφορά και δίνουν μια μοναδική προοπτική.
                             </p>
 
-                            <p class="disc"> <b>  Αναζητούμε </b> λοιπόν συνεργάτες με ισχυρή προσωπικότητα ώστε να εργαστούν
+                            <p class="disc"> <b>  Αναζητούμε</b> λοιπόν συνεργάτες με ισχυρή προσωπικότητα ώστε να εργαστούν
                                 δίπλα μας και να στελεχώσουμε το τμήμα πωλήσεων. </p>
 
                             <p class="disc">
