@@ -294,9 +294,10 @@ navbar($str, $title);
                     <div class=" my-5">
                         <div class="d-block my-5 py-3 text-center"><a class="btn-primary-mycustom2  " href="#contact">
                                 Γνώρισε μας σήμερα</a></div>
-                        <div class="d-block my-5 py-3 text-center"><a class=" btn-primary-mycustom1  " href="test">Είσαι
+                        <div class="my-5 py-3 text-center">
+                            <button class=" btn-primary-mycustom1  " onclick="window.location.href ='test'" >Είσαι
                                 εσωστρεφής ή εξωστρεφής;
-                                Κάνε το τεστ; </a></div>
+                                Κάνε το τεστ; </button></div>
                     </div>
                 </div>
 

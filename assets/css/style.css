@@ -16506,10 +16506,10 @@ li.has-droupdown {
 }
 
 .nav-main ul li:hover a.nav-link {
-  color: var(--color-primary);
+  color: var(--myprimary1);
 }
 .nav-main ul li:hover a.nav-link::before {
-  color: var(--color-primary);
+  color: var(--myprimary1);
   content: "\f077" !important;
 }
 .nav-main ul li:hover a.nav-link::after {
@@ -17167,7 +17167,7 @@ li.has-droupdown {
 }
 
 .index-seven .rts-sidebar-menu-desktop .body-mobile .mainmenu li.has-droupdown .submenu.active .mobile-menu-link:hover a {
-  color: var(--color-primary-5) !important;
+  color: var(--myprimary1) !important;
 }
 
 .home-blue .rts-sidebar-menu-desktop .body-mobile .mainmenu-nav .mainmenu li a.open,
@@ -17289,7 +17289,7 @@ li.has-droupdown {
 
 .btn-primary-mycustom1{
   padding: 17px 30px;
-  min-width: max-content;
+  width: 80%;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
@@ -17681,7 +17681,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   margin-left: 18px;
 }
 .social-wrapper-two.menu.mobile-menu a i {
-  color: var(--color-primary);
+  color: var(--myprimary1);
 }
 .social-wrapper-two.menu.mobile-menu a::after {
   background: #fff;
@@ -17691,11 +17691,11 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   color: #fff;
 }
 .social-wrapper-two.menu.mobile-menu a:hover::after {
-  background: var(--color-primary);
+  background: var(--myprimary1);
 }
 
 .tiktokSvg2{
-  fill: var(--color-primary);
+  fill: var(--myprimary1);
 }
 .social-wrapper-two a:hover .tiktokSvg2{
   fill:#fff;
@@ -21036,6 +21036,7 @@ p.disc.banner-para {
 @media only screen and (max-width: 767px) {
   .accordion-service-inner .accordion-area .accordion .accordion-item .accordion-header {
     margin-bottom: 10px;
+    font-size: 18px;
   }
 }
 .accordion-service-inner .accordion-area .accordion .accordion-item .accordion-header button {
