@@ -19,7 +19,7 @@ function navbar($str='../',$title){
         <link rel="stylesheet" href="<?= $str ?>assets/css/plugins/animate.min.css">
         <link rel="stylesheet" href="<?= $str ?>assets/css/plugins/unicons.css">
         <link rel="stylesheet" href="<?= $str ?>assets/css/vendor/bootstrap.min.css">
-        <link rel="stylesheet" href="<?= $str ?>assets/css/style.css?v=1.7">
+        <link rel="stylesheet" href="<?= $str ?>assets/css/style.css?v=2.1">
     </head>
 
     <body class="index-seven hr">
