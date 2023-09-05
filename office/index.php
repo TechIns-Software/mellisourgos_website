@@ -27,11 +27,11 @@ navbar($str,$title);
                 </div>
 
             </div>
-            <div class="row align-items-center py-3">
-                <div class="col-12 text-center">
-                    <h4>Τα γραφεία μας</h4>
+            <div class="row align-items-center " >
+                <div class="col-12 text-center" >
+                    <h4 style="margin-top: 1em">Τα γραφεία μας</h4>
                 </div>
-                <div class="col-md-4 mb-3 pb-3  text-center">
+                <div class="col-md-4 mb-5 pb-4  text-center">
                     <div class="office">
                         <div class="location">
                             Μαρούσι

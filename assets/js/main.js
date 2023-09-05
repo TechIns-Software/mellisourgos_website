@@ -1329,14 +1329,14 @@ document.querySelectorAll(".__range-step").forEach(function(ctrl) {
     // colorize step options
     ctrl.querySelectorAll("option").forEach(function(opt) {
       if(opt.value<=el.valueAsNumber)
-        opt.style.backgroundColor = 'red';
+        opt.style.backgroundColor = '#031E57';
       else
         opt.style.backgroundColor = '#aaa';
     });
     // colorize before and after
     var valPercent = (el.valueAsNumber  - parseInt(el.min)) / (parseInt(el.max) - parseInt(el.min));
     var style = 'background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, color-stop('+
-        valPercent+', red), color-stop('+
+        valPercent+', blue), color-stop('+
         valPercent+', #aaa));';
     el.style = style;
 

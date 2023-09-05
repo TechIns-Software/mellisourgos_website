@@ -39,7 +39,7 @@ navbar($str, $title);
             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                 <div class="counter-wrapper-two">
                     <div class="single-counter">
-                        <img src="assets/images/counterup/icon/05.svg" alt="Business_counter">
+                        <img src="assets/images/counterup/icon/05.png" alt="Business_counter">
                         <div class="counter-details">
                             <h2 class="title"><span class="counter animated fadeInDownBig">17,000,000</span></h2>
                             <p class="disc">Χαρτοφυλακιο</p>
@@ -50,7 +50,7 @@ navbar($str, $title);
             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                 <div class="counter-wrapper-two">
                     <div class="single-counter">
-                        <img src="assets/images/counterup/icon/08.svg" alt="Business_counter">
+                        <img src="assets/images/counterup/icon/08.png" alt="Business_counter">
                         <div class="counter-details">
                             <h2 class="title"><span class="counter animated fadeInDownBig"> 64</span></h2>
                             <p class="disc">Συνεργατες</p>
@@ -61,7 +61,7 @@ navbar($str, $title);
             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                 <div class="counter-wrapper-two">
                     <div class="single-counter">
-                        <img src="assets/images/counterup/icon/07.svg" alt="Business_counter">
+                        <img src="assets/images/counterup/icon/07.png" alt="Business_counter">
                         <div class="counter-details">
                             <h2 class="title"><span class="counter animated fadeInDownBig"> 30,000</span></h2>
                             <p class="disc">Πελατες</p>
@@ -73,7 +73,7 @@ navbar($str, $title);
             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                 <div class="counter-wrapper-two">
                     <div class="single-counter">
-                        <img src="assets/images/counterup/icon/07.svg" alt="Business_counter">
+                        <img src="assets/images/counterup/icon/07.png" alt="Business_counter">
                         <div class="counter-details">
                             <h2 class="title"><span class="counter animated fadeInDownBig"> 22,000</span></h2>
                             <p class="disc">Αποζημιωσεις ανα ημερα</p>
@@ -221,7 +221,7 @@ navbar($str, $title);
                     <!-- single-service area start -->
                     <div class="rts-single-service-style-process text-center">
                         <div class="icon">
-                            <img src="assets/images/service/icon/22.svg" alt="">
+                            <img src="assets/images/service/icon/22.png" alt="">
                         </div>
                         <h5 class="title">
                             Προσωπική υποστήριξη και καθοδήγηση
@@ -239,7 +239,7 @@ navbar($str, $title);
                     <!-- single-service area start -->
                     <div class="rts-single-service-style-process text-center">
                         <div class="icon">
-                            <img src="assets/images/service/icon/23.svg" alt="">
+                            <img src="assets/images/service/icon/23.png" alt="">
                         </div>
                         <h5 class="title">
                             Πρωτοποριακά εκπαιδευτικά προγράμματα
@@ -256,7 +256,7 @@ navbar($str, $title);
                     <!-- single-service area start -->
                     <div class="rts-single-service-style-process text-center">
                         <div class="icon">
-                            <img src="assets/images/service/icon/24.svg" alt="">
+                            <img src="assets/images/service/icon/24.png" alt="">
                         </div>
                         <h5 class="title">
                             Δυνατότητα και ευκαιρίες ανάπτυξης
@@ -273,7 +273,7 @@ navbar($str, $title);
                     <!-- single-service area start -->
                     <div class="rts-single-service-style-process text-center">
                         <div class="icon">
-                            <img src="assets/images/service/icon/22.svg" alt="">
+                            <img src="assets/images/service/icon/22.png" alt="">
                         </div>
                         <h5 class="title">
                             Πρωτοποριακά εργαλεία
@@ -383,12 +383,409 @@ navbar($str, $title);
     <!-- rts blog area edn -->
 </div>
 
+<div class="rts-blog-grid-area rts-section-gap">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-xl-8 col-md-12 col-sm-12 col-12 pr--40 pr_md--0 pr_sm-controler--0">
+                <div class="row g-5">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <!-- start blog grid inner -->
+                        <div class="blog-grid-inner">
+                            <div class="blog-header">
+                                <a class="thumbnail" href="blog-details.html">
+                                    <img src="assets/images/blog/grid/01.jpg" alt="Business_Blog">
+                                </a>
+                                <div class="blog-info">
+                                    <div class="user">
+                                        <i class="fal fa-user-circle"></i>
+                                        <span>by Smith</span>
+                                    </div>
+                                    <div class="user">
+                                        <i class="fal fa-tags"></i>
+                                        <span>Business</span>
+                                    </div>
+                                </div>
+                                <div class="date">
+                                    <h6 class="title">15</h6>
+                                    <span>Jan</span>
+                                </div>
+                            </div>
+                            <div class="blog-body">
+                                <a href="blog-details.html">
+                                    <h5 class="title">
+                                        Building smart business grow solution for you
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end blog grid inner -->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <!-- start blog grid inner -->
+                        <div class="blog-grid-inner">
+                            <div class="blog-header">
+                                <a class="thumbnail" href="blog-details.html">
+                                    <img src="assets/images/blog/grid/02.jpg" alt="Business_Blog">
+                                </a>
+                                <div class="blog-info">
+                                    <div class="user">
+                                        <i class="fal fa-user-circle"></i>
+                                        <span>by Smith</span>
+                                    </div>
+                                    <div class="user">
+                                        <i class="fal fa-tags"></i>
+                                        <span>Business</span>
+                                    </div>
+                                </div>
+                                <div class="date">
+                                    <h6 class="title">15</h6>
+                                    <span>Jan</span>
+                                </div>
+                            </div>
+                            <div class="blog-body">
+                                <a href="blog-details.html">
+                                    <h5 class="title">
+                                        Smart business grow solution for your Building.
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end blog grid inner -->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <!-- start blog grid inner -->
+                        <div class="blog-grid-inner">
+                            <div class="blog-header">
+                                <a class="thumbnail" href="blog-details.html">
+                                    <img src="assets/images/blog/grid/03.jpg" alt="Business_Blog">
+                                </a>
+                                <div class="blog-info">
+                                    <div class="user">
+                                        <i class="fal fa-user-circle"></i>
+                                        <span>by Smith</span>
+                                    </div>
+                                    <div class="user">
+                                        <i class="fal fa-tags"></i>
+                                        <span>Business</span>
+                                    </div>
+                                </div>
+                                <div class="date">
+                                    <h6 class="title">15</h6>
+                                    <span>Jan</span>
+                                </div>
+                            </div>
+                            <div class="blog-body">
+                                <a href="blog-details.html">
+                                    <h5 class="title">
+                                        More smart business grow solution for you
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end blog grid inner -->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <!-- start blog grid inner -->
+                        <div class="blog-grid-inner">
+                            <div class="blog-header">
+                                <a class="thumbnail" href="blog-details.html">
+                                    <img src="assets/images/blog/grid/04.jpg" alt="Business_Blog">
+                                </a>
+                                <div class="blog-info">
+                                    <div class="user">
+                                        <i class="fal fa-user-circle"></i>
+                                        <span>by Smith</span>
+                                    </div>
+                                    <div class="user">
+                                        <i class="fal fa-tags"></i>
+                                        <span>Business</span>
+                                    </div>
+                                </div>
+                                <div class="date">
+                                    <h6 class="title">15</h6>
+                                    <span>Jan</span>
+                                </div>
+                            </div>
+                            <div class="blog-body">
+                                <a href="blog-details.html">
+                                    <h5 class="title">
+                                        Best smart business grow solution for you
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end blog grid inner -->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <!-- start blog grid inner -->
+                        <div class="blog-grid-inner">
+                            <div class="blog-header">
+                                <a class="thumbnail" href="blog-details.html">
+                                    <img src="assets/images/blog/grid/05.jpg" alt="Business_Blog">
+                                </a>
+                                <div class="blog-info">
+                                    <div class="user">
+                                        <i class="fal fa-user-circle"></i>
+                                        <span>by Smith</span>
+                                    </div>
+                                    <div class="user">
+                                        <i class="fal fa-tags"></i>
+                                        <span>Business</span>
+                                    </div>
+                                </div>
+                                <div class="date">
+                                    <h6 class="title">15</h6>
+                                    <span>Jan</span>
+                                </div>
+                            </div>
+                            <div class="blog-body">
+                                <a href="blog-details.html">
+                                    <h5 class="title">
+                                        Solution your business grow solution for you
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end blog grid inner -->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <!-- start blog grid inner -->
+                        <div class="blog-grid-inner">
+                            <div class="blog-header">
+                                <a class="thumbnail" href="blog-details.html">
+                                    <img src="assets/images/blog/grid/06.jpg" alt="Business_Blog">
+                                </a>
+                                <div class="blog-info">
+                                    <div class="user">
+                                        <i class="fal fa-user-circle"></i>
+                                        <span>by Smith</span>
+                                    </div>
+                                    <div class="user">
+                                        <i class="fal fa-tags"></i>
+                                        <span>Business</span>
+                                    </div>
+                                </div>
+                                <div class="date">
+                                    <h6 class="title">15</h6>
+                                    <span>Jan</span>
+                                </div>
+                            </div>
+                            <div class="blog-body">
+                                <a href="blog-details.html">
+                                    <h5 class="title">
+                                        Smart business grow solution for your Company
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end blog grid inner -->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <!-- start blog grid inner -->
+                        <div class="blog-grid-inner">
+                            <div class="blog-header">
+                                <a class="thumbnail" href="blog-details.html">
+                                    <img src="assets/images/blog/grid/07.jpg" alt="Business_Blog">
+                                </a>
+                                <div class="blog-info">
+                                    <div class="user">
+                                        <i class="fal fa-user-circle"></i>
+                                        <span>by Smith</span>
+                                    </div>
+                                    <div class="user">
+                                        <i class="fal fa-tags"></i>
+                                        <span>Business</span>
+                                    </div>
+                                </div>
+                                <div class="date">
+                                    <h6 class="title">15</h6>
+                                    <span>Jan</span>
+                                </div>
+                            </div>
+                            <div class="blog-body">
+                                <a href="blog-details.html">
+                                    <h5 class="title">
+                                        Latest business grow solution for you
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end blog grid inner -->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <!-- start blog grid inner -->
+                        <div class="blog-grid-inner">
+                            <div class="blog-header">
+                                <a class="thumbnail" href="blog-details.html">
+                                    <img src="assets/images/blog/grid/08.jpg" alt="Business_Blog">
+                                </a>
+                                <div class="blog-info">
+                                    <div class="user">
+                                        <i class="fal fa-user-circle"></i>
+                                        <span>by Smith</span>
+                                    </div>
+                                    <div class="user">
+                                        <i class="fal fa-tags"></i>
+                                        <span>Business</span>
+                                    </div>
+                                </div>
+                                <div class="date">
+                                    <h6 class="title">15</h6>
+                                    <span>Jan</span>
+                                </div>
+                            </div>
+                            <div class="blog-body">
+                                <a href="blog-details.html">
+                                    <h5 class="title">
+                                        Thinking smart business grow solution for you
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end blog grid inner -->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <!-- start blog grid inner -->
+                        <div class="blog-grid-inner">
+                            <div class="blog-header">
+                                <a class="thumbnail" href="blog-details.html">
+                                    <img src="assets/images/blog/grid/09.jpg" alt="Business_Blog">
+                                </a>
+                                <div class="blog-info">
+                                    <div class="user">
+                                        <i class="fal fa-user-circle"></i>
+                                        <span>by Smith</span>
+                                    </div>
+                                    <div class="user">
+                                        <i class="fal fa-tags"></i>
+                                        <span>Business</span>
+                                    </div>
+                                </div>
+                                <div class="date">
+                                    <h6 class="title">15</h6>
+                                    <span>Jan</span>
+                                </div>
+                            </div>
+                            <div class="blog-body">
+                                <a href="blog-details.html">
+                                    <h5 class="title">
+                                        Smart business grow solution for your building.
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end blog grid inner -->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <!-- start blog grid inner -->
+                        <div class="blog-grid-inner">
+                            <div class="blog-header">
+                                <a class="thumbnail" href="blog-details.html">
+                                    <img src="assets/images/blog/grid/10.jpg" alt="Business_Blog">
+                                </a>
+                                <div class="blog-info">
+                                    <div class="user">
+                                        <i class="fal fa-user-circle"></i>
+                                        <span>by Smith</span>
+                                    </div>
+                                    <div class="user">
+                                        <i class="fal fa-tags"></i>
+                                        <span>Business</span>
+                                    </div>
+                                </div>
+                                <div class="date">
+                                    <h6 class="title">15</h6>
+                                    <span>Jan</span>
+                                </div>
+                            </div>
+                            <div class="blog-body">
+                                <a href="blog-details.html">
+                                    <h5 class="title">
+                                        Grow smart business grow solution for you
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end blog grid inner -->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <!-- start blog grid inner -->
+                        <div class="blog-grid-inner">
+                            <div class="blog-header">
+                                <a class="thumbnail" href="blog-details.html">
+                                    <img src="assets/images/blog/grid/01.jpg" alt="Business_Blog">
+                                </a>
+                                <div class="blog-info">
+                                    <div class="user">
+                                        <i class="fal fa-user-circle"></i>
+                                        <span>by Smith</span>
+                                    </div>
+                                    <div class="user">
+                                        <i class="fal fa-tags"></i>
+                                        <span>Business</span>
+                                    </div>
+                                </div>
+                                <div class="date">
+                                    <h6 class="title">15</h6>
+                                    <span>Jan</span>
+                                </div>
+                            </div>
+                            <div class="blog-body">
+                                <a href="blog-details.html">
+                                    <h5 class="title">
+                                        business grow solution for you Building smart
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end blog grid inner -->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <!-- start blog grid inner -->
+                        <div class="blog-grid-inner">
+                            <div class="blog-header">
+                                <a class="thumbnail" href="blog-details.html">
+                                    <img src="assets/images/blog/grid/02.jpg" alt="Business_Blog">
+                                </a>
+                                <div class="blog-info">
+                                    <div class="user">
+                                        <i class="fal fa-user-circle"></i>
+                                        <span>by Smith</span>
+                                    </div>
+                                    <div class="user">
+                                        <i class="fal fa-tags"></i>
+                                        <span>Business</span>
+                                    </div>
+                                </div>
+                                <div class="date">
+                                    <h6 class="title">15</h6>
+                                    <span>Jan</span>
+                                </div>
+                            </div>
+                            <div class="blog-body">
+                                <a href="blog-details.html">
+                                    <h5 class="title">
+                                        Building smart business grow solution for you
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end blog grid inner -->
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
 <div class="rts-contact-area contact-one" id="contact">
     <div class="container">
         <div class="row align-items-center g-0">
             <div class="col-lg-4 col-md-12 col-sm-12 col-12">
                 <div class="contact-image-one">
-                    <img src="assets/images/contact/01.jpg" alt="">
+                    <img src="assets/images/contact/01.png" alt="">
                 </div>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 col-12">

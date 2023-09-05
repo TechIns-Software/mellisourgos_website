@@ -255,7 +255,7 @@ navbar($str, $title);
                 </form>
 
                 <div class="text-center  p-5 ">
-                    <button href="#" class="rts-btn btn-primary-5 style-six rounded-2 seven"
+                    <button href="#" class="btn-primary-mycustom2  "
                             data-bs-toggle="modal" data-bs-target="#exampleModal">Αποστολή
                     </button>
                 </div>
@@ -286,7 +286,7 @@ navbar($str, $title);
                 </div>
                 <div class="modal-footer">
                     <div class="text-center my-2">
-                        <button href="#" class="rts-btn btn-primary-5 style-six rounded-2 seven"
+                        <button href="#" class="btn-primary-mycustom2  "
                                     onclick="getTestData(event)">Υποβολή</button>
                     </div>
                 </div>

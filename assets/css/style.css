@@ -27819,7 +27819,7 @@ p.disc.banner-para {
 .rts-inner-blog .blog-details .blog-full blockquote::before {
   content: "\f10d";
   font-size: 35px;
-  color: var(--color-primary);
+  color: var(--myprimary1);
   position: absolute;
   padding-bottom: 0;
   display: inline-block;
@@ -28664,7 +28664,7 @@ p.disc.banner-para {
 .rts-contact-area.contact-one::after {
   position: absolute;
   content: "";
-  background-image: url(../images/contact/shape/01.png);
+  background-image: url(../images/contact/shape/02.png);
   right: 10%;
   top: -8%;
   height: 190px;
@@ -30827,8 +30827,8 @@ p.disc {
   width: 80%;
   margin: auto;
   border-radius: 15px;
-  border-left: 7px solid #B00F0F;
-  border-bottom: 7px solid #B00F0F;
+  border-left: 7px solid var(--myprimary1);
+  border-bottom: 7px solid var(--myprimary1);
   box-shadow: 0px 4px 58px rgba(0, 0, 0, 0.08);
 }
 .office .location{
@@ -30878,15 +30878,21 @@ font-size: 20px!important;
 }
 .benefitsBox{
   padding: 1em ;
-  background-color: #e5e4e4;
+  background-color: rgba(1, 47, 93, 0.93);
   border-radius: 17px;
   text-align: start;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
 }
 
+
 .benefitsBox h4{
+  font-weight: 700;
+  color: white;
   text-align: center;
 }
 .benefitsBox p{
+  color: white!important;
   margin: 0;
   padding: 0;
   text-decoration: underline;
@@ -30895,6 +30901,7 @@ font-size: 20px!important;
 
 .benefitsBox ul li{
   margin: 0;
+  color: white!important;
   padding: 0;
 
 }
@@ -31191,7 +31198,7 @@ label[for="cv"]{
 .__range-step-popup output
 {
   position: absolute;
-  background-color: red;
+  background-color: var(--myprimary1);
   width: fit-content;
   height:fit-content;
   text-align: center;
@@ -31216,7 +31223,7 @@ label[for="cv"]{
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 10px solid red;
+  border-top: 10px solid  var(--myprimary1);
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   top: 90%;

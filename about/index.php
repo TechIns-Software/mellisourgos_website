@@ -77,7 +77,7 @@ navbar($str, $title);
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="counter-wrapper-two">
                         <div class="single-counter">
-                            <img src="../assets/images/counterup/icon/05.svg" alt="Business_counter">
+                            <img src="../assets/images/counterup/icon/05.png" alt="Business_counter">
                             <div class="counter-details">
                                 <h2 class="title"><span class="counter animated fadeInDownBig">17,000,000</span></h2>
                                 <p class="disc">Χαρτοφυλακιο</p>
@@ -88,7 +88,7 @@ navbar($str, $title);
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="counter-wrapper-two">
                         <div class="single-counter">
-                            <img src="../assets/images/counterup/icon/08.svg" alt="Business_counter">
+                            <img src="../assets/images/counterup/icon/08.png" alt="Business_counter">
                             <div class="counter-details">
                                 <h2 class="title"><span class="counter animated fadeInDownBig"> 64</span></h2>
                                 <p class="disc">Συνεργατες</p>
@@ -99,7 +99,7 @@ navbar($str, $title);
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="counter-wrapper-two">
                         <div class="single-counter">
-                            <img src="../assets/images/counterup/icon/07.svg" alt="Business_counter">
+                            <img src="../assets/images/counterup/icon/07.png" alt="Business_counter">
                             <div class="counter-details">
                                 <h2 class="title"><span class="counter animated fadeInDownBig"> 30,000</span></h2>
                                 <p class="disc">Πελατες</p>
@@ -111,7 +111,7 @@ navbar($str, $title);
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="counter-wrapper-two">
                         <div class="single-counter">
-                            <img src="../assets/images/counterup/icon/07.svg" alt="Business_counter">
+                            <img src="../assets/images/counterup/icon/07.png" alt="Business_counter">
                             <div class="counter-details">
                                 <h2 class="title"><span class="counter animated fadeInDownBig"> 22,000</span></h2>
                                 <p class="disc">Αποζημιωσεις ανα ημερα</p>
