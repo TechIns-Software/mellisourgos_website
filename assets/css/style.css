@@ -15300,7 +15300,17 @@ body.sal-disabled [data-sal|=flip] {
   margin: 0;
   margin-right: 36px;
 }
-.main-header .nav-main ul li a {
+.main-header .nav-main ul li  a.active::before{
+  border-bottom: 2px solid var(--myprimary1);
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 50px;
+  height: 2px;
+  width: 100%;
+}
+
+.main-header .nav-main ul li a{
   padding: 48px 0;
   display: block;
   color: #1C2539;

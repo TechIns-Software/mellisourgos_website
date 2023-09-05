@@ -66,14 +66,12 @@ function navbar($str='../',$title){
                             <nav class="nav-main mainmenu-nav d-none d-xl-block">
                                 <ul class="mainmenu">
 
-                                    <li><a class="nav-item" href="<?= $str ?>index.php">Αρχική</a></li>
-<!--                                    <li><a class="nav-item" href="--><?php //= $str ?><!--vision/index.php">Οραμα</a></li>-->
-                                    <li><a class="nav-item" href="<?= $str ?>about/index.php">Σχετικά με εμένα</a></li>
-                                    <li><a class="nav-item" href="<?= $str ?>office/index.php">Γραφεία</a></li>
-                                    <li><a class="nav-item" href="<?= $str ?>career/index.php">Καριέρα</a></li>
-<!--                                    <li><a class="nav-item" href="--><?php //= $str ?><!--videos/index.php">Βίντεο</a></li>-->
-                                    <li><a class="nav-item" href="<?= $str ?>test/index.php">Εσωστρεφής ή Εξωστρεφής;</a></li>
-                                    <li><a class="nav-item" href="<?= $str ?>contact/index.php">Επικοινωνία</a></li>
+                                    <li class=""><a class="nav-item <?php echo ($_SESSION['page'] == '1' ? ' active' : ''); ?>  " href="<?= $str ?>index.php">Αρχική</a></li>
+                                    <li><a class="nav-item <?php echo ($_SESSION['page'] == '2' ? ' active' : ''); ?>" href="<?= $str ?>about/index.php">Σχετικά με εμένα</a></li>
+                                    <li><a class="nav-item <?php echo ($_SESSION['page'] == '3' ? ' active' : ''); ?>" href="<?= $str ?>office/index.php">Γραφεία</a></li>
+                                    <li><a class="nav-item <?php echo ($_SESSION['page'] == '4' ? ' active' : ''); ?>" href="<?= $str ?>career/index.php">Καριέρα</a></li>
+                                    <li><a class="nav-item <?php echo ($_SESSION['page'] == '5' ? ' active' : ''); ?>" href="<?= $str ?>test/index.php">Εσωστρεφής ή Εξωστρεφής;</a></li>
+                                    <li><a class="nav-item <?php echo ($_SESSION['page'] == '6' ? ' active' : ''); ?>" href="<?= $str ?>contact/index.php">Επικοινωνία</a></li>
                                 </ul>
                             </nav>
                             <div class="button-area">

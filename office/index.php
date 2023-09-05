@@ -2,6 +2,7 @@
 include_once  '../commonParts.php';
 $str = '../';
 $title = 'Γραφεία';
+$_SESSION['page'] = 3;
 navbar($str,$title);
 ?>
 
