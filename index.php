@@ -116,7 +116,8 @@ navbar($str, $title);
                             καριέρας του.
                         </p>
 
-                        <h4 class="benefitsTitle"> Ορισμένα από τα οφέλη της ευκαιρίας καριέρας που προσφέρουμε είναι:</h4>
+                        <h4 class="benefitsTitle"> Ορισμένα από τα οφέλη της ευκαιρίας καριέρας που προσφέρουμε
+                            είναι:</h4>
 
                         <div class="item-check-inner">
                             <div class="single-col">
@@ -386,392 +387,230 @@ navbar($str, $title);
 <div class="rts-blog-grid-area rts-section-gap">
     <div class="container">
         <div class="row g-5">
-            <div class="col-xl-8 col-md-12 col-sm-12 col-12 pr--40 pr_md--0 pr_sm-controler--0">
+            <div class="col-xl-12 col-md-12 col-sm-12 col-12 pr--40 pr_md--0 pr_sm-controler--0">
+                <div class="row">
+                    <div class="col-lg-12 ">
+                        <div class="title-area-style-six text-center">
+                            <div class="pre-title">
+                                <img src="assets/images/banner/shape/pre-title.png" alt="pre-title">
+                                <span class="pre">Βιντεο</span>
+                                <img class="two" src="assets/images/banner/shape/pre-title.png" alt="pre-title">
+                            </div>
+                            <h2 class="title" style="margin: 1em 0 ">
+                                Ρίξε μια ματιά στα <br> βίντεο μας απο το Τικ τοκ
+                            </h2>
+                        </div>
+                    </div>
+                </div>
                 <div class="row g-5">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <!-- start blog grid inner -->
                         <div class="blog-grid-inner">
                             <div class="blog-header">
-                                <a class="thumbnail" href="blog-details.html">
-                                    <img src="assets/images/blog/grid/01.jpg" alt="Business_Blog">
+                                <a class="thumbnail"
+                                   href="https://www.tiktok.com/@melissourgoskostas/video/7222972499955354907l">
+                                    <img src="assets/images/blog/blog.jpg" alt="Business_Blog">
                                 </a>
-                                <div class="blog-info">
-                                    <div class="user">
-                                        <i class="fal fa-user-circle"></i>
-                                        <span>by Smith</span>
-                                    </div>
-                                    <div class="user">
-                                        <i class="fal fa-tags"></i>
-                                        <span>Business</span>
-                                    </div>
-                                </div>
+
                                 <div class="date">
                                     <h6 class="title">15</h6>
                                     <span>Jan</span>
                                 </div>
                             </div>
                             <div class="blog-body">
-                                <a href="blog-details.html">
+                                <a href="https://www.tiktok.com/@melissourgoskostas/video/7222972499955354907">
                                     <h5 class="title">
-                                        Building smart business grow solution for you
+                                        Πως θα έχεις επιτυχία στις πωλήσεις ;
                                     </h5>
                                 </a>
                             </div>
                         </div>
                         <!-- end blog grid inner -->
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <!-- start blog grid inner -->
                         <div class="blog-grid-inner">
                             <div class="blog-header">
-                                <a class="thumbnail" href="blog-details.html">
-                                    <img src="assets/images/blog/grid/02.jpg" alt="Business_Blog">
+                                <a class="thumbnail" target="_blank"
+                                   href="https://www.tiktok.com/@melissourgoskostas/video/7224431470746619162">
+                                    <img src="assets/images/blog/blog2.jpg" alt="Business_Blog">
                                 </a>
-                                <div class="blog-info">
-                                    <div class="user">
-                                        <i class="fal fa-user-circle"></i>
-                                        <span>by Smith</span>
-                                    </div>
-                                    <div class="user">
-                                        <i class="fal fa-tags"></i>
-                                        <span>Business</span>
-                                    </div>
-                                </div>
+
                                 <div class="date">
                                     <h6 class="title">15</h6>
                                     <span>Jan</span>
                                 </div>
                             </div>
                             <div class="blog-body">
-                                <a href="blog-details.html">
+                                <a target="_blank"
+                                   href="https://www.tiktok.com/@melissourgoskostas/video/7224431470746619162">
                                     <h5 class="title">
-                                        Smart business grow solution for your Building.
+                                        Ημέρα καριέρας που είχε διοργανωθεί
                                     </h5>
                                 </a>
                             </div>
                         </div>
                         <!-- end blog grid inner -->
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <!-- start blog grid inner -->
                         <div class="blog-grid-inner">
                             <div class="blog-header">
-                                <a class="thumbnail" href="blog-details.html">
-                                    <img src="assets/images/blog/grid/03.jpg" alt="Business_Blog">
+                                <a target="_blank" class="thumbnail"
+                                   href="https://www.tiktok.com/@melissourgoskostas/video/7225542566601706778">
+                                    <img src="assets/images/blog/blog3.jpg" alt="Business_Blog">
                                 </a>
-                                <div class="blog-info">
-                                    <div class="user">
-                                        <i class="fal fa-user-circle"></i>
-                                        <span>by Smith</span>
-                                    </div>
-                                    <div class="user">
-                                        <i class="fal fa-tags"></i>
-                                        <span>Business</span>
-                                    </div>
-                                </div>
+
                                 <div class="date">
                                     <h6 class="title">15</h6>
                                     <span>Jan</span>
                                 </div>
                             </div>
                             <div class="blog-body">
-                                <a href="blog-details.html">
+                                <a target="_blank"
+                                   href="https://www.tiktok.com/@melissourgoskostas/video/7225542566601706778">
                                     <h5 class="title">
-                                        More smart business grow solution for you
+                                        Σε περιμένω στην Ημέρα Καριέρας που διοργανώνει το γραφείο μας
                                     </h5>
                                 </a>
                             </div>
                         </div>
                         <!-- end blog grid inner -->
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <!-- start blog grid inner -->
                         <div class="blog-grid-inner">
                             <div class="blog-header">
-                                <a class="thumbnail" href="blog-details.html">
-                                    <img src="assets/images/blog/grid/04.jpg" alt="Business_Blog">
+                                <a target="_blank" class="thumbnail"
+                                   href="https://www.tiktok.com/@melissourgoskostas/video/7240104077655297306">
+                                    <img src="assets/images/blog/blog4.jpg" alt="Business_Blog">
                                 </a>
-                                <div class="blog-info">
-                                    <div class="user">
-                                        <i class="fal fa-user-circle"></i>
-                                        <span>by Smith</span>
-                                    </div>
-                                    <div class="user">
-                                        <i class="fal fa-tags"></i>
-                                        <span>Business</span>
-                                    </div>
-                                </div>
+
                                 <div class="date">
                                     <h6 class="title">15</h6>
                                     <span>Jan</span>
                                 </div>
                             </div>
                             <div class="blog-body">
-                                <a href="blog-details.html">
+                                <a target="_blank"
+                                   href="https://www.tiktok.com/@melissourgoskostas/video/7240104077655297306">
                                     <h5 class="title">
-                                        Best smart business grow solution for you
+                                        5 πράγματα να κάνεις αν θες να αποτύχεις!
                                     </h5>
                                 </a>
                             </div>
                         </div>
                         <!-- end blog grid inner -->
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <!-- start blog grid inner -->
                         <div class="blog-grid-inner">
                             <div class="blog-header">
-                                <a class="thumbnail" href="blog-details.html">
-                                    <img src="assets/images/blog/grid/05.jpg" alt="Business_Blog">
+                                <a target="_blank" class="thumbnail"
+                                   href="https://www.tiktok.com/@melissourgoskostas/video/7232230151411535131">
+                                    <img src="assets/images/blog/blog5.jpg" alt="Business_Blog">
                                 </a>
-                                <div class="blog-info">
-                                    <div class="user">
-                                        <i class="fal fa-user-circle"></i>
-                                        <span>by Smith</span>
-                                    </div>
-                                    <div class="user">
-                                        <i class="fal fa-tags"></i>
-                                        <span>Business</span>
-                                    </div>
-                                </div>
+
                                 <div class="date">
                                     <h6 class="title">15</h6>
                                     <span>Jan</span>
                                 </div>
                             </div>
                             <div class="blog-body">
-                                <a href="blog-details.html">
+                                <a target="_blank"
+                                   href="https://www.tiktok.com/@melissourgoskostas/video/7232230151411535131">
                                     <h5 class="title">
-                                        Solution your business grow solution for you
+                                        Επιλέγεις την φιλοδοξία;
                                     </h5>
                                 </a>
                             </div>
                         </div>
                         <!-- end blog grid inner -->
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <!-- start blog grid inner -->
                         <div class="blog-grid-inner">
                             <div class="blog-header">
-                                <a class="thumbnail" href="blog-details.html">
-                                    <img src="assets/images/blog/grid/06.jpg" alt="Business_Blog">
+                                <a target="_blank" class="thumbnail"
+                                   href="https://www.tiktok.com/@melissourgoskostas/video/7245207598390086939">
+                                    <img src="assets/images/blog/blog6.jpg" alt="Business_Blog">
                                 </a>
-                                <div class="blog-info">
-                                    <div class="user">
-                                        <i class="fal fa-user-circle"></i>
-                                        <span>by Smith</span>
-                                    </div>
-                                    <div class="user">
-                                        <i class="fal fa-tags"></i>
-                                        <span>Business</span>
-                                    </div>
-                                </div>
+
                                 <div class="date">
                                     <h6 class="title">15</h6>
                                     <span>Jan</span>
                                 </div>
                             </div>
                             <div class="blog-body">
-                                <a href="blog-details.html">
+                                <a target="_blank"
+                                   href="https://www.tiktok.com/@melissourgoskostas/video/7245207598390086939">
                                     <h5 class="title">
-                                        Smart business grow solution for your Company
+                                        Αυτό είναι το δικό μου μυστικό, το μοιοράζομαι μαζί σας για να σας βοηθήσω!
                                     </h5>
                                 </a>
                             </div>
                         </div>
                         <!-- end blog grid inner -->
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <!-- start blog grid inner -->
                         <div class="blog-grid-inner">
                             <div class="blog-header">
-                                <a class="thumbnail" href="blog-details.html">
-                                    <img src="assets/images/blog/grid/07.jpg" alt="Business_Blog">
+                                <a target="_blank" class="thumbnail"
+                                   href="https://www.tiktok.com/@melissourgoskostas/video/7244102782209346842">
+                                    <img src="assets/images/blog/blog6.jpg" alt="Business_Blog">
                                 </a>
-                                <div class="blog-info">
-                                    <div class="user">
-                                        <i class="fal fa-user-circle"></i>
-                                        <span>by Smith</span>
-                                    </div>
-                                    <div class="user">
-                                        <i class="fal fa-tags"></i>
-                                        <span>Business</span>
-                                    </div>
-                                </div>
+
                                 <div class="date">
                                     <h6 class="title">15</h6>
                                     <span>Jan</span>
                                 </div>
                             </div>
                             <div class="blog-body">
-                                <a href="blog-details.html">
+                                <a target="_blank"
+                                   href="https://www.tiktok.com/@melissourgoskostas/video/7244102782209346842">
                                     <h5 class="title">
-                                        Latest business grow solution for you
+                                        Αυτά είναι τα 3 μεγάλα ψέματα για εμάς τους ασφαλιστικούς συμβούλους!
                                     </h5>
                                 </a>
                             </div>
                         </div>
                         <!-- end blog grid inner -->
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <!-- start blog grid inner -->
                         <div class="blog-grid-inner">
                             <div class="blog-header">
-                                <a class="thumbnail" href="blog-details.html">
-                                    <img src="assets/images/blog/grid/08.jpg" alt="Business_Blog">
+                                <a target="_blank" class="thumbnail"
+                                   href="https://www.tiktok.com/@melissourgoskostas/video/7250459899883228443">
+                                    <img src="assets/images/blog/blog7.jpg" alt="Business_Blog">
                                 </a>
-                                <div class="blog-info">
-                                    <div class="user">
-                                        <i class="fal fa-user-circle"></i>
-                                        <span>by Smith</span>
-                                    </div>
-                                    <div class="user">
-                                        <i class="fal fa-tags"></i>
-                                        <span>Business</span>
-                                    </div>
-                                </div>
+
                                 <div class="date">
                                     <h6 class="title">15</h6>
                                     <span>Jan</span>
                                 </div>
                             </div>
                             <div class="blog-body">
-                                <a href="blog-details.html">
+                                <a target="_blank"
+                                   href="https://www.tiktok.com/@melissourgoskostas/video/7250459899883228443">
                                     <h5 class="title">
-                                        Thinking smart business grow solution for you
+                                        Είχες σκεφτεί ποτέ πως κάπως έτσι μοιάζει η εμπιστοσύνη;
                                     </h5>
                                 </a>
                             </div>
                         </div>
                         <!-- end blog grid inner -->
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <!-- start blog grid inner -->
-                        <div class="blog-grid-inner">
-                            <div class="blog-header">
-                                <a class="thumbnail" href="blog-details.html">
-                                    <img src="assets/images/blog/grid/09.jpg" alt="Business_Blog">
-                                </a>
-                                <div class="blog-info">
-                                    <div class="user">
-                                        <i class="fal fa-user-circle"></i>
-                                        <span>by Smith</span>
-                                    </div>
-                                    <div class="user">
-                                        <i class="fal fa-tags"></i>
-                                        <span>Business</span>
-                                    </div>
-                                </div>
-                                <div class="date">
-                                    <h6 class="title">15</h6>
-                                    <span>Jan</span>
-                                </div>
-                            </div>
-                            <div class="blog-body">
-                                <a href="blog-details.html">
-                                    <h5 class="title">
-                                        Smart business grow solution for your building.
-                                    </h5>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end blog grid inner -->
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <!-- start blog grid inner -->
-                        <div class="blog-grid-inner">
-                            <div class="blog-header">
-                                <a class="thumbnail" href="blog-details.html">
-                                    <img src="assets/images/blog/grid/10.jpg" alt="Business_Blog">
-                                </a>
-                                <div class="blog-info">
-                                    <div class="user">
-                                        <i class="fal fa-user-circle"></i>
-                                        <span>by Smith</span>
-                                    </div>
-                                    <div class="user">
-                                        <i class="fal fa-tags"></i>
-                                        <span>Business</span>
-                                    </div>
-                                </div>
-                                <div class="date">
-                                    <h6 class="title">15</h6>
-                                    <span>Jan</span>
-                                </div>
-                            </div>
-                            <div class="blog-body">
-                                <a href="blog-details.html">
-                                    <h5 class="title">
-                                        Grow smart business grow solution for you
-                                    </h5>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end blog grid inner -->
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <!-- start blog grid inner -->
-                        <div class="blog-grid-inner">
-                            <div class="blog-header">
-                                <a class="thumbnail" href="blog-details.html">
-                                    <img src="assets/images/blog/grid/01.jpg" alt="Business_Blog">
-                                </a>
-                                <div class="blog-info">
-                                    <div class="user">
-                                        <i class="fal fa-user-circle"></i>
-                                        <span>by Smith</span>
-                                    </div>
-                                    <div class="user">
-                                        <i class="fal fa-tags"></i>
-                                        <span>Business</span>
-                                    </div>
-                                </div>
-                                <div class="date">
-                                    <h6 class="title">15</h6>
-                                    <span>Jan</span>
-                                </div>
-                            </div>
-                            <div class="blog-body">
-                                <a href="blog-details.html">
-                                    <h5 class="title">
-                                        business grow solution for you Building smart
-                                    </h5>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end blog grid inner -->
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <!-- start blog grid inner -->
-                        <div class="blog-grid-inner">
-                            <div class="blog-header">
-                                <a class="thumbnail" href="blog-details.html">
-                                    <img src="assets/images/blog/grid/02.jpg" alt="Business_Blog">
-                                </a>
-                                <div class="blog-info">
-                                    <div class="user">
-                                        <i class="fal fa-user-circle"></i>
-                                        <span>by Smith</span>
-                                    </div>
-                                    <div class="user">
-                                        <i class="fal fa-tags"></i>
-                                        <span>Business</span>
-                                    </div>
-                                </div>
-                                <div class="date">
-                                    <h6 class="title">15</h6>
-                                    <span>Jan</span>
-                                </div>
-                            </div>
-                            <div class="blog-body">
-                                <a href="blog-details.html">
-                                    <h5 class="title">
-                                        Building smart business grow solution for you
-                                    </h5>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end blog grid inner -->
-                    </div>
+
+
                 </div>
 
             </div>
@@ -804,7 +643,7 @@ navbar($str, $title);
                         </div>
                         <input type="text" placeholder="Κινητό" id="phone" name="phone">
                         <textarea placeholder="Μήνυμα" id="message" name="message"></textarea>
-                        <div class="spinner-border d-none"   role="status">
+                        <div class="spinner-border d-none" role="status">
                             <span class="visually-hidden">Loading...</span>
                         </div>
                         <button type="submit" onclick="submitContactForm('')" class="rts-btn btn-primary">Υποβολή
@@ -837,13 +676,19 @@ navbar($str, $title);
                             </div>
 
                         </form>
-                        <div class="spinner-border d-none"   role="status">
+                        <div class="spinner-border d-none" role="status">
                             <span class="visually-hidden">Loading...</span>
                         </div>
 
                         <div class="text-center ">
-                            <div class="my-2"> <button onclick="submitFormCv(event,'')" id="submitBtn"   class="welcomeLearnMore">Υποβολή</button> </div>
-                            <div class="my-2"> <button onclick="removeModal()"  class="welcomeSubmitBtn">Μάθε Περισσότερα</button> </div>
+                            <div class="my-2">
+                                <button onclick="submitFormCv(event,'')" id="submitBtn" class="welcomeLearnMore">
+                                    Υποβολή
+                                </button>
+                            </div>
+                            <div class="my-2">
+                                <button onclick="removeModal()" class="welcomeSubmitBtn">Μάθε Περισσότερα</button>
+                            </div>
                         </div>
                     </div>
                 </div>

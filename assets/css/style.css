@@ -11205,6 +11205,7 @@ body {
   }
 }
 .blog-grid-inner .blog-header .blog-info .user {
+  opacity: 0;
   margin-right: 25px;
 }
 .blog-grid-inner .blog-header .blog-info .user i {
@@ -11226,11 +11227,11 @@ body {
 }
 .blog-grid-inner .blog-header .date .title {
   margin-bottom: 0;
-  color: #e00a0a;
+  color: var(--myprimary1);
   margin-bottom: -5px;
 }
 .blog-grid-inner .blog-header .date span {
-  color: #e00a0a;
+  color:  var(--myprimary1);
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -11242,11 +11243,14 @@ body {
   display: block;
 }
 .blog-grid-inner .thumbnail:hover img {
-  transform: scale(1.2);
+  /*height: 400px;*/
+  /*transform: scale(1.2);*/
 }
 .blog-grid-inner .thumbnail img {
   width: 100%;
+  aspect-ratio: 1/1;
   transition: 0.3s;
+
 }
 .blog-grid-inner .blog-body {
   padding: 30px;

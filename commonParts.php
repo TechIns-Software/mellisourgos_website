@@ -4,12 +4,15 @@ function navbar($str='../',$title){
     ?>
     <!DOCTYPE html>
     <html lang="en">
-
     <head>
+        <meta name="title" content="Κωνσταντίνος Μελισσουργός | Ασφαλιστικός Σύμβουλος">
+        <meta name="description" content="Θέλεις να πραγματοποιήσεις τα όνειρα σου μέσω μιαςκαριέρας σε έναν σταθερό, ασφαλή και συνεχώς αναπτυσσόμενο κλάδο;">
+        <meta name="keywords" content="Ασφαλιστικός Σύμβουλος,  τμήμα πωλήσεων ,Συμμετοχή σε συνέδρια και ταξίδια σε όλο τον κόσμο,Bonus νέων συνεργατών  , Διαχρονικές προμήθειες,Επάγγελμα Ασφαλιστή , Μελισσουργός Κωνσταντίνος , Μελισσουργός ,NN Hellas">
+        <meta name="robots" content="index, follow">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>  <?= $title ?>  | Konstantinos Melissourgos </title>
+        <title>  <?= $title ?>  | Κωνσταντίνος Μελισσουργός </title>
         <link rel="shortcut icon" type="image/x-icon" href="<?= $str ?>assets/images/fav.png">
         <link rel="stylesheet" href="<?= $str ?>assets/css/plugins/swiper.min.css">
         <link rel="stylesheet" href="<?= $str ?>assets/css/plugins/fontawesome-5.css">
