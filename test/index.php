@@ -45,7 +45,7 @@ navbar($str, $title);
                             <option value="2">Συμφωνώ κυρίως με το Α</option>
                             <option value="3">Συμφωνώ και με το Α και το Β</option>
                             <option value="4">Συμφωνώ κυρίως με το Β</option>
-                            <option value="5">Συμφωνώ μόνο με το Β</option>
+                            <option value="5">Συμφωνώ μόνο με το Β  </option>
                         </datalist>
                         <output class="__range-output-square"></output>
                     </div>
