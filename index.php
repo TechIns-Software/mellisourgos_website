@@ -414,10 +414,7 @@ navbar($str, $title);
                                     <img src="assets/images/blog/blog.jpg" alt="Business_Blog">
                                 </a>
 
-                                <div class="date">
-                                    <h6 class="title">15</h6>
-                                    <span>Jan</span>
-                                </div>
+
                             </div>
                             <div class="blog-body">
                                 <a href="https://www.tiktok.com/@melissourgoskostas/video/7222972499955354907">
@@ -439,10 +436,7 @@ navbar($str, $title);
                                     <img src="assets/images/blog/blog2.jpg" alt="Business_Blog">
                                 </a>
 
-                                <div class="date">
-                                    <h6 class="title">15</h6>
-                                    <span>Jan</span>
-                                </div>
+
                             </div>
                             <div class="blog-body">
                                 <a target="_blank"
@@ -462,13 +456,10 @@ navbar($str, $title);
                             <div class="blog-header">
                                 <a target="_blank" class="thumbnail"
                                    href="https://www.tiktok.com/@melissourgoskostas/video/7225542566601706778">
-                                    <img src="assets/images/blog/blog3.jpg" alt="Business_Blog">
+                                    <img src="assets/images/blog/blog13.jpg" alt="Business_Blog">
                                 </a>
 
-                                <div class="date">
-                                    <h6 class="title">15</h6>
-                                    <span>Jan</span>
-                                </div>
+
                             </div>
                             <div class="blog-body">
                                 <a target="_blank"
@@ -491,10 +482,7 @@ navbar($str, $title);
                                     <img src="assets/images/blog/blog4.jpg" alt="Business_Blog">
                                 </a>
 
-                                <div class="date">
-                                    <h6 class="title">15</h6>
-                                    <span>Jan</span>
-                                </div>
+
                             </div>
                             <div class="blog-body">
                                 <a target="_blank"
@@ -514,13 +502,10 @@ navbar($str, $title);
                             <div class="blog-header">
                                 <a target="_blank" class="thumbnail"
                                    href="https://www.tiktok.com/@melissourgoskostas/video/7232230151411535131">
-                                    <img src="assets/images/blog/blog5.jpg" alt="Business_Blog">
+                                    <img src="assets/images/blog/blog12.jpg" alt="Business_Blog">
                                 </a>
 
-                                <div class="date">
-                                    <h6 class="title">15</h6>
-                                    <span>Jan</span>
-                                </div>
+
                             </div>
                             <div class="blog-body">
                                 <a target="_blank"
@@ -543,10 +528,7 @@ navbar($str, $title);
                                     <img src="assets/images/blog/blog6.jpg" alt="Business_Blog">
                                 </a>
 
-                                <div class="date">
-                                    <h6 class="title">15</h6>
-                                    <span>Jan</span>
-                                </div>
+
                             </div>
                             <div class="blog-body">
                                 <a target="_blank"
@@ -569,10 +551,7 @@ navbar($str, $title);
                                     <img src="assets/images/blog/blog6.jpg" alt="Business_Blog">
                                 </a>
 
-                                <div class="date">
-                                    <h6 class="title">15</h6>
-                                    <span>Jan</span>
-                                </div>
+
                             </div>
                             <div class="blog-body">
                                 <a target="_blank"
@@ -595,10 +574,7 @@ navbar($str, $title);
                                     <img src="assets/images/blog/blog7.jpg" alt="Business_Blog">
                                 </a>
 
-                                <div class="date">
-                                    <h6 class="title">15</h6>
-                                    <span>Jan</span>
-                                </div>
+
                             </div>
                             <div class="blog-body">
                                 <a target="_blank"
