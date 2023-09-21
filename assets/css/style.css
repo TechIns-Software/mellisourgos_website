@@ -131,7 +131,7 @@ body {
   line-height: var(--line-height-b1);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--font-primary);
   color: var(--color-body);
   font-weight: var(--p-regular);
   position: relative;
@@ -222,7 +222,7 @@ h6,
 .h5,
 .h6 {
   word-break: break-word;
-  font-family: "Red Hat Display", sans-serif;
+  font-family: var(--font-primary);
   line-height: 1.4074;
   color: var(--color-heading-1);
 }
@@ -469,7 +469,7 @@ cite,
 }
 
 var {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: var(--font-primary);
 }
 
 /*---------------------------
@@ -9149,7 +9149,7 @@ ins {
 }
 
 pre {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-primary);
   font-size: var(--font-size-b3);
   margin: 10px 0;
   overflow: auto;
@@ -21589,7 +21589,7 @@ p.disc.banner-para {
   line-height: 21px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-family: "Red Hat Display", sans-serif;
+  font-family: var(--font-primary);
 }
 .rts-service-area4 .container .title-service-three .title {
   text-transform: none;
@@ -21627,7 +21627,7 @@ p.disc.banner-para {
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;
-  font-family: "Red Hat Display", sans-serif;
+  font-family: var(--font-primary);
 }
 .rts-service-area4 .container .service-one-inner-four .big-thumbnail-area .content .disc {
   color: #5D666F;
@@ -22210,7 +22210,7 @@ p.disc.banner-para {
 }
 .case-study-area .item .item-content .text-heding3 {
   color: #1c2539;
-  font-family: "Red Hat Display", Sans-serif;
+  font-family: var(--font-primary);
   font-size: 22px;
   font-weight: 700;
 }
@@ -22600,7 +22600,7 @@ p.disc.banner-para {
 }
 .rts-business-goal2 .container .business-goal-right .single-goal .goal-wrapper .title {
   color: #0B101C;
-  font-family: "Red Hat Display", sans-serif;
+  font-family: var(--font-primary);
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -31134,7 +31134,7 @@ label[for="cv"]{
 .label-range{
   width: 40%;
   color: #1C2539;
-  font-family: Red Hat Display;
+  font-family: var(--font-primary);
   font-size: 20px;
   font-weight: 700;
   line-height: 25px;
