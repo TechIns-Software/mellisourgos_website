@@ -21,6 +21,7 @@ function navbar($str='../',$title){
         <link rel="stylesheet" href="<?= $str ?>assets/css/plugins/unicons.css">
         <link rel="stylesheet" href="<?= $str ?>assets/css/vendor/bootstrap.min.css">
         <link rel="stylesheet" href="<?= $str ?>assets/css/style.css?v=3.2">
+        <script src="<?= $str ?>assets/js/vendor/jquery.min.js"></script>
     </head>
 
     <body class="index-seven hr">
@@ -253,7 +254,7 @@ function footer($str){
                                 <!-- single -->
                                 <div class="single">
                                     <span>  Διεύθυνση:</span>
-                                    <a target="_blank" href="https://www.google.com/maps?q=%CE%9B%CE%B5%CF%89%CF%86.+%CE%9A%CE%B7%CF%86%CE%B9%CF%83%CE%AF%CE%B1%CF%82+131,+15124,%CE%9C%CE%B1%CF%81%CE%BF%CF%8D%CF%83%CE%B9">Λεωφ. Κηφισίας 131</a>
+                                    <a target="_blank" href="https://www.google.com/maps?q=%CE%9B%CE%B5%CF%89%CF%86.+%CE%9A%CE%B7%CF%86%CE%B9%CF%83%CE%AF%CE%B1%CF%82+131,+15124,%CE%9C%CE%B1%CF%81%CE%BF%CF%8D%CF%83%CE%B9">Λεωφ. Κηφισίας Μαρούσι 131</a>
                                 </div>
                                 <!-- single ENd -->
                             </div>
@@ -306,7 +307,23 @@ function footer($str){
     </div>
     <!-- progress Back to top End -->
     <!-- scripts start form hear -->
-    <script src="<?= $str ?>assets/js/vendor/jquery.min.js"></script>
+
+    <div class="modal-overlay   " id="modalContainer2">
+        <div class="custom-modal">
+            <div class="mainWelcome ">
+
+                <div class="welcomeCard2 ">
+                    <div class="d-flex justify-content-end">
+                        <div>
+                            <button onclick="removeModal(1)" class="closeBtn"><i class="fas fa-times fs-2"></i></button>
+                        </div>
+                    </div>
+                        <h3>Ευχαριστούμε πολύ που συμπλήρωσες την φόρμα !</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="<?= $str ?>assets/js/vendor/jqueryui.js"></script>
     <script src="<?= $str ?>assets/js/vendor/waypoint.js"></script>
     <script src="<?= $str ?>assets/js/plugins/swiper.js"></script>
@@ -315,7 +332,7 @@ function footer($str){
     <script src="<?= $str ?>assets/js/vendor/bootstrap.min.js"></script>
     <script src="<?= $str ?>assets/js/plugins/contact.form.js"></script>
     <!-- main Js -->
-    <script src="<?= $str ?>assets/js/main.js?v=1.3"></script>
+    <script src="<?= $str ?>assets/js/main.js?v=1.4"></script>
     <!-- scripts end form hear -->
     </body>
 

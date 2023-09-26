@@ -84,9 +84,8 @@ navbar($str, $title);
             </div>
 
             <div class="col-12 text-center moneyCheck">
-                <p> Σύμφωνα με τις μετρήσεις (2022) ο μέσος συνεργάτης του γραφείου <br> έχει απολαβές πάνω από<b> 3.520
-                        ευρώ το μήνα!</b></p>
-
+                <p> Σύμφωνα με τις μετρήσεις (2022) ο μέσος συνεργάτης του γραφείου <br> είχε απολαβές πάνω από<b> 3.520 €
+                        το μήνα!</b></p>
             </div>
         </div>
     </div>
@@ -419,7 +418,7 @@ navbar($str, $title);
                             <div class="blog-body">
                                 <a href="https://www.tiktok.com/@melissourgoskostas/video/7222972499955354907">
                                     <h5 class="title">
-                                        Πως θα έχεις επιτυχία στις πωλήσεις ;
+                                        Πώς θα έχεις επιτυχία στις πωλήσεις ;
                                     </h5>
                                 </a>
                             </div>
@@ -633,10 +632,17 @@ navbar($str, $title);
     </div>
 </div>
 
-<div class="modal-overlay active " id="modalContainer">
+<div class="modal-overlay   " id="modalContainer">
     <div class="custom-modal">
         <div class="mainWelcome ">
+
             <div class="welcomeCard ">
+                <div class="d-flex justify-content-end">
+                    <div>
+                        <button onclick="removeModal()" class="closeBtn"><i class="fas fa-times fs-2"></i></button>
+                    </div>
+
+                </div>
                 <h3>Ευκαιρία Καριέρας !</h3>
                 <p>Ακούς ;<br> Η ευκαιρία καμιά φορά χτυπάει την πόρτα σου πολύ σιγανά.</p>
                 <div class="welcomeForm">

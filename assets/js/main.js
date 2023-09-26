@@ -1198,8 +1198,12 @@ function submitContactForm(relativePath='../'){
       success: function (data) {
         console.log(data)
         $('.spinner-border').addClass('d-none');
-          alert(data[1]);
-        window.location.reload();
+
+        $('#modalContainer2').addClass('active');
+        $('#fullName').val('');
+         $('#email').val('');
+         $('#phone').val('');
+        $('#message').val('');
 
 
       }
@@ -1209,9 +1213,14 @@ function submitContactForm(relativePath='../'){
 
 }
 
-function removeModal(){
-  $('#modalContainer').removeClass('active');
-  hasSeenTheModal = true;
+function removeModal(number = 0){
+  if (number == 0){
+    $('#modalContainer').removeClass('active');
+    hasSeenTheModal = true;
+  }else {
+    $('#modalContainer2').removeClass('active');
+  }
+
 }
 
 
@@ -1265,7 +1274,7 @@ function submitFormCv(e,relativepath = '../'){
     },
     success: (data) => {
       if (data['result'] == "success") {
-        alert('Η φόρμα στάλθηκε επιτυχώς');
+        $('#modalContainer2').addClass('active');
       }else if  (data['result'] == "failed"){
         alert('Σφάλμα με την αποστολή φόρμας. Παρακαλώ προσπαθήστε αργότερα');
       }
@@ -1303,7 +1312,7 @@ function getTestData(event){
     },
     success: (data) => {
       if (data['result'] == "success") {
-        alert('Η φόρμα στάλθηκε επιτυχώς');
+        $('#modalContainer2').addClass('active');
       }else if  (data['result'] == "failed"){
         alert('Σφάλμα με την αποστολή φόρμας. Παρακαλώ προσπαθήστε αργότερα');
       }

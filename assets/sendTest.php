@@ -25,7 +25,7 @@ $email_body .= "<h2>Τελικο Σκορ: $sumOfTest  </h3>  ";
 
 $subject = $nameDisplayed = "Melissourgos Website | Τεστ Αξιολόγησης ";
 $from = "autoinform@techins.gr";
-$companyInfoEmail = "nickspanosf1@gmail.com";
+$companyInfoEmail = "Melissourgoskonstantinos@gmail.com";
 
 use PHPMailer\PHPMailer\PHPMailer;
 require '../vendor/autoload.php';

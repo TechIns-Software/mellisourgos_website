@@ -13,7 +13,7 @@ $message .= "<br>Μήνυμα: ";
 $message .= urldecode(urldecode($_POST['message']));
 
 
-$to = "nickspanosf1@gmail.com";
+$to = "Melissourgoskonstantinos@gmail.com";
 $from= "autoinform@techins.gr";
 
 $subject = "Φόρμα Επικοινωνίας Website";

@@ -28,7 +28,7 @@ $email_body .= "<h3>Τηλέφωνο : $phone  </h3> <br>";
 
 $subject = "Melissourgos Website | Φόρμα Επικοινωνίας Καριέρα";
 $from = "autoinform@techins.gr";
-$companyInfoEmail = "nickspanosf1@gmail.com";
+$companyInfoEmail = "Melissourgoskonstantinos@gmail.com";
 
 use PHPMailer\PHPMailer\PHPMailer;
 require '../vendor/autoload.php';
