@@ -130,6 +130,23 @@ navbar($str, $title);
         </div>
     </div>
 
+    <div class="rts-service-area rts-section-gap">
+        <div class="container-fluid service-main plr--120-service plr_md--0 pl_sm--0 pr_sm--0">
+            <div class="row">
+                <div class="cta-one-bg col-12">
+                    <div class="cta-one-inner">
+                        <div class="cta-left">
+                            <h3 class="title animated fadeIn">Μάθε για την αξία του ασφαλιστικού συμβούλου!</h3>
+                        </div>
+                        <div class="cta-right">
+                            <a class="rts-btn btn-white" href="../values"> Λεπτομέρειες</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- rts faq section area -->
     <div class="rts-faq-section rts-section-gap rts-faq-bg bg_image">
         <div class="container">
