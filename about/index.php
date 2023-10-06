@@ -80,7 +80,7 @@ navbar($str, $title);
                         <div class="single-counter">
                             <img src="../assets/images/counterup/icon/05.png" alt="Business_counter">
                             <div class="counter-details">
-                                <h2 class="title"><span class="counter animated fadeInDownBig">17,000,000</span></h2>
+                                <h2 class="title"><span class="counter animated fadeInDownBig" type="euro">17,000,000</span></h2>
                                 <p class="disc">Χαρτοφυλακιο</p>
                             </div>
                         </div>

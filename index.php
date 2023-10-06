@@ -42,7 +42,7 @@ navbar($str, $title);
                     <div class="single-counter">
                         <img src="assets/images/counterup/icon/05.png" alt="Business_counter">
                         <div class="counter-details">
-                            <h2 class="title"><span class="counter animated fadeInDownBig">17,000,000</span></h2>
+                            <h2 class="title"><span class="counter animated fadeInDownBig" type="euro">17,000,000</span></h2>
                             <p class="disc">Χαρτοφυλακιο</p>
                         </div>
                     </div>
@@ -632,10 +632,9 @@ navbar($str, $title);
     </div>
 </div>
 
-<div class="modal-overlay   " id="modalContainer">
+<div class="modal-overlay active   " id="modalContainer">
     <div class="custom-modal">
         <div class="mainWelcome ">
-
             <div class="welcomeCard ">
                 <div class="d-flex justify-content-end">
                     <div>
