@@ -632,7 +632,7 @@ navbar($str, $title);
     </div>
 </div>
 
-<div class="modal-overlay active   " id="modalContainer">
+<div class="modal-overlay    " id="modalContainer">
     <div class="custom-modal">
         <div class="mainWelcome ">
             <div class="welcomeCard ">

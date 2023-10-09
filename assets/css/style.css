@@ -30850,9 +30850,11 @@ p.disc {
 /*# sourceMappingURL=../maps/style.css.map */
 .navbar_logo a img{
   padding: 5px;
-  height: 120px;
-  aspect-ratio: 16/9;
+  height: 130px;
+  width: 150px;
+
   border-radius: 17px;
+  /*border: 1px solid red;*/
 }
 
 .cv_input label{
