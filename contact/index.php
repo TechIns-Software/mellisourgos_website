@@ -33,7 +33,7 @@ navbar($str,$title);
                 <div class="col-lg-6 col-md-12">
                     <div class="contact-map-area-fluid">
                         <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.9295537201665!2d23.805226175896433!3d38.04872777191764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a198d7071524cb%3A0x1d92ded48443d935!2zzpvOtc-Jz4YuIM6azrfPhs65z4POr86xz4IgMTMxLCDOnM6xz4HOv8-Nz4POuSAxNTEgMjQ!5e0!3m2!1sel!2sgr!4v1692639590856!5m2!1sel!2sgr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <img class="location" src="assets/images/contact/shape/location.svg" alt="Business_map">
+
                     </div>
                 </div>
 
