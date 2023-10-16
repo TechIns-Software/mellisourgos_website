@@ -570,7 +570,7 @@ navbar($str, $title);
                             <div class="blog-header">
                                 <a target="_blank" class="thumbnail"
                                    href="https://www.tiktok.com/@melissourgoskostas/video/7250459899883228443">
-                                    <img src="assets/images/blog/blog7.jpg" alt="Business_Blog">
+                                    <img src="assets/images/blog/blog13.jpg" alt="Business_Blog">
                                 </a>
 
 
@@ -599,12 +599,12 @@ navbar($str, $title);
 <div class="rts-contact-area contact-one" id="contact">
     <div class="container">
         <div class="row align-items-center g-0">
-            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-12 my-2">
                 <div class="contact-image-one">
-                    <img src="assets/images/contact/01.png" alt="">
+                    <img src="assets/images/contact/team_contact.jpg" alt="">
                 </div>
             </div>
-            <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+            <div class="col-lg-8 col-md-12 col-sm-12 col-12 my-2">
                 <div class="contact-form-area-one">
                     <div class="rts-title-area contact text-start">
                         <p class="pre-title">
