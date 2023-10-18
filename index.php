@@ -76,7 +76,7 @@ navbar($str, $title);
                     <div class="single-counter">
                         <img src="assets/images/counterup/icon/07.png" alt="Business_counter">
                         <div class="counter-details">
-                            <h2 class="title"><span class="counter animated fadeInDownBig" type="europlus"> 32,000</span></h2>
+                            <h2 class="title"><span class="counter animated fadeInDownBig" type="plus"> 32,000</span></h2>
                             <p class="disc">Αποζημιωσεις ανα ημερα</p>
                         </div>
                     </div>

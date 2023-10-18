@@ -23325,7 +23325,7 @@ p.disc.banner-para {
   content: "€";
 }
 
-.single-counter .counter-details .title span[type='europlus']::after {
+.single-counter .counter-details .title span[type='plus']::after {
   position: absolute;
   right: -60px;
   top: 50%;
