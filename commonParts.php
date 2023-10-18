@@ -59,7 +59,7 @@ function navbar($str='../',$title){
                     <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
                         <div class="navbar_logo">
                             <a href="<?= $str ?>index.php">
-                                <img class="img-fluid" src="<?= $str ?>assets/images/logo/logo_trans.png" alt="finbiz-logo">
+                                <img class="img-fluid" src="<?= $str ?>assets/images/logo/logo_trans2.png" alt="finbiz-logo">
                             </a>
                         </div>
                     </div>
