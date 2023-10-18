@@ -23079,7 +23079,7 @@ p.disc.banner-para {
 
 .single-counter .counter-details .title span[type='plus']::after {
   position: absolute;
-  right: -60px;
+  right: -50px;
   top: 50%;
   transform: translateY(-50%);
   content: "€+";
@@ -23090,7 +23090,12 @@ p.disc.banner-para {
 }
 @media only screen and (max-width: 767px) {
   .single-counter .counter-details .title.happy span::after {
-    right: -40px;
+    right: -30px;
+  }
+  .single-counter .counter-details .title span[type='plus']::after {
+
+    right: -45px;
+
   }
 }
 .single-counter .counter-details p {
