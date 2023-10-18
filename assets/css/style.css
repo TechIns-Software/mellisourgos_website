@@ -23330,7 +23330,7 @@ p.disc.banner-para {
   right: -60px;
   top: 50%;
   transform: translateY(-50%);
-  content: "€ +";
+  content: "€+";
 }
 .single-counter .counter-details .title.happy span::after {
   content: "k+";
