@@ -254,7 +254,7 @@ function footer($str){
                                 <!-- single -->
                                 <div class="single">
                                     <span>  Διεύθυνση:</span>
-                                    <a target="_blank" href="https://www.google.com/maps?q=%CE%9B%CE%B5%CF%89%CF%86.+%CE%9A%CE%B7%CF%86%CE%B9%CF%83%CE%AF%CE%B1%CF%82+131,+15124,%CE%9C%CE%B1%CF%81%CE%BF%CF%8D%CF%83%CE%B9">Λεωφ. Κηφισίας Μαρούσι 131</a>
+                                    <a target="_blank" href="https://www.google.com/maps?q=%CE%9B%CE%B5%CF%89%CF%86.+%CE%9A%CE%B7%CF%86%CE%B9%CF%83%CE%AF%CE%B1%CF%82+131,+15124,%CE%9C%CE%B1%CF%81%CE%BF%CF%8D%CF%83%CE%B9">Λεωφ. Κηφισίας 131 Μαρούσι </a>
                                 </div>
                                 <!-- single ENd -->
                             </div>
