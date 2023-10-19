@@ -31,7 +31,7 @@ $email_body .= "<h2>Εξωστρεφής : $introvertsDataSummary </h3> <br>";
 
 $subject = $nameDisplayed = "Melissourgos Website | Τεστ Αξιολόγησης ";
 $from = "autoinform@techins.gr";
-$companyInfoEmail = "nickspanosf1@gmail.com";
+$companyInfoEmail = "Melissourgoskonstantinos@gmail.com";
 
 use PHPMailer\PHPMailer\PHPMailer;
 require '../vendor/autoload.php';
