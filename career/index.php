@@ -123,6 +123,7 @@ navbar($str,$title);
                                     <input type="text" placeholder="Email " id="email" name="email">
                                 </div>
                                 <input type="text" placeholder="Κινητό" id="phone" name="phone">
+                                <input type="text" placeholder="Σύσταση από:" id="sistasi" name="sistasi">
                                 <div class="cv_input ">
                                     <label for="cv">Ανέβασμα Βιογραφικού <i
                                                 class="mx-3 fas fa-cloud-upload-alt"></i></label>

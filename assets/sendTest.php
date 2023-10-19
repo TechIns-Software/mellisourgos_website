@@ -3,12 +3,17 @@ session_start();
 
 $name = $_POST['fullName'];
 $phone = $_POST['phone'];
+$result = $_POST['result'];
+$extrovertsDataSummary = $_POST['extrovertsDataSummary'];
+$introvertsDataSummary = $_POST['introvertsDataSummary'];
 
 $sumOfTest = 0;
 
 $email_body = "<h3>Ονοματεπώνυμο : $name  </h3> <br>";
 $email_body .= "<h3>Τηλέφωνο : $phone  </h3> <br>";
-//$email_body .= "<h2>Αποτελέσματα Τεστ   </h3> <br>";
+$email_body .= "<h2>Αποτελέσματα Τεστ : $result</h3> <br>";
+$email_body .= "<h2>Εσωστρεφής :$extrovertsDataSummary  </h3> <br>";
+$email_body .= "<h2>Εξωστρεφής : $introvertsDataSummary </h3> <br>";
 
 
 //foreach ($formInfos as $index => $formInfo){

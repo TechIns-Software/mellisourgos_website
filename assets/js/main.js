@@ -1326,15 +1326,16 @@ function getTestData(event) {
   introvertsDataSummary = introvertsData.reduce((a, b) => parseInt(a) + parseInt(b), 0);
   var result = extrovertsDataSummary + introvertsDataSummary;
 
-
-  // Loop testData
-
   $.ajax({
     type: "POST",
     url: `../assets/sendTest.php`,
     data: {
-      fullName:fullName,
-      phone:phone
+      fullName: fullName,
+      phone: phone,
+      result: result,
+      extrovertsDataSummary: extrovertsDataSummary,
+      introvertsDataSummary: introvertsDataSummary,
+
     },
     success: (data) => {
       if (data['result'] == "success") {
