@@ -17066,6 +17066,17 @@ background: var(--myprimary1)!important;
   color: #fff;
 }
 
+.btn-primary-mycustom3{
+  padding: 17px 30px;
+  min-width: max-content;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  border-radius: 100px;
+  background: #33a3a7;
+  color: #fff;
+}
+
 .btn-primary-mycustom2:hover{
   color: #fff;
 }
@@ -31053,4 +31064,13 @@ label[for="cv"]{
   color: var(--myprimary1);
   font-weight: 700;
 
+}
+
+.resultsContainer{
+  font-size: 18px;
+  text-align: center;
+}
+
+.resultsContainer h2{
+  text-decoration: underline;
 }

@@ -1180,6 +1180,7 @@ function submitContactForm(relativePath='../'){
   const email = $('#email').val().trim();
   const phone = $('#phone').val().trim();
   const message = $('#message').val().trim();
+  const sistasi = $('#sistasi').val().trim();
 
   if ( fullName != '' || email != '' ||
       phone != '' || message != '' ){
@@ -1194,6 +1195,7 @@ function submitContactForm(relativePath='../'){
         email :email,
         phone :phone,
         message :message,
+        sistasi :sistasi,
       },
       success: function (data) {
         console.log(data)
@@ -1294,29 +1296,59 @@ function submitFormCv(e,relativepath = '../'){
 
 }
 
-function getTestData(event){
+function getTestData(event) {
   event.preventDefault();
 
   const fullName = $('#fullName').val();
   const phone = $('#phone').val();
-  const testData = $(`#testForm`).serializeArray();
+  var testData = [];
 
+
+  for (var cc = 1; cc <= 12; cc++) {
+
+    var inputElement = document.getElementById(`q_${cc}`);
+    var dataList = inputElement.list;
+    var selectedOption = Array.from(dataList.options).find(function (option) {
+      return option.value === inputElement.value;
+    });
+    testData[cc - 1] = selectedOption.getAttribute('realValue');
+  }
+  var extrovertsData = [];
+  var introvertsData = [];
+  var extrovertsDataSummary = 0;
+  var introvertsDataSummary = 0;
+  testData.map((item, index) => {
+    const cleanValue = item.split('_');
+    extrovertsData.push(cleanValue[0]);
+    introvertsData.push(cleanValue[1]);
+  })
+  extrovertsDataSummary = extrovertsData.reduce((a, b) => parseInt(a) + parseInt(b), 0);
+  introvertsDataSummary = introvertsData.reduce((a, b) => parseInt(a) + parseInt(b), 0);
+  var result = extrovertsDataSummary + introvertsDataSummary;
+
+
+  // Loop testData
 
   $.ajax({
     type: "POST",
     url: `../assets/sendTest.php`,
     data: {
-      testData:testData,
       fullName:fullName,
       phone:phone
     },
     success: (data) => {
       if (data['result'] == "success") {
-        $('#modalContainer2').addClass('active');
+        $('.nameField').addClass('d-none')
+        $('#extrovertsSummary').html(extrovertsDataSummary);
+        $('#introvertsSummary').html(introvertsDataSummary);
+        $('#finalResult').html(result);
+        $('.resultsContainer').removeClass('d-none');
+        $('#submitContainer').addClass('d-none');
+        $('#contactContainer').removeClass('d-none');
       }else if  (data['result'] == "failed"){
         alert('Σφάλμα με την αποστολή φόρμας. Παρακαλώ προσπαθήστε αργότερα');
       }
-      window.location.reload();
+
 
     },
     dataType: "json",

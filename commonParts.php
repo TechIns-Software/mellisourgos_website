@@ -222,7 +222,7 @@ function footer($str){
                             </div>
 
 
-                            <a href="#" class="rts-btn btn-primary contact-us">Επικοινωνία</a>
+
                         </div>
                     </div>
                 </div>
@@ -332,7 +332,7 @@ function footer($str){
     <script src="<?= $str ?>assets/js/vendor/bootstrap.min.js"></script>
     <script src="<?= $str ?>assets/js/plugins/contact.form.js"></script>
     <!-- main Js -->
-    <script src="<?= $str ?>assets/js/main.js?v=1.4"></script>
+    <script src="<?= $str ?>assets/js/main.js?v=2.4"></script>
     <!-- scripts end form hear -->
     </body>
 

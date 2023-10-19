@@ -12,12 +12,14 @@ if (isset($_SESSION['cvPath'])){
 $name = $formInfos[0]['value'];
 $clientEmail = $formInfos[1]['value'];
 $phone = $formInfos[2]['value'];
+$sistasi = $formInfos[3]['value'];
 
 
 
 $email_body = "<h3>Ονοματεπώνυμο : $name  </h3> <br>";
 $email_body .= "<h3>Email : $clientEmail  </h3> <br>";
 $email_body .= "<h3>Τηλέφωνο : $phone  </h3> <br>";
+$email_body .= "<h3>Σύσταση : $sistasi  </h3> <br>";
 
 
 //$client_email_body = "<h4> Αγαπητέ/ή $name </h4> <br>";

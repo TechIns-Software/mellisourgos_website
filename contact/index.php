@@ -57,8 +57,10 @@ navbar($str,$title);
                                 <div class="name-email">
                                     <input type="text" placeholder="Ονοματεπώνυμο" id="fullName" name="fullName">
                                     <input type="text" placeholder="Email " id="email" name="email">
+
                                 </div>
                                 <input type="text" placeholder="Κινητό" id="phone" name="phone">
+                                <input type="text" placeholder="Σύσταση από:" id="sistasi2" name="sistasi2">
                                 <div class="cv_input ">
                                     <label for="cv">Ανέβασμα Βιογραφικού <i
                                                 class="mx-3 fas fa-cloud-upload-alt"></i></label>

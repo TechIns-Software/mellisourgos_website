@@ -12,6 +12,9 @@ $message .= urldecode(urldecode($_POST['phone']));
 $message .= "<br>Μήνυμα: ";
 $message .= urldecode(urldecode($_POST['message']));
 
+$message .= "<br>Σύσταση: ";
+$message .= urldecode(urldecode($_POST['sistasi']));
+
 
 $to = "Melissourgoskonstantinos@gmail.com";
 $from= "autoinform@techins.gr";

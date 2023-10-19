@@ -398,7 +398,7 @@ navbar($str, $title);
                                 <img class="two" src="assets/images/banner/shape/pre-title.png" alt="pre-title">
                             </div>
                             <h2 class="title" style="margin: 1em 0 ">
-                                Ρίξε μια ματιά στα <br> βίντεο μας απο το Τικ τοκ
+                                Ρίξε μια ματιά στα <br> βίντεο μας απο το TikTok
                             </h2>
                         </div>
                     </div>
@@ -619,6 +619,7 @@ navbar($str, $title);
                             <input type="text" placeholder="Email " id="email" name="email">
                         </div>
                         <input type="text" placeholder="Κινητό" id="phone" name="phone">
+                        <input type="text" placeholder="Σύσταση από:" id="sistasi" name="sistasi">
                         <textarea placeholder="Μήνυμα" id="message" name="message"></textarea>
                         <div class="spinner-border d-none" role="status">
                             <span class="visually-hidden">Loading...</span>
@@ -632,7 +633,7 @@ navbar($str, $title);
     </div>
 </div>
 
-<div class="modal-overlay     " id="modalContainer">
+<div class="modal-overlay  active    " id="modalContainer">
     <div class="custom-modal">
         <div class="mainWelcome ">
             <div class="welcomeCard ">
@@ -650,8 +651,10 @@ navbar($str, $title);
                             <div class="name-email">
                                 <input type="text" placeholder="Ονοματεπώνυμο" id="fullName" name="fullName">
                                 <input type="text" placeholder="Email " id="email" name="email">
+
                             </div>
                             <input type="text" placeholder="Κινητό" id="phone" name="phone">
+                            <input type="text" placeholder="Σύσταση από:" id="sistasi2" name="sistasi2">
                             <div class="cv_input ">
                                 <label for="cv">Ανέβασμα Βιογραφικού <i
                                             class="mx-3 fas fa-cloud-upload-alt"></i></label>
