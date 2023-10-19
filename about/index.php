@@ -80,7 +80,7 @@ navbar($str, $title);
                         <div class="single-counter">
                             <img src="../assets/images/counterup/icon/05.png" alt="Business_counter">
                             <div class="counter-details">
-                                <h2 class="title"><span class="counter animated fadeInDownBig" type="euro">17,000,000</span></h2>
+                                <h2 class="title"><span class="counter animated fadeInDownBig" type="euro">17,000,000</span> <small>€+</small></h2>
                                 <p class="disc">Χαρτοφυλακιο</p>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ navbar($str, $title);
                         <div class="single-counter">
                             <img src="../assets/images/counterup/icon/08.png" alt="Business_counter">
                             <div class="counter-details">
-                                <h2 class="title"><span class="counter animated fadeInDownBig"> 64</span></h2>
+                                <h2 class="title"><span class="counter animated fadeInDownBig"> 64</span> <small>+</small> </h2>
                                 <p class="disc">Συνεργατες</p>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ navbar($str, $title);
                         <div class="single-counter">
                             <img src="../assets/images/counterup/icon/07.png" alt="Business_counter">
                             <div class="counter-details">
-                                <h2 class="title"><span class="counter animated fadeInDownBig"> 30,000</span></h2>
+                                <h2 class="title"><span class="counter animated fadeInDownBig"> 30,000</span> <small>+</small></h2>
                                 <p class="disc">Πελατες</p>
                             </div>
                         </div>
@@ -114,7 +114,7 @@ navbar($str, $title);
                         <div class="single-counter">
                             <img src="../assets/images/counterup/icon/07.png" alt="Business_counter">
                             <div class="counter-details">
-                                <h2 class="title"><span class="counter animated fadeInDownBig" type="plus"> 32,000</span></h2>
+                                <h2 class="title"><span class="counter animated fadeInDownBig" type="plus"> 32,000</span> <small>€+</small></h2>
                                 <p class="disc">Αποζημιωσεις ανα ημερα</p>
                             </div>
                         </div>
