@@ -24,6 +24,15 @@ function navbar($str='../',$title){
         <script src="<?= $str ?>assets/js/vendor/jquery.min.js"></script>
     </head>
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJXYX19CYD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-HJXYX19CYD');
+    </script>
+
     <body class="index-seven hr">
     <!-- start header area -->
     <!-- start header area -->
