@@ -31074,3 +31074,10 @@ label[for="cv"]{
 .resultsContainer h2{
   text-decoration: underline;
 }
+.nameField h5{
+  margin: .5em auto;
+}
+
+.nameField .form-check-label{
+  font-size: 17px;!important;
+}

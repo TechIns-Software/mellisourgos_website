@@ -290,6 +290,68 @@ navbar($str, $title);
 
                         <h5>Τηλέφωνο Επικοινωνίας</h5>
                         <input type="text" name="phone" id="phone" >
+
+                        <h5>Πως βρήκες την ιστοσελίδα μας ;</h5>
+
+                        <div class="form-check">
+                            <input type="radio" class="radioInputs"  name="fromWhere" id="sinergatis" value="Συνεργάτης Γραφείου" checked>
+                            <label class="form-check-label" for="sinergatis">
+                             Συνεργάτης Γραφείου
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="radio" class="radioInputs" name="fromWhere" id="tikTok" value=" Tik Tok">
+                            <label class="form-check-label" for="tikTok">
+                                Tik Tok
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="radio" class="radioInputs" name="fromWhere" id="facebook" value="Facebook">
+                            <label class="form-check-label" for="facebook">
+                                Facebook
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="radio" class="radioInputs" name="fromWhere" id="instagram" value="Instagram">
+                            <label class="form-check-label" for="instagram">
+                                Instagram
+                            </label>
+                        </div>
+
+
+                        <div class="form-check">
+                            <input type="radio" class="radioInputs" name="fromWhere" id="internet" value="Διαδίκτυο">
+                            <label class="form-check-label" for="internet">
+                                Διαδίκτυο
+                            </label>
+                        </div>
+
+
+                        <div class="form-check">
+                            <input type="radio" class="radioInputs" name="fromWhere" id="friend" value="Φίλο">
+                            <label class="form-check-label" for="friend">
+                                Φίλο
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="radio" class="radioInputs" name="fromWhere" id="insuranceAgent" value="Ασφαλιστικό σύμβουλο">
+                            <label class="form-check-label" for="insuranceAgent">
+                                Ασφαλιστικό σύμβουλο
+                            </label>
+                        </div>
+
+
+                        <div class="form-check">
+                            <input type="radio" class="radioInputs" name="fromWhere" id="other" value="Άλλο">
+                            <label class="form-check-label" for="other">
+                              Άλλο
+                            </label>
+                        </div>
+
                     </div>
 
                     <div class="resultsContainer d-none ">

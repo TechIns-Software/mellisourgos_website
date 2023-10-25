@@ -6,11 +6,13 @@ $phone = $_POST['phone'];
 $result = $_POST['result'];
 $extrovertsDataSummary = $_POST['extrovertsDataSummary'];
 $introvertsDataSummary = $_POST['introvertsDataSummary'];
+$radioButtonValue = $_POST['radioButton'];
 
 $sumOfTest = 0;
 
 $email_body = "<h3>Ονοματεπώνυμο : $name  </h3> <br>";
 $email_body .= "<h3>Τηλέφωνο : $phone  </h3> <br>";
+$email_body .= "<h3>Εμαθε την ιστοσελίδα μέσω : $radioButtonValue  </h3> <br>";
 $email_body .= "<h2>Αποτελέσματα Τεστ : $result</h3> <br>";
 $email_body .= "<h2>Εξωστρεφής :$extrovertsDataSummary  </h3> <br>";
 $email_body .= "<h2>Εσωστρεφής : $introvertsDataSummary </h3> <br>";

@@ -1326,6 +1326,11 @@ function getTestData(event) {
   introvertsDataSummary = introvertsData.reduce((a, b) => parseInt(a) + parseInt(b), 0);
   var result = extrovertsDataSummary + introvertsDataSummary;
 
+  //find me what radiobutton is checked and get the value
+  var radioButtonValue = $('.radioInputs:checked').val();
+
+
+
   $.ajax({
     type: "POST",
     url: `../assets/sendTest.php`,
@@ -1335,7 +1340,7 @@ function getTestData(event) {
       result: result,
       extrovertsDataSummary: extrovertsDataSummary,
       introvertsDataSummary: introvertsDataSummary,
-
+      radioButton : radioButtonValue
     },
     success: (data) => {
       if (data['result'] == "success") {
