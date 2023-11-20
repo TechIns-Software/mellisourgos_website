@@ -1296,14 +1296,22 @@ function submitFormCv(e,relativepath = '../'){
 
 }
 
-function getTestData(event) {
+function getTestData(event,fromTest = 'first') {
   event.preventDefault();
 
   const fullName = $('#fullName').val();
   const phone = $('#phone').val();
   var testData = [];
+  //find me what radiobutton is checked and get the value
+  var radioButtonValue = $('.radioInputs:checked').val();
 
+  var dataObject = {
+    fullName: fullName,
+    phone: phone,
+    radioButton : radioButtonValue
+  }
 
+if (fromTest == 'first'){
   for (var cc = 1; cc <= 12; cc++) {
 
     var inputElement = document.getElementById(`q_${cc}`);
@@ -1326,27 +1334,38 @@ function getTestData(event) {
   introvertsDataSummary = introvertsData.reduce((a, b) => parseInt(a) + parseInt(b), 0);
   var result = extrovertsDataSummary + introvertsDataSummary;
 
-  //find me what radiobutton is checked and get the value
-  var radioButtonValue = $('.radioInputs:checked').val();
 
+  dataObject.extrovertsDataSummary = extrovertsDataSummary
+  dataObject.introvertsDataSummary = introvertsDataSummary
+}else {
+  var radioArray = [];
 
+  for (var counter = 0; counter <= 21; counter++) {
+    var questionValue = $(`input[name='question${counter}']:checked`).val();
+    if (questionValue == undefined || questionValue == 'no'){
+      questionValue = 0;
+    }else{
+      questionValue = 2;
+    }
+    radioArray.push(questionValue);
+  }
+
+  result = radioArray.reduce((a, b) => parseInt(a) + parseInt(b), 0);
+  dataObject.radioArray =    radioArray
+}
+  dataObject.result = result
 
   $.ajax({
     type: "POST",
     url: `../assets/sendTest.php`,
-    data: {
-      fullName: fullName,
-      phone: phone,
-      result: result,
-      extrovertsDataSummary: extrovertsDataSummary,
-      introvertsDataSummary: introvertsDataSummary,
-      radioButton : radioButtonValue
-    },
+    data:dataObject,
     success: (data) => {
       if (data['result'] == "success") {
         $('.nameField').addClass('d-none')
-        $('#extrovertsSummary').html(extrovertsDataSummary);
-        $('#introvertsSummary').html(introvertsDataSummary);
+        if (fromTest == 'first') {
+          $('#extrovertsSummary').html(extrovertsDataSummary);
+          $('#introvertsSummary').html(introvertsDataSummary);
+        }
         $('#finalResult').html(result);
         $('.resultsContainer').removeClass('d-none');
         $('#submitContainer').addClass('d-none');

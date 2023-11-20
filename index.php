@@ -84,8 +84,8 @@ navbar($str, $title);
             </div>
 
             <div class="col-12 text-center moneyCheck">
-                <p> Σύμφωνα με τις μετρήσεις (2022) ο μέσος συνεργάτης του γραφείου <br> είχε απολαβές πάνω από<b> 3.520 €
-                        το μήνα!</b></p>
+                <p> Σύμφωνα με τις μετρήσεις (2022) ο μέσος συνεργάτης του γραφείου <br> είχε απολαβές πάνω από <br> <b> 3.520 €
+                       το μήνα!</b></p>
             </div>
         </div>
     </div>
@@ -184,6 +184,9 @@ navbar($str, $title);
                         <div class="my-4">
                             <a href="#contact" class="btn-primary-mycustom2  ">Γνώρισε μας
                                 σήμερα!</a>
+                        </div>
+                        <div class="my-4">
+                            <a href="workTest" class="btn-primary-mycustom2 alternative  ">Είσαι χαρούμενος από το επάγγελμα σου;</a>
                         </div>
 
 

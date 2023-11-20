@@ -4,8 +4,7 @@ session_start();
 $name = $_POST['fullName'];
 $phone = $_POST['phone'];
 $result = $_POST['result'];
-$extrovertsDataSummary = $_POST['extrovertsDataSummary'];
-$introvertsDataSummary = $_POST['introvertsDataSummary'];
+
 $radioButtonValue = $_POST['radioButton'];
 
 $sumOfTest = 0;
@@ -13,27 +12,24 @@ $sumOfTest = 0;
 $email_body = "<h3>Ονοματεπώνυμο : $name  </h3> <br>";
 $email_body .= "<h3>Τηλέφωνο : $phone  </h3> <br>";
 $email_body .= "<h3>Εμαθε την ιστοσελίδα μέσω : $radioButtonValue  </h3> <br>";
+
+if (isset($_POST['extrovertsDataSummary'])){
+    $extrovertsDataSummary = $_POST['extrovertsDataSummary'];
+    $introvertsDataSummary = $_POST['introvertsDataSummary'];
+    $email_body .= "<h3>Εσωστρεφής ή Εξωστρεφής;</h3> <br>";
+    $email_body .= "<h2>Εξωστρεφής :$extrovertsDataSummary  </h3> <br>";
+    $email_body .= "<h2>Εσωστρεφής : $introvertsDataSummary </h3> <br>";
+}else{
+    $email_body .= "<h3>Είσαι χαρούμενος από το επάγγελμα σου;</h3> <br>";
+}
+
 $email_body .= "<h2>Αποτελέσματα Τεστ : $result</h3> <br>";
-$email_body .= "<h2>Εξωστρεφής :$extrovertsDataSummary  </h3> <br>";
-$email_body .= "<h2>Εσωστρεφής : $introvertsDataSummary </h3> <br>";
-
-
-//foreach ($formInfos as $index => $formInfo){
-//    var_dump($formInfo);
-//    $label = $formInfo['name'];
-//    $value2 = $formInfo['value'];
-//
-//    $email_body .= "<h4>$label :  $value2 </h3> <br>";
-//    $sumOfTest =  $sumOfTest + intval($value2);
-//}
-//
-//$email_body .= "<h2>Τελικο Σκορ: $sumOfTest  </h3>  ";
-
 
 
 $subject = $nameDisplayed = "Melissourgos Website | Τεστ Αξιολόγησης ";
 $from = "autoinform@techins.gr";
 $companyInfoEmail = "Melissourgoskonstantinos@gmail.com";
+
 
 use PHPMailer\PHPMailer\PHPMailer;
 require '../vendor/autoload.php';
