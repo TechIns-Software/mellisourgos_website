@@ -31067,14 +31067,15 @@ label[for="cv"]{
   font-size:23px;
 }
 
-.moneyCheck p b{
-  display: inline-block;
-margin-top:10px ;
+.moneyCheck p b {
+  display: block;
+  width: fit-content;
+  margin: .5em auto;
   border-radius: 14px;
-  padding:  5px;
+  padding: 5px;
   background-color: #144d6d;
 
-  color:white;
+  color: white;
   font-weight: 700;
 
 }

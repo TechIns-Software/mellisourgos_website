@@ -20,7 +20,7 @@ function navbar($str='../',$title){
         <link rel="stylesheet" href="<?= $str ?>assets/css/plugins/animate.min.css">
         <link rel="stylesheet" href="<?= $str ?>assets/css/plugins/unicons.css">
         <link rel="stylesheet" href="<?= $str ?>assets/css/vendor/bootstrap.min.css">
-        <link rel="stylesheet" href="<?= $str ?>assets/css/style.css?v=3.<?=time()?>">
+        <link rel="stylesheet" href="<?= $str ?>assets/css/style.css?v=<?=time()?>">
         <script src="<?= $str ?>assets/js/vendor/jquery.min.js"></script>
     </head>
 
