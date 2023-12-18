@@ -18877,8 +18877,8 @@ p.disc.banner-para {
 }
 .title-area-style-six .pre-title span.pre {
   text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 18px;
   line-height: 21px;
   color: var(--myprimary2);
   margin-left: 10px;
@@ -31107,4 +31107,45 @@ label[for="cv"]{
 .custom-radio .form-check-label{
   font-size: 22px;!important;
   color: white;
+}
+
+.testimonial-card{
+  text-align: center;
+  padding: .5em;
+  background-color:lightblue;
+  color: white;
+  border-radius: 5px;
+  width: 95%;
+  margin: auto;
+  min-height: 200px;
+  position: relative;
+}
+.testimonial-card h3{
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+  line-height: 22px;
+}
+.testimonial-card h4{
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+}
+.testimonial-card p{
+  margin-top: 1em;
+
+}
+.testimonial-card a {
+  display: block;
+  position: absolute;
+  bottom: .5em;
+  left: 0;
+  right: 0;
+  width: 80%;
+  margin: auto;
+  background-color: var(--myprimary1);
+  color: white;
+  padding: .5em;
+  border-radius: 5px;
 }
