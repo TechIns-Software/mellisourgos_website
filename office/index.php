@@ -72,7 +72,8 @@ navbar($str,$title);
                         </div>
                         <div class="address my-1">
                             <a href="http://maps.google.com/maps?q=Ελ. Βενιζέλου 6, 38221 ,Βόλος" target="_blank">
-                                Ελ. Βενιζέλου 6, 38221
+                                Ιωλκού 2, 38221
+
                             </a>
                         </div>
                         <div class="my-1">
