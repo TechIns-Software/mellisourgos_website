@@ -238,7 +238,7 @@ navbar($str, $title);
 
                         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                             <div class="testimonial-card">
-                                <h3>Ελένη Κοκκίνου </h3>
+                                <h3>Ελένη Κόκκινου </h3>
                                 <h4>Insurance Agent</h4>
                                 <p>"Οι εκπαιδεύσεις με τον κ.Μελισσουργό μου έμαθαν πως να βάζω πλάνο και να πετυχαίνω του στόχους μου "</p>
                                 <a target="_blank" href="assets/images/testimonials/kokkinou.mp4"> Δες Περισσότερα</a>
