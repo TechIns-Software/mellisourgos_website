@@ -31064,13 +31064,14 @@ label[for="cv"]{
 
 .moneyCheck p{
   width: 90%;
+  margin: auto;
   font-size:23px;
 }
 
-.moneyCheck p b {
+.moneyCheckBtn {
   display: block!important;
   width: fit-content;
-  margin: .5em auto;
+  margin: .3em auto;
   border-radius: 4px;
   padding: 8px;
   background-color: #144d6d;
