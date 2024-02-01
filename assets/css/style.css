@@ -31074,7 +31074,7 @@ label[for="cv"]{
   margin: .3em auto;
   border-radius: 4px;
   padding: 8px;
-  background-color: #144d6d;
+  background-color: #144d6d!important;
 font-size: 38px!important;
   color: white;
   font-weight: 700;
