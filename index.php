@@ -201,7 +201,69 @@ navbar($str, $title);
         </div>
     </div>
     <!-- rts about area end -->
+    <div class="rts-blog-grid-area rts-section-gap">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-xl-12 col-md-12 col-sm-12 col-12 pr--40 pr_md--0 pr_sm-controler--0">
+                    <div class="row">
+                        <div class="col-lg-12 ">
+                            <div class="title-area-style-six text-center">
+                                <div class="pre-title">
+                                    <img src="assets/images/banner/shape/pre-title.png" alt="pre-title">
+                                    <span class="pre">Testimonials</span>
+                                    <img class="two" src="assets/images/banner/shape/pre-title.png" alt="pre-title">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-5">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="testimonial-card">
+                                <h3>Μάνος Ανδριανάκης</h3>
+                                <h4>Insurance Agent</h4>
+                                <p>"Το συναίσθημα τις προσφοράς προς τον συνάνθρωπο είναι αυτό που με παρακινεί"</p>
+                                <a target="_blank" href="assets/images/testimonials/andrianakhs.mp4"> Δες Περισσότερα</a>
+                            </div>
+                        </div>
 
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="testimonial-card">
+                                <h3>Κωνσταντίνος Λαζάρου </h3>
+                                <h4>Insurance Agent</h4>
+                                <p>"Συμβάλω στην ζωή των ανθρώπων και τους βοηθώ να κάνουν τα όνειρά τους πραγματικότητα"</p>
+                                <a target="_blank" href="assets/images/testimonials/lazarou.mp4"> Δες Περισσότερα</a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="testimonial-card">
+                                <h3>Ελένη Κοκκίνου </h3>
+                                <h4>Insurance Agent</h4>
+                                <p>"Οι εκπαιδεύσεις με τον κ.Μελισσουργό μου έμαθαν πως να βάζω πλάνο και να πετυχαίνω του στόχους μου "</p>
+                                <a target="_blank" href="assets/images/testimonials/kokkinou.mp4"> Δες Περισσότερα</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="testimonial-card">
+                                <h3>Μανώλης Καπαρός  </h3>
+                                <h4>Executive Insurance Agent</h4>
+                                <p>"O κ.Μελισσουργός με βοήθησε να εξελιχθώ σαν άνθρωπος αλλά και σαν επαγγελματίας"</p>
+                                <a target="_blank" href="assets/images/testimonials/kaparos.mp4"> Δες Περισσότερα</a>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <!-- working process start -->
     <div class="rts-working-process rts-section-gapBottom">
@@ -387,69 +449,7 @@ navbar($str, $title);
     </div>
     <!-- rts blog area edn -->
 </div>
-<div class="rts-blog-grid-area rts-section-gap">
-    <div class="container">
-        <div class="row g-5">
-            <div class="col-xl-12 col-md-12 col-sm-12 col-12 pr--40 pr_md--0 pr_sm-controler--0">
-                <div class="row">
-                    <div class="col-lg-12 ">
-                        <div class="title-area-style-six text-center">
-                            <div class="pre-title">
-                                <img src="assets/images/banner/shape/pre-title.png" alt="pre-title">
-                                <span class="pre">Testimonials</span>
-                                <img class="two" src="assets/images/banner/shape/pre-title.png" alt="pre-title">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-5">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="testimonial-card">
-                            <h3>Μάνος Ανδριανάκης</h3>
-                            <h4>Insurance Agent</h4>
-                            <p>"Το συναίσθημα τις προσφοράς προς τον συνάνθρωπο είναι αυτό που με παρακινεί"</p>
-                            <a target="_blank" href="assets/images/testimonials/andrianakhs.mp4"> Δες Περισσότερα</a>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="testimonial-card">
-                            <h3>Κωνσταντίνος Λαζάρου </h3>
-                            <h4>Insurance Agent</h4>
-                            <p>"Συμβάλω στην ζωή των ανθρώπων και τους βοηθώ να κάνουν τα όνειρά τους πραγματικότητα"</p>
-                            <a target="_blank" href="assets/images/testimonials/lazarou.mp4"> Δες Περισσότερα</a>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="testimonial-card">
-                            <h3>Ελένη Κοκκίνου </h3>
-                            <h4>Insurance Agent</h4>
-                            <p>"Οι εκπαιδεύσεις με τον κ.Μελισσουργό μου έμαθαν πως να βάζω πλάνο και να πετυχαίνω του στόχους μου "</p>
-                            <a target="_blank" href="assets/images/testimonials/kokkinou.mp4"> Δες Περισσότερα</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="testimonial-card">
-                            <h3>Μανώλης Καπαρός  </h3>
-                            <h4>Executive Insurance Agent</h4>
-                            <p>"O κ.Μελισσουργός με βοήθησε να εξελιχθώ σαν άνθρωπος αλλά και σαν επαγγελματίας"</p>
-                            <a target="_blank" href="assets/images/testimonials/kaparos.mp4"> Δες Περισσότερα</a>
-                        </div>
-                    </div>
-
-
-
-
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-</div>
 
 <div class="rts-blog-grid-area rts-section-gap">
     <div class="container">

@@ -31068,13 +31068,13 @@ label[for="cv"]{
 }
 
 .moneyCheck p b {
-  display: block;
+  display: block!important;
   width: fit-content;
   margin: .5em auto;
-  border-radius: 14px;
-  padding: 5px;
+  border-radius: 4px;
+  padding: 8px;
   background-color: #144d6d;
-
+font-size: 38px!important;
   color: white;
   font-weight: 700;
 
@@ -31142,7 +31142,7 @@ label[for="cv"]{
   bottom: .5em;
   left: 0;
   right: 0;
-  width: 80%;
+  width: fit-content;
   margin: auto;
   background-color: var(--myprimary1);
   color: white;
