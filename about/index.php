@@ -122,8 +122,8 @@ navbar($str, $title);
                 </div>
 
                 <div class="col-12 text-center moneyCheck">
-                    <p> Σύμφωνα με τις μετρήσεις (2022) ο μέσος συνεργάτης του γραφείου <br> είχε απολαβές πάνω από  </p>
-                    <button class="moneyCheckBtn">3520 € το μήνα!</button>
+                    <p> Σύμφωνα με τις μετρήσεις (2023) ο μέσος συνεργάτης του γραφείου <br> είχε απολαβές πάνω από  </p>
+                    <button class="moneyCheckBtn">3.790 € το μήνα!</button>
                 </div>
             </div>
         </div>
