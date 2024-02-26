@@ -13,6 +13,7 @@ function navbar($str='../',$title){
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="facebook-domain-verification" content="c9xjk3jgav17jr8f4x55xo1bx0w23p" />
         <title>  <?= $title ?>  | Κωνσταντίνος Μελισσουργός </title>
         <link rel="shortcut icon" type="image/x-icon" href="<?= $str ?>assets/images/fav.png">
         <link rel="stylesheet" href="<?= $str ?>assets/css/plugins/swiper.min.css">
