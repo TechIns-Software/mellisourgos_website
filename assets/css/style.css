@@ -17057,7 +17057,7 @@ background: var(--myprimary1)!important;
 
 .btn-primary-mycustom2{
   padding: 17px 30px;
-  min-width: max-content;
+
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
@@ -28402,10 +28402,10 @@ p.disc.banner-para {
   font-size: 15px!important;
   line-height: 24px;
   color: #4d4c4c;
-  height: 60px;
+  min-height: 60px;
   align-items: center;
   display: flex;
-  padding: 0 35px;
+  padding:.5em;
 }
 @media only screen and (max-width: 800px) {
   .faq-two-inner .faq-accordion-area .accordion .accordion-item .accordion-header button {
