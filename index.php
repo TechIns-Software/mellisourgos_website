@@ -254,6 +254,15 @@ navbar($str, $title);
                             </div>
                         </div>
 
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 mx-auto">
+                            <div class="testimonial-card">
+                                <h3>Διονύσης Παπαοικονόμου </h3>
+                                <h4>Senior Insurance Agent</h4>
+                                <p>"Παρά τις αρχικές μου εντυπώσεις για το επάγγελμα του ασφαλιστή, ο κ.Μελισσουργός με βοήθησε να πάρω την σωστή απόφαση "</p>
+                                <a target="_blank" href="assets/images/testimonials/papaoikonomou.mp4"> Δες Περισσότερα</a>
+                            </div>
+                        </div>
+
 
 
 
