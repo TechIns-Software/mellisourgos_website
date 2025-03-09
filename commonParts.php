@@ -186,14 +186,15 @@ function navbar($str='../',$title){
             <div class="body-mobile d-block d-xl-none">
                 <nav class="nav-main mainmenu-nav">
                     <ul class="mainmenu">
-                        <li class="menu-item"><a class="menu-link" href="<?= $str ?>index.php">Αρχική</a></li>
-<!--                        <li class="menu-item"><a class="menu-link" href="--><?php //= $str ?><!--vision/index.php">Όραμα</a></li>-->
-                        <li class="menu-item"><a class="menu-link" href="<?= $str ?>about/index.php">Σχετικά με εμάς</a></li>
-                        <li class="menu-item"><a class="menu-link" href="<?= $str ?>office/index.php">Γραφεία</a></li>
-                        <li class="menu-item"><a class="menu-link" href="<?= $str ?>career/index.php">Καριέρα</a></li>
-<!--                        <li class="menu-item"><a class="menu-link" href="--><?php //= $str ?><!--videos/index.php">Βίντεο</a></li>-->
-                        <li><a class="nav-item" href="<?= $str ?>test/index.php">Εσωστρεφής ή Εξωστρεφής;</a></li>
-                        <li class="menu-item"><a class="menu-link" href="<?= $str ?>contact/index.php">Επικοινωνία</a></li>
+                        <li class="menu-item"><a class="menu-link" href="<?= $str ?>">Αρχική</a></li>
+<!--                        <li class="menu-item"><a class="menu-link" href="--><?php //= $str ?><!--vision/">Όραμα</a></li>-->
+                        <li class="menu-item"><a class="menu-link" href="<?= $str ?>about/">Σχετικά με εμάς</a></li>
+                        <li class="menu-item"><a class="menu-link" href="<?= $str ?>office/">Γραφεία</a></li>
+                        <li class="menu-item"><a class="menu-link" href="<?= $str ?>career/">Καριέρα</a></li>
+<!--                        <li class="menu-item"><a class="menu-link" href="--><?php //= $str ?><!--videos/">Βίντεο</a></li>-->
+                        <li><a class="nav-item" href="<?= $str ?>test/">Εσωστρεφής ή Εξωστρεφής;</a></li>
+                        <li class="menu-item"><a class="menu-link" href="<?= $str ?>contact/">Επικοινωνία</a></li>
+                        <li class="menu-item"><a class="menu-link" href="<?= $str ?>video/">Βίντεο</a></li>
                     </ul>
                 </nav>
                 <div class="social-wrapper-two menu mobile-menu">
@@ -230,18 +231,19 @@ function footer($str){
                         </div>
                         <div class="quick-link-inner">
                             <ul class="links">
-                                <li><a href="<?= $str ?>index.php"><i class="far fa-arrow-right"></i> Αρχική</a></li>
-<!--                                <li><a href="--><?php //= $str ?><!--vision/index.php"><i class="far fa-arrow-right"></i> Όραμα</a></li>-->
-                                <li><a href="<?= $str ?>about/index.php"><i class="far fa-arrow-right"></i> Σχετικά με εμένα</a></li>
-                                <li><a href="<?= $str ?>office/index.php"><i class="far fa-arrow-right"></i> Γραφεία</a></li>
+                                <li><a href="<?= $str ?>"><i class="far fa-arrow-right"></i> Αρχική</a></li>
+<!--                                <li><a href="--><?php //= $str ?><!--vision/"><i class="far fa-arrow-right"></i> Όραμα</a></li>-->
+                                <li><a href="<?= $str ?>about/"><i class="far fa-arrow-right"></i> Σχετικά με εμένα</a></li>
+                                <li><a href="<?= $str ?>office/"><i class="far fa-arrow-right"></i> Γραφεία</a></li>
 
                             </ul>
                             <ul class="links margin-left-70">
-                                <li><a href="<?= $str ?>career/index.php"><i class="far fa-arrow-right"></i>  Καριέρα</a></li>
-<!--                                <li><a href="--><?php //= $str ?><!--videos/index.php"><i class="far fa-arrow-right"></i> Βίντεο</a></li>-->
+                                <li><a href="<?= $str ?>career/"><i class="far fa-arrow-right"></i>  Καριέρα</a></li>
+<!--                                <li><a href="--><?php //= $str ?><!--videos/"><i class="far fa-arrow-right"></i> Βίντεο</a></li>-->
 
-                                <li><a href="<?= $str ?>test/index.php"><i class="far fa-arrow-right"></i> Εσωστρεφής ή Εξωστρεφής;</a></li>
-                                <li><a href="<?= $str ?>contact/index.php"><i class="far fa-arrow-right"></i> Επικοινωνία</a></li>
+                                <li><a href="<?= $str ?>test/"><i class="far fa-arrow-right"></i> Εσωστρεφής ή Εξωστρεφής;</a></li>
+                                <li><a href="<?= $str ?>contact/"><i class="far fa-arrow-right"></i> Επικοινωνία</a></li>
+                                <li><a href="<?= $str ?>video/"><i class="far fa-arrow-right"></i> Βίντεο</a></li>
 
                             </ul>
                         </div>
