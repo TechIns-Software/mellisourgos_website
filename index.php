@@ -285,7 +285,7 @@ navbar($str, $title);
 
                         <div class="col-lg-6 col-md-6 col-sm-12 col-12 mx-auto">
                             <div class="testimonial-card">
-                                <h3>Νίνα Παναγιωτίδου </h3>
+                                <h3>Mίνα Παναγιωτίδου </h3>
                                 <h4>Insurance Agent</h4>
                                 <p>"Αν δεν ήθελα να είμαι εδώ, θα είχα φύγει. Αυτή η δουλειά μου δίνει ελευθερία και ικανοποίηση."</p>
                                 <a target="_blank" href="assets/images/testimonials/Nina.mp4"> Δες Περισσότερα</a>
