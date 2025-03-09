@@ -23,6 +23,7 @@ function navbar($str='../',$title){
         <link rel="stylesheet" href="<?= $str ?>assets/css/vendor/bootstrap.min.css">
         <link rel="stylesheet" href="<?= $str ?>assets/css/style.css?v=6.5">
         <script src="<?= $str ?>assets/js/vendor/jquery.min.js"></script>
+        <script src=“https://player.vimeo.com/api/player.js”></script>
         <!-- Meta Pixel Code -->
         <script>
             !function (f, b, e, v, n, t, s) {
@@ -105,12 +106,13 @@ function navbar($str='../',$title){
                             <nav class="nav-main mainmenu-nav d-none d-xl-block">
                                 <ul class="mainmenu">
 
-                                    <li class=""><a class="nav-item <?php echo ($_SESSION['page'] == '1' ? ' active' : ''); ?>  " href="<?= $str ?>index.php">Αρχική</a></li>
-                                    <li><a class="nav-item <?php echo ($_SESSION['page'] == '2' ? ' active' : ''); ?>" href="<?= $str ?>about/index.php">Σχετικά με εμένα</a></li>
-                                    <li><a class="nav-item <?php echo ($_SESSION['page'] == '3' ? ' active' : ''); ?>" href="<?= $str ?>office/index.php">Γραφεία</a></li>
-                                    <li><a class="nav-item <?php echo ($_SESSION['page'] == '4' ? ' active' : ''); ?>" href="<?= $str ?>career/index.php">Καριέρα</a></li>
-                                    <li><a class="nav-item <?php echo ($_SESSION['page'] == '5' ? ' active' : ''); ?>" href="<?= $str ?>test/index.php">Εσωστρεφής ή Εξωστρεφής;</a></li>
-                                    <li><a class="nav-item <?php echo ($_SESSION['page'] == '6' ? ' active' : ''); ?>" href="<?= $str ?>contact/index.php">Επικοινωνία</a></li>
+                                    <li class=""><a class="nav-item <?php echo ($_SESSION['page'] == '1' ? ' active' : ''); ?>  " href="<?= $str ?>">Αρχική</a></li>
+                                    <li><a class="nav-item <?php echo ($_SESSION['page'] == '2' ? ' active' : ''); ?>" href="<?= $str ?>about/">Σχετικά με εμένα</a></li>
+                                    <li><a class="nav-item <?php echo ($_SESSION['page'] == '3' ? ' active' : ''); ?>" href="<?= $str ?>office/">Γραφεία</a></li>
+                                    <li><a class="nav-item <?php echo ($_SESSION['page'] == '4' ? ' active' : ''); ?>" href="<?= $str ?>career/">Καριέρα</a></li>
+                                    <li><a class="nav-item <?php echo ($_SESSION['page'] == '5' ? ' active' : ''); ?>" href="<?= $str ?>test/">Εσωστρεφής ή Εξωστρεφής;</a></li>
+                                    <li><a class="nav-item <?php echo ($_SESSION['page'] == '6' ? ' active' : ''); ?>" href="<?= $str ?>contact/">Επικοινωνία</a></li>
+                                    <li><a class="nav-item <?php echo ($_SESSION['page'] == '7' ? ' active' : ''); ?>" href="<?= $str ?>video/">Βίντεο</a></li>
                                 </ul>
                             </nav>
                             <div class="button-area">

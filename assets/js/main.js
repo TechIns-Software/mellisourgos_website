@@ -1215,6 +1215,44 @@ function submitContactForm(relativePath='../'){
 
 }
 
+function submitSimpleContactForm(relativePath='../../'){
+  const fullName = $('#fullName').val().trim();
+  const email = $('#email').val().trim();
+  const phone = $('#phone').val().trim();
+  const message = $('#message').val().trim();
+
+  if ( fullName != '' || email != '' ||
+      phone != '' || message != '' ){
+    $('.spinner-border').removeClass('d-none');
+    $.ajax({
+      url: relativePath+'../assets/sendSimpleForm.php',
+      dataType: "json",
+      type: "Post",
+      async: true,
+      data:{
+        fullName :fullName,
+        email :email,
+        phone :phone,
+        message :message,
+      },
+      success: function (data) {
+        console.log(data)
+        $('.spinner-border').addClass('d-none');
+
+        $('#modalContainer2').addClass('active');
+        $('#fullName').val('');
+         $('#email').val('');
+         $('#phone').val('');
+        $('#message').val('');
+
+
+      }
+    });
+  }
+
+
+}
+
 function removeModal(number = 0){
   if (number == 0){
     $('#modalContainer').removeClass('active');

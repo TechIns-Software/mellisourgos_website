@@ -42,7 +42,7 @@ navbar($str, $title);
                     <div class="single-counter">
                         <img src="assets/images/counterup/icon/05.png" alt="Business_counter">
                         <div class="counter-details">
-                            <h2 class="title"><span class="counter animated fadeInDownBig" type="euro">17,000,000</span> <small>€+</small></h2>
+                            <h2 class="title"><span class="counter animated fadeInDownBig" type="euro">17,400,000</span> <small>€+</small></h2>
                             <p class="disc">Χαρτοφυλακιο</p>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ navbar($str, $title);
                     <div class="single-counter">
                         <img src="assets/images/counterup/icon/07.png" alt="Business_counter">
                         <div class="counter-details">
-                            <h2 class="title"><span class="counter animated fadeInDownBig" type="plus"> 32,000</span> <small>€+</small></h2>
+                            <h2 class="title"><span class="counter animated fadeInDownBig" type="plus"> 35,000</span> <small>€+</small></h2>
                             <p class="disc">Αποζημιωσεις ανα ημερα</p>
                         </div>
                     </div>
@@ -84,8 +84,8 @@ navbar($str, $title);
             </div>
 
             <div class="col-12 text-center moneyCheck">
-                <p> Σύμφωνα με τις μετρήσεις (2023) ο μέσος συνεργάτης του γραφείου <br> είχε απολαβές πάνω από </p>
-                <button class="moneyCheckBtn">3.790 € το μήνα!</button>
+                <p>Αλλαγή Εισοδήματος Ασφαλιστών 2024 - Σύμφωνα με τις μετρήσεις, ο μέσος συνεργάτης<br>του γραφείου είχε απολαβές πάνω από</p>
+                <button class="moneyCheckBtn">4,459 € το μήνα!</button>
             </div>
         </div>
     </div>
@@ -263,8 +263,34 @@ navbar($str, $title);
                             </div>
                         </div>
 
+                        <!-- new -->
 
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 mx-auto">
+                            <div class="testimonial-card">
+                                <h3>Αλίκη Σκαμαγκά </h3>
+                                <h4>Insurance Agent</h4>
+                                <p>"Στο γραφείο μας μένουν όσοι έχουν αυτοπεποίθηση, μεγάλα θέλω και όνειρα. Εδώ μπορείς να πετύχεις τα πάντα."</p>
+                                <a target="_blank" href="assets/images/testimonials/Aliki.mp4"> Δες Περισσότερα</a>
+                            </div>
+                        </div>
 
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 mx-auto">
+                            <div class="testimonial-card">
+                                <h3>Αγγελική Ανδρίτσου </h3>
+                                <h4>Insurance Agent</h4>
+                                <p>"19 χρόνια στη ΜΜΕ… Θα το ξανάκανα; Χίλιες φορές ναι! Γεμάτο προκλήσεις, ευκαιρίες και εξέλιξη."</p>
+                                <a target="_blank" href="assets/images/testimonials/Aggeliki.mp4"> Δες Περισσότερα</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 mx-auto">
+                            <div class="testimonial-card">
+                                <h3>Νίνα Παναγιωτίδου </h3>
+                                <h4>Insurance Agent</h4>
+                                <p>"Αν δεν ήθελα να είμαι εδώ, θα είχα φύγει. Αυτή η δουλειά μου δίνει ελευθερία και ικανοποίηση."</p>
+                                <a target="_blank" href="assets/images/testimonials/Nina.mp4"> Δες Περισσότερα</a>
+                            </div>
+                        </div>
 
                     </div>
 
@@ -479,9 +505,9 @@ navbar($str, $title);
                     </div>
                 </div>
                 <div class="row g-5">
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 h-1">
                         <!-- start blog grid inner -->
-                        <div class="blog-grid-inner">
+                        <div class="blog-grid-inner h-100">
                             <div class="blog-header">
                                 <a class="thumbnail"
                                    href="https://www.tiktok.com/@melissourgoskostas/video/7222972499955354907l">
@@ -501,9 +527,9 @@ navbar($str, $title);
                         <!-- end blog grid inner -->
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 h-1">
                         <!-- start blog grid inner -->
-                        <div class="blog-grid-inner">
+                        <div class="blog-grid-inner h-100">
                             <div class="blog-header">
                                 <a class="thumbnail" target="_blank"
                                    href="https://www.tiktok.com/@melissourgoskostas/video/7224431470746619162">
@@ -524,9 +550,9 @@ navbar($str, $title);
                         <!-- end blog grid inner -->
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 h-1">
                         <!-- start blog grid inner -->
-                        <div class="blog-grid-inner">
+                        <div class="blog-grid-inner h-100">
                             <div class="blog-header">
                                 <a target="_blank" class="thumbnail"
                                    href="https://www.tiktok.com/@melissourgoskostas/video/7225542566601706778">
@@ -547,9 +573,9 @@ navbar($str, $title);
                         <!-- end blog grid inner -->
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 h-1">
                         <!-- start blog grid inner -->
-                        <div class="blog-grid-inner">
+                        <div class="blog-grid-inner h-100">
                             <div class="blog-header">
                                 <a target="_blank" class="thumbnail"
                                    href="https://www.tiktok.com/@melissourgoskostas/video/7240104077655297306">
@@ -570,9 +596,9 @@ navbar($str, $title);
                         <!-- end blog grid inner -->
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 h-1">
                         <!-- start blog grid inner -->
-                        <div class="blog-grid-inner">
+                        <div class="blog-grid-inner h-100">
                             <div class="blog-header">
                                 <a target="_blank" class="thumbnail"
                                    href="https://www.tiktok.com/@melissourgoskostas/video/7232230151411535131">
@@ -593,9 +619,9 @@ navbar($str, $title);
                         <!-- end blog grid inner -->
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 h-1">
                         <!-- start blog grid inner -->
-                        <div class="blog-grid-inner">
+                        <div class="blog-grid-inner h-100">
                             <div class="blog-header">
                                 <a target="_blank" class="thumbnail"
                                    href="https://www.tiktok.com/@melissourgoskostas/video/7245207598390086939">
@@ -616,9 +642,9 @@ navbar($str, $title);
                         <!-- end blog grid inner -->
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 h-1">
                         <!-- start blog grid inner -->
-                        <div class="blog-grid-inner">
+                        <div class="blog-grid-inner h-100">
                             <div class="blog-header">
                                 <a target="_blank" class="thumbnail"
                                    href="https://www.tiktok.com/@melissourgoskostas/video/7244102782209346842">
@@ -639,9 +665,9 @@ navbar($str, $title);
                         <!-- end blog grid inner -->
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 h-1">
                         <!-- start blog grid inner -->
-                        <div class="blog-grid-inner">
+                        <div class="blog-grid-inner h-100">
                             <div class="blog-header">
                                 <a target="_blank" class="thumbnail"
                                    href="https://www.tiktok.com/@melissourgoskostas/video/7250459899883228443">

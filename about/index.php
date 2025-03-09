@@ -80,7 +80,7 @@ navbar($str, $title);
                         <div class="single-counter">
                             <img src="../assets/images/counterup/icon/05.png" alt="Business_counter">
                             <div class="counter-details">
-                                <h2 class="title"><span class="counter animated fadeInDownBig" type="euro">17,000,000</span> <small>€+</small></h2>
+                                <h2 class="title"><span class="counter animated fadeInDownBig" type="euro">17,400,000</span> <small>€+</small></h2>
                                 <p class="disc">Χαρτοφυλακιο</p>
                             </div>
                         </div>
@@ -114,7 +114,7 @@ navbar($str, $title);
                         <div class="single-counter">
                             <img src="../assets/images/counterup/icon/07.png" alt="Business_counter">
                             <div class="counter-details">
-                                <h2 class="title"><span class="counter animated fadeInDownBig" type="plus"> 32,000</span> <small>€+</small></h2>
+                                <h2 class="title"><span class="counter animated fadeInDownBig" type="plus"> 35,000</span> <small>€+</small></h2>
                                 <p class="disc">Αποζημιωσεις ανα ημερα</p>
                             </div>
                         </div>
@@ -122,8 +122,8 @@ navbar($str, $title);
                 </div>
 
                 <div class="col-12 text-center moneyCheck">
-                    <p> Σύμφωνα με τις μετρήσεις (2023) ο μέσος συνεργάτης του γραφείου <br> είχε απολαβές πάνω από  </p>
-                    <button class="moneyCheckBtn">3.790 € το μήνα!</button>
+                    <p>Αλλαγή Εισοδήματος Ασφαλιστών 2024 - Σύμφωνα με τις μετρήσεις, ο μέσος συνεργάτης<br>του γραφείου είχε απολαβές πάνω από</p>
+                    <button class="moneyCheckBtn">4,459 € το μήνα!</button>
                 </div>
             </div>
         </div>

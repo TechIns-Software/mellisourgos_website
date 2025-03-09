@@ -15114,7 +15114,7 @@ body.sal-disabled [data-sal|=flip] {
 .main-header .button-area {
   display: flex;
   align-items: center;
-  margin-left: 80px;
+  margin-left: 25px;
 }
 @media screen and (max-width: 1399px) {
   .main-header .button-area {
